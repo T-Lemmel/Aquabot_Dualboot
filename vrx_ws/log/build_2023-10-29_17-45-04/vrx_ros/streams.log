@@ -1,0 +1,93 @@
+[0.056s] Invoking command in '/home/t-lemmel/vrx_ws/build/vrx_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/t-lemmel/vrx_ws/src/vrx/vrx_ros -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/vrx_ws/install
+[1.063s] -- The C compiler identification is GNU 11.4.0
+[1.164s] -- The CXX compiler identification is GNU 11.4.0
+[1.174s] -- Detecting C compiler ABI info
+[1.408s] -- Detecting C compiler ABI info - done
+[1.415s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.415s] -- Detecting C compile features
+[1.416s] -- Detecting C compile features - done
+[1.419s] -- Detecting CXX compiler ABI info
+[1.503s] -- Detecting CXX compiler ABI info - done
+[1.511s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.512s] -- Detecting CXX compile features
+[1.512s] -- Detecting CXX compile features - done
+[1.515s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.699s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.901s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.938s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.945s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.953s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.967s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.988s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.127s] -- Looking for gz-msgs9 -- found version 9.5.0
+[2.134s] -- Searching for dependencies of gz-msgs9
+[2.403s] -- Found Protobuf: /usr/lib/x86_64-linux-gnu/libprotobuf.so (found version "3.12.4") 
+[2.405s] -- Looking for gz-math7 -- found version 7.3.0
+[2.406s] -- Searching for dependencies of gz-math7
+[2.408s] -- Looking for gz-utils2 -- found version 2.1.0
+[2.408s] -- Searching for dependencies of gz-utils2
+[2.433s] -- Checking for module 'tinyxml2'
+[2.447s] --   Found tinyxml2, version 9.0.0
+[2.485s] -- Looking for gz-transport12 -- found version 12.2.1
+[2.486s] -- Searching for dependencies of gz-transport12
+[2.519s] -- Config-file not installed for ZeroMQ -- checking for pkg-config
+[2.524s] -- Checking for module 'libzmq >= 4'
+[2.540s] --   Found libzmq , version 4.3.4
+[2.577s] -- Found ZeroMQ: TRUE (Required is at least version "4") 
+[2.583s] -- Checking for module 'uuid'
+[2.599s] --   Found uuid, version 2.37.2
+[2.633s] -- Found UUID: TRUE  
+[2.634s] -- Looking for gz-utils2 -- found version 2.1.0
+[2.635s] -- Searching for dependencies of gz-utils2
+[2.635s] -- Searching for <gz-utils2> component [cli]
+[2.636s] -- Looking for gz-utils2-cli -- found version 2.1.0
+[2.637s] -- Searching for dependencies of gz-utils2-cli
+[2.638s] -- Looking for gz-msgs9 -- found version 9.5.0
+[2.640s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[2.715s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.717s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.836s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.865s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.921s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.931s] -- Found Threads: TRUE  
+[3.119s] -- Found ros_gz_interfaces: 0.244.11 (/opt/ros/humble/share/ros_gz_interfaces/cmake)
+[3.268s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.364s] -- Found tf2: 0.25.4 (/opt/ros/humble/share/tf2/cmake)
+[3.378s] -- Found tf2_msgs: 0.25.4 (/opt/ros/humble/share/tf2_msgs/cmake)
+[3.558s] -- Found tf2_ros: 0.25.4 (/opt/ros/humble/share/tf2_ros/cmake)
+[3.809s] -- Configuring done
+[4.275s] -- Generating done
+[4.306s] -- Build files have been written to: /home/t-lemmel/vrx_ws/build/vrx_ros
+[4.323s] Invoked command in '/home/t-lemmel/vrx_ws/build/vrx_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/t-lemmel/vrx_ws/src/vrx/vrx_ros -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/vrx_ws/install
+[4.325s] Invoking command in '/home/t-lemmel/vrx_ws/build/vrx_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/t-lemmel/vrx_ws/build/vrx_ros -- -j8 -l8
+[4.378s] [ 25%] [32mBuilding CXX object CMakeFiles/optical_frame_publisher.dir/src/optical_frame_publisher.cc.o[0m
+[4.378s] [ 50%] [32mBuilding CXX object CMakeFiles/pose_tf_broadcaster.dir/src/pose_tf_broadcaster.cc.o[0m
+[14.715s] [ 75%] [32m[1mLinking CXX executable pose_tf_broadcaster[0m
+[15.341s] [ 75%] Built target pose_tf_broadcaster
+[18.421s] [100%] [32m[1mLinking CXX executable optical_frame_publisher[0m
+[19.184s] [100%] Built target optical_frame_publisher
+[19.233s] Invoked command in '/home/t-lemmel/vrx_ws/build/vrx_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/t-lemmel/vrx_ws/build/vrx_ros -- -j8 -l8
+[19.297s] Invoking command in '/home/t-lemmel/vrx_ws/build/vrx_ros': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/t-lemmel/vrx_ws/build/vrx_ros
+[19.308s] -- Install configuration: ""
+[19.308s] -- Installing: /home/t-lemmel/vrx_ws/install/lib/vrx_ros/optical_frame_publisher
+[19.315s] -- Set runtime path of "/home/t-lemmel/vrx_ws/install/lib/vrx_ros/optical_frame_publisher" to ""
+[19.315s] -- Installing: /home/t-lemmel/vrx_ws/install/lib/vrx_ros/pose_tf_broadcaster
+[19.320s] -- Set runtime path of "/home/t-lemmel/vrx_ws/install/lib/vrx_ros/pose_tf_broadcaster" to ""
+[19.320s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/launch
+[19.320s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/launch/monitor_sim.py
+[19.320s] -- Installing: /home/t-lemmel/vrx_ws/install/share/ament_index/resource_index/package_run_dependencies/vrx_ros
+[19.321s] -- Installing: /home/t-lemmel/vrx_ws/install/share/ament_index/resource_index/parent_prefix_path/vrx_ros
+[19.321s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/environment/ament_prefix_path.sh
+[19.321s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/environment/ament_prefix_path.dsv
+[19.321s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/environment/path.sh
+[19.321s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/environment/path.dsv
+[19.321s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/local_setup.bash
+[19.321s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/local_setup.sh
+[19.322s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/local_setup.zsh
+[19.322s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/local_setup.dsv
+[19.322s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/package.dsv
+[19.322s] -- Installing: /home/t-lemmel/vrx_ws/install/share/ament_index/resource_index/packages/vrx_ros
+[19.322s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/cmake/vrx_rosConfig.cmake
+[19.322s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/cmake/vrx_rosConfig-version.cmake
+[19.323s] -- Installing: /home/t-lemmel/vrx_ws/install/share/vrx_ros/package.xml
+[19.325s] Invoked command in '/home/t-lemmel/vrx_ws/build/vrx_ros' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/t-lemmel/vrx_ws/build/vrx_ros
