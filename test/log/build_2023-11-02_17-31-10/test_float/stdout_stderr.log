@@ -1,0 +1,26 @@
+[35m[1mConsolidate compiler generated dependencies of target talkerfloat[0m
+[35m[1mConsolidate compiler generated dependencies of target listenerfloat[0m
+[ 75%] [32mBuilding CXX object CMakeFiles/listenerfloat.dir/src/subscriber_float.cpp.o[0m
+[ 75%] Built target talkerfloat
+[100%] [32m[1mLinking CXX executable listenerfloat[0m
+[100%] Built target listenerfloat
+-- Install configuration: ""
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/lib/test_float/talkerfloat
+-- Set runtime path of "/home/t-lemmel/Aquabot_Tom/test/install/test_float/lib/test_float/talkerfloat" to ""
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/lib/test_float/listenerfloat
+-- Set runtime path of "/home/t-lemmel/Aquabot_Tom/test/install/test_float/lib/test_float/listenerfloat" to ""
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/ament_index/resource_index/package_run_dependencies/test_float
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/ament_index/resource_index/parent_prefix_path/test_float
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/environment/ament_prefix_path.sh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/environment/ament_prefix_path.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/environment/path.sh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/environment/path.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/local_setup.bash
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/local_setup.sh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/local_setup.zsh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/local_setup.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/package.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/ament_index/resource_index/packages/test_float
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/cmake/test_floatConfig.cmake
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/cmake/test_floatConfig-version.cmake
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/test_float/share/test_float/package.xml

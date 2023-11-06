@@ -1,0 +1,147 @@
+[0.000000] (-) TimerEvent: {}
+[0.000187] (-) JobUnselected: {'identifier': 'cpp_pubsub'}
+[0.000319] (-) JobUnselected: {'identifier': 'package_thruster_activation'}
+[0.000818] (test_float) JobQueued: {'identifier': 'test_float', 'dependencies': OrderedDict()}
+[0.000885] (test_float) JobStarted: {'identifier': 'test_float'}
+[0.077395] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'cmake'}
+[0.078275] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'build'}
+[0.079032] (test_float) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/test/build/test_float', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/test/build/test_float', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/t-lemmel'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '3588'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee52587a16220a19ed70dffc6543b566'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/test/test_float/install:/home/t-lemmel/Aquabot_Tom/test/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/3588,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/3588'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/59e38e9d_c014_4a74_aa34_474f1243c04f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.103'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/test/test_float/install/cpp_pubsub:/home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/test/install/cpp_pubsub:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/test/build/test_float'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ee52587a16220a19ed70dffc6543b566'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/test/test_float/install/cpp_pubsub:/home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/test/install/cpp_pubsub:/opt/ros/humble')]), 'shell': False}
+[0.099784] (-) TimerEvent: {}
+[0.103736] (test_float) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.199890] (-) TimerEvent: {}
+[0.240239] (test_float) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.270236] (test_float) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.272674] (test_float) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.278859] (test_float) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.289921] (test_float) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.299987] (-) TimerEvent: {}
+[0.305621] (test_float) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.365307] (test_float) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.366763] (test_float) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.400093] (-) TimerEvent: {}
+[0.485617] (test_float) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.500197] (-) TimerEvent: {}
+[0.600449] (-) TimerEvent: {}
+[0.653125] (test_float) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.700558] (-) TimerEvent: {}
+[0.727249] (test_float) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.727601] (test_float) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.727730] (test_float) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.729602] (test_float) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.733063] (test_float) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.734835] (test_float) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.745819] (test_float) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.745967] (test_float) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.747554] (test_float) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.748328] (test_float) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.760124] (test_float) StdoutLine: {'line': b'-- Generating done\n'}
+[0.761949] (test_float) StdoutLine: {'line': b'-- Build files have been written to: /home/t-lemmel/Aquabot_Tom/test/build/test_float\n'}
+[0.787128] (test_float) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talkerfloat\x1b[0m\n'}
+[0.787273] (test_float) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listenerfloat\x1b[0m\n'}
+[0.800681] (-) TimerEvent: {}
+[0.805399] (test_float) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/listenerfloat.dir/src/subscriber_float.cpp.o\x1b[0m\n'}
+[0.805610] (test_float) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/talkerfloat.dir/src/publisher_float.cpp.o\x1b[0m\n'}
+[0.900801] (-) TimerEvent: {}
+[1.001066] (-) TimerEvent: {}
+[1.101354] (-) TimerEvent: {}
+[1.201654] (-) TimerEvent: {}
+[1.301935] (-) TimerEvent: {}
+[1.402224] (-) TimerEvent: {}
+[1.502518] (-) TimerEvent: {}
+[1.602819] (-) TimerEvent: {}
+[1.703124] (-) TimerEvent: {}
+[1.803441] (-) TimerEvent: {}
+[1.903744] (-) TimerEvent: {}
+[2.004049] (-) TimerEvent: {}
+[2.104350] (-) TimerEvent: {}
+[2.204650] (-) TimerEvent: {}
+[2.304947] (-) TimerEvent: {}
+[2.405249] (-) TimerEvent: {}
+[2.505560] (-) TimerEvent: {}
+[2.605912] (-) TimerEvent: {}
+[2.706230] (-) TimerEvent: {}
+[2.806541] (-) TimerEvent: {}
+[2.906833] (-) TimerEvent: {}
+[3.007138] (-) TimerEvent: {}
+[3.085208] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:46:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.085424] (test_float) StderrLine: {'line': b'   46 |   rclcpp::Publisher<std_msgs::msg::String::SharedPtr \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K;\n'}
+[3.085502] (test_float) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.091966] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::MinimalPublisher()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.092123] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:32:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.092194] (test_float) StderrLine: {'line': b'   32 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K = this->create_publisher<std_msgs::msg::Float64>("topic", 10);\n'}
+[3.092258] (test_float) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.092318] (test_float) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.092700] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:32:56:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.092989] (test_float) StderrLine: {'line': b'   32 |     publisher_ = this->create_publisher<std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K>("topic", 10);\n'}
+[3.093066] (test_float) StderrLine: {'line': b'      |                                                        \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.093130] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:32:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KMinimalPublisher::create_publisher<<expression error> >(const char [6], int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.093193] (test_float) StderrLine: {'line': b'   32 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Float64>("topic", 10)\x1b[m\x1b[K;\n'}
+[3.093268] (test_float) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.093326] (test_float) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.093383] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.093440] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.093497] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:18\x1b[m\x1b[K:\n'}
+[3.093553] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.093621] (test_float) StderrLine: {'line': b'  195 |   \x1b[01;36m\x1b[Kcreate_publisher\x1b[m\x1b[K(\n'}
+[3.093678] (test_float) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.093733] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[3.093850] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:32:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[3.093914] (test_float) StderrLine: {'line': b'   32 |     publisher_ = \x1b[01;31m\x1b[Kthis->create_publisher<std_msgs::msg::Float64>("topic", 10)\x1b[m\x1b[K;\n'}
+[3.093971] (test_float) StderrLine: {'line': b'      |                  \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.102756] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalPublisher::timer_callback()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.102907] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:40:35:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KFloat64\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.102975] (test_float) StderrLine: {'line': b'   40 |     auto message = std_msgs::msg::\x1b[01;31m\x1b[KFloat64\x1b[m\x1b[K();\n'}
+[3.103036] (test_float) StderrLine: {'line': b'      |                                   \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[3.107260] (-) TimerEvent: {}
+[3.109118] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/publisher_float.cpp:43:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kpublisher_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krmw_publisher_t\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[3.109257] (test_float) StderrLine: {'line': b'   43 |     \x1b[01;31m\x1b[Kpublisher_\x1b[m\x1b[K->publish(message);\n'}
+[3.109325] (test_float) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.109387] (test_float) StderrLine: {'line': b'      |     \x1b[32m\x1b[Krmw_publisher_t\x1b[m\x1b[K\n'}
+[3.136725] (test_float) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24\x1b[m\x1b[K,\n'}
+[3.136878] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40\x1b[m\x1b[K,\n'}
+[3.136960] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24\x1b[m\x1b[K,\n'}
+[3.137031] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20\x1b[m\x1b[K,\n'}
+[3.137091] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25\x1b[m\x1b[K,\n'}
+[3.137149] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18\x1b[m\x1b[K,\n'}
+[3.137207] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20\x1b[m\x1b[K,\n'}
+[3.137265] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37\x1b[m\x1b[K,\n'}
+[3.137324] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25\x1b[m\x1b[K,\n'}
+[3.137382] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21\x1b[m\x1b[K,\n'}
+[3.137440] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.137497] (test_float) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/subscriber_float.cpp:17\x1b[m\x1b[K:\n'}
+[3.137555] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/subscriber_float.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MinimalSubscriber::topic_callback(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr) const\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.137616] (test_float) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/test/test_float/src/subscriber_float.cpp:34:64:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Kc_str\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[K((const std::__shared_ptr_access<std_msgs::msg::Float64_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>*)(& msg))->std::__shared_ptr_access<std_msgs::msg::Float64_<std::allocator<void> >, __gnu_cxx::_S_atomic, false, false>::operator->()->std_msgs::msg::Float64_<std::allocator<void> >::data\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kstd_msgs::msg::Float64_<std::allocator<void> >::_data_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99}\n'}
+[3.137686] (test_float) StderrLine: {'line': b'   34 |     RCLCPP_INFO(this->get_logger(), "I heard: \'%s\'", msg->data.\x1b[01;31m\x1b[Kc_str\x1b[m\x1b[K());\n'}
+[3.137745] (test_float) StderrLine: {'line': b'      |                                                                \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[3.207389] (-) TimerEvent: {}
+[3.307687] (-) TimerEvent: {}
+[3.407991] (-) TimerEvent: {}
+[3.508287] (-) TimerEvent: {}
+[3.582512] (test_float) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/talkerfloat.dir/build.make:76: CMakeFiles/talkerfloat.dir/src/publisher_float.cpp.o] Error 1\n'}
+[3.582881] (test_float) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/talkerfloat.dir/all] Error 2\n'}
+[3.582985] (test_float) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[3.608410] (-) TimerEvent: {}
+[3.708697] (-) TimerEvent: {}
+[3.808987] (-) TimerEvent: {}
+[3.909277] (-) TimerEvent: {}
+[4.009563] (-) TimerEvent: {}
+[4.109905] (-) TimerEvent: {}
+[4.210224] (-) TimerEvent: {}
+[4.310659] (-) TimerEvent: {}
+[4.411087] (-) TimerEvent: {}
+[4.511388] (-) TimerEvent: {}
+[4.611694] (-) TimerEvent: {}
+[4.711998] (-) TimerEvent: {}
+[4.812302] (-) TimerEvent: {}
+[4.912616] (-) TimerEvent: {}
+[5.012918] (-) TimerEvent: {}
+[5.113216] (-) TimerEvent: {}
+[5.213515] (-) TimerEvent: {}
+[5.313775] (-) TimerEvent: {}
+[5.354584] (test_float) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/listenerfloat.dir/build.make:76: CMakeFiles/listenerfloat.dir/src/subscriber_float.cpp.o] Error 1\n'}
+[5.354889] (test_float) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/listenerfloat.dir/all] Error 2\n'}
+[5.355327] (test_float) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[5.357558] (test_float) CommandEnded: {'returncode': 2}
+[5.413968] (-) TimerEvent: {}
+[5.433602] (test_float) JobEnded: {'identifier': 'test_float', 'rc': 2}
+[5.444427] (-) EventReactorShutdown: {}

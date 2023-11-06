@@ -1,0 +1,22 @@
+[35m[1mConsolidate compiler generated dependencies of target thruster_activation[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_activation.dir/src/thruster_activation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable thruster_activation[0m
+[100%] Built target thruster_activation
+-- Install configuration: ""
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/lib/package_thruster_activation/thruster_activation
+-- Set runtime path of "/home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/lib/package_thruster_activation/thruster_activation" to ""
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.sh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/path.sh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/path.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.bash
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.sh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.zsh
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/package.dsv
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/ament_index/resource_index/packages/package_thruster_activation
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig.cmake
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig-version.cmake
+-- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/package.xml

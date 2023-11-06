@@ -1,0 +1,26 @@
+[0.084s] Invoking command in '/home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation -- -j8 -l8
+[0.126s] [35m[1mConsolidate compiler generated dependencies of target thruster_activation[0m
+[0.145s] [ 50%] [32mBuilding CXX object CMakeFiles/thruster_activation.dir/src/thruster_activation.cpp.o[0m
+[3.974s] [100%] [32m[1mLinking CXX executable thruster_activation[0m
+[4.154s] [100%] Built target thruster_activation
+[4.166s] Invoked command in '/home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation -- -j8 -l8
+[4.200s] Invoking command in '/home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation
+[4.208s] -- Install configuration: ""
+[4.208s] -- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/lib/package_thruster_activation/thruster_activation
+[4.210s] -- Set runtime path of "/home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/lib/package_thruster_activation/thruster_activation" to ""
+[4.210s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation
+[4.210s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.sh
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.dsv
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/path.sh
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/environment/path.dsv
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.bash
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.sh
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.zsh
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/local_setup.dsv
+[4.211s] -- Installing: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/package.dsv
+[4.211s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/ament_index/resource_index/packages/package_thruster_activation
+[4.212s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig.cmake
+[4.212s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig-version.cmake
+[4.212s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/test/install/package_thruster_activation/share/package_thruster_activation/package.xml
+[4.213s] Invoked command in '/home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation

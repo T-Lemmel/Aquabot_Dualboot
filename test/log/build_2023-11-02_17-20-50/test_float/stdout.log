@@ -1,0 +1,6 @@
+[35m[1mConsolidate compiler generated dependencies of target listenerfloat[0m
+[35m[1mConsolidate compiler generated dependencies of target talkerfloat[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/talkerfloat.dir/src/publisher_float.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/listenerfloat.dir/src/subscriber_float.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable listenerfloat[0m
+[ 75%] Built target listenerfloat

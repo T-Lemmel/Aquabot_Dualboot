@@ -1,0 +1,2 @@
+source;share/package_thruster_activation/environment/ament_prefix_path.sh
+source;share/package_thruster_activation/environment/path.sh

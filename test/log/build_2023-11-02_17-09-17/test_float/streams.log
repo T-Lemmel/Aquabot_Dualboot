@@ -1,0 +1,44 @@
+[0.065s] Invoking command in '/home/t-lemmel/Aquabot_Tom/test/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/test/test_float -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/test/install/test_float
+[0.117s] -- The C compiler identification is GNU 11.4.0
+[0.171s] -- The CXX compiler identification is GNU 11.4.0
+[0.179s] -- Detecting C compiler ABI info
+[0.251s] -- Detecting C compiler ABI info - done
+[0.259s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.259s] -- Detecting C compile features
+[0.260s] -- Detecting C compile features - done
+[0.263s] -- Detecting CXX compiler ABI info
+[0.343s] -- Detecting CXX compiler ABI info - done
+[0.350s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.351s] -- Detecting CXX compile features
+[0.351s] -- Detecting CXX compile features - done
+[0.354s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.514s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[0.595s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[0.637s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.642s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.650s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.664s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.683s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.754s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.756s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.851s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[0.878s] -- Found FastRTPS: /opt/ros/humble/include  
+[0.924s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.934s] -- Looking for pthread.h
+[1.003s] -- Looking for pthread.h - found
+[1.004s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.077s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.078s] -- Found Threads: TRUE  
+[1.251s] -- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.307s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:53 (message):
+[1.307s]   ament_package_xml() package name 'test_float' in '/package.xml' does not
+[1.308s]   match current PROJECT_NAME 'cpp_pubsub'.  You must call project() with the
+[1.308s]   same package name before.
+[1.308s] Call Stack (most recent call first):
+[1.308s]   /opt/ros/humble/share/ament_lint_auto/cmake/ament_lint_auto_find_test_dependencies.cmake:31 (ament_package_xml)
+[1.308s]   CMakeLists.txt:42 (ament_lint_auto_find_test_dependencies)
+[1.308s] 
+[1.308s] [0m
+[1.308s] -- Configuring incomplete, errors occurred!
+[1.308s] See also "/home/t-lemmel/Aquabot_Tom/test/build/test_float/CMakeFiles/CMakeOutput.log".
+[1.316s] Invoked command in '/home/t-lemmel/Aquabot_Tom/test/build/test_float' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/test/test_float -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/test/install/test_float

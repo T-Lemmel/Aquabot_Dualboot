@@ -1,0 +1,34 @@
+-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_activation.dir/src/thruster_activation.cpp.o[0m
+[01m[K/home/t-lemmel/Aquabot_Tom/test/package_thruster_activation/src/thruster_activation.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/test/package_thruster_activation/src/thruster_activation.cpp:20:39:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
+   20 |         auto message = std_msgs::msg::[01;31m[KFloat32[m[K();
+      |                                       [01;31m[K^~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/test/package_thruster_activation/src/thruster_activation.cpp:31:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kcount[m[K’ was not declared in this scope; did you mean ‘[01m[Kstd::count[m[K’?
+   31 |         ++[01;31m[Kcount[m[K;
+      |           [01;31m[K^~~~~[m[K
+      |           [32m[Kstd::count[m[K
+In file included from [01m[K/usr/include/c++/11/algorithm:74[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-lemmel/Aquabot_Tom/test/package_thruster_activation/src/thruster_activation.cpp:1[m[K:
+[01m[K/usr/include/c++/11/pstl/glue_algorithm_defs.h:101:1:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::count[m[K’ declared here
+  101 | [01;36m[Kcount[m[K(_ExecutionPolicy&& __exec, _ForwardIterator __first, _ForwardIterator __last, const _Tp& __value);
+      | [01;36m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/thruster_activation.dir/build.make:76: CMakeFiles/thruster_activation.dir/src/thruster_activation.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_activation.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

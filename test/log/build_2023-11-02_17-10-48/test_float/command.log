@@ -1,0 +1,2 @@
+Invoking command in '/home/t-lemmel/Aquabot_Tom/test/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/test/test_float -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/test/install/test_float
+Invoked command in '/home/t-lemmel/Aquabot_Tom/test/build/test_float' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/test/test_float -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/test/install/test_float
