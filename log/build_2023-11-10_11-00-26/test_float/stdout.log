@@ -1,0 +1,5 @@
+[35m[1mConsolidate compiler generated dependencies of target isolating_bearing[0m
+[ 25%] Built target state_publisher
+[ 50%] Built target listenerfloat
+[ 75%] Built target talkerfloat
+[ 87%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m

@@ -1,2 +1,0 @@
-Invoking command in '/home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation -- -j8 -l8
-Invoked command in '/home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/test/build/package_thruster_activation -- -j8 -l8

@@ -1,0 +1,44 @@
+[35m[1mConsolidate compiler generated dependencies of target isolating_bearing[0m
+[ 25%] Built target state_publisher
+[ 50%] Built target listenerfloat
+[ 75%] Built target talkerfloat
+[ 87%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:[m[K In function ‘[01m[Kvoid isolate_bearing(ros_gz_interfaces::msg::ParamVec_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   15 |     [01;31m[Kpublisher[m[K->publish(bearing);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:15:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbearing[m[K’ was not declared in this scope
+   15 |     publisher->publish([01;31m[Kbearing[m[K);
+      |                        [01;31m[K^~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:1[m[K:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:16:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   16 |     RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Publish: %f", bearing);
+      |                 [01;31m[K^~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:16:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %f", bearing);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   16 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %f", bearing);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:16:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %f", bearing);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   16 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %f", bearing);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:16:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   16 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %f", bearing);
+      |     [01;31m[K^~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/isolating_bearing.dir/build.make:76: CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/isolating_bearing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

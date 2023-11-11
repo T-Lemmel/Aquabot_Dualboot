@@ -1,0 +1,4 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m
+[ 37%] Built target listenerfloat
+[ 62%] Built target talkerfloat
+[ 87%] Built target state_publisher

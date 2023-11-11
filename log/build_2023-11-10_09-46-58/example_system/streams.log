@@ -1,0 +1,67 @@
+[0.337s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/example_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/example_system -- -j8 -l8
+[0.416s] [35m[1mConsolidate compiler generated dependencies of target state_publisher[0m
+[0.438s] [ 50%] Built target example_system
+[0.454s] [ 75%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+[3.288s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.288s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.289s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.289s]                  from [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:1[m[K:
+[3.289s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:[m[K In function ‘[01m[Kfloat isolate_bearing(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr)[m[K’:
+[3.289s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:5:70:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct std_msgs::msg::Float64_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct std_msgs::msg::Float64_<std::allocator<void> >[m[K’} has no member named ‘[01m[Kbearing[m[K’
+[3.289s]     5 |     RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Received: %.2f", msg->[01;31m[Kbearing[m[K);
+[3.290s]       |                                                                      [01;31m[K^~~~~~~[m[K
+[3.290s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:7:19:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst SharedPtr[m[K’ {aka ‘[01m[Kconst class std::shared_ptr<std_msgs::msg::Float64_<std::allocator<void> > >[m[K’} has no member named ‘[01m[Kbearing[m[K’
+[3.290s]     7 |     bearing = msg.[01;31m[Kbearing[m[K;
+[3.290s]       |                   [01;31m[K^~~~~~~[m[K
+[3.293s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:8:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+[3.293s]     8 |     [01;31m[Kpublisher[m[K->publish(bearing);
+[3.293s]       |     [01;31m[K^~~~~~~~~[m[K
+[3.296s] In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+[3.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+[3.296s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+[3.297s]                  from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+[3.298s]                  from [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:1[m[K:
+[3.298s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:9:17:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+[3.298s]     9 |     RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Publish: %.2f", bearing);
+[3.298s]       |                 [01;31m[K^~~~[m[K
+[3.298s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:9:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.298s]     9 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", bearing);
+[3.298s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.299s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.299s]     9 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", bearing);
+[3.299s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.299s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:9:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.299s]     9 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", bearing);
+[3.299s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:9:5:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[3.300s]     9 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", bearing);
+[3.300s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:9:5:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[3.300s]     9 |     [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", bearing);
+[3.300s]       |     [01;31m[K^~~~~~~~~~~[m[K
+[3.300s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:10:1:[m[K [01;35m[Kwarning: [m[Kno return statement in function returning non-void [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+[3.301s]    10 | [01;35m[K}[m[K
+[3.301s]       | [01;35m[K^[m[K
+[3.357s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[3.357s] [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:28:27:[m[K [01;31m[Kerror: [m[K‘[01m[Knode_publisher[m[K’ was not declared in this scope; did you mean ‘[01m[Kpublisher[m[K’?
+[3.357s]    28 |         rclcpp::spin_some([01;31m[Knode_publisher[m[K);
+[3.357s]       |                           [01;31m[K^~~~~~~~~~~~~~[m[K
+[3.357s]       |                           [32m[Kpublisher[m[K
+[6.159s] gmake[2]: *** [CMakeFiles/state_publisher.dir/build.make:76: CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o] Error 1
+[6.159s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/state_publisher.dir/all] Error 2
+[6.160s] gmake: *** [Makefile:146: all] Error 2
+[6.162s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/example_system' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/example_system -- -j8 -l8

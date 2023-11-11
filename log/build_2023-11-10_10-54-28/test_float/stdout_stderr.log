@@ -1,0 +1,11 @@
+[ 25%] Built target talkerfloat
+[ 50%] Built target listenerfloat
+[ 75%] Built target state_publisher
+[ 87%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:[m[K In function ‘[01m[Kvoid isolate_bearing(ros_gz_interfaces::msg::ParamVec_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:10:42:[m[K [01;31m[Kerror: [m[K‘[01m[Kconst struct rcl_interfaces::msg::Parameter_<std::allocator<void> >[m[K’ has no member named ‘[01m[Kdouble_value[m[K’
+   10 |                     auto bearing = param.[01;31m[Kdouble_value[m[K;
+      |                                          [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/isolating_bearing.dir/build.make:76: CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/isolating_bearing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

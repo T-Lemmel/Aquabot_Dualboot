@@ -1,0 +1,24 @@
+[0.404s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation -- -j8 -l8
+[1.710s] [35m[1mConsolidate compiler generated dependencies of target thruster_activation[0m
+[2.058s] [100%] Built target thruster_activation
+[2.078s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation -- -j8 -l8
+[2.128s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation
+[2.188s] -- Install configuration: ""
+[2.190s] -- Execute custom install script
+[2.222s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib/package_thruster_activation/thruster_activation
+[2.230s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation
+[2.232s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation
+[2.234s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.sh
+[2.235s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.dsv
+[2.237s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/path.sh
+[2.238s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/path.dsv
+[2.240s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.bash
+[2.241s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.sh
+[2.243s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.zsh
+[2.244s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.dsv
+[2.245s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.dsv
+[2.278s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/packages/package_thruster_activation
+[2.279s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig.cmake
+[2.323s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig-version.cmake
+[2.334s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.xml
+[2.341s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation

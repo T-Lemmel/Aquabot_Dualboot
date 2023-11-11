@@ -1,0 +1,10 @@
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:[m[K In function ‘[01m[Kvoid isolate_bearing(ros_gz_interfaces::msg::ParamVec_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:15:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kpublisher[m[K’ was not declared in this scope
+   15 |     [01;31m[Kpublisher[m[K->publish(bearing);
+      |     [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:15:24:[m[K [01;31m[Kerror: [m[K‘[01m[Kbearing[m[K’ was not declared in this scope
+   15 |     publisher->publish([01;31m[Kbearing[m[K);
+      |                        [01;31m[K^~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/isolating_bearing.dir/build.make:76: CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/isolating_bearing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

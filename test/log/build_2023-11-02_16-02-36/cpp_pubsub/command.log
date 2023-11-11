@@ -1,4 +1,0 @@
-Invoking command in '/home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub': /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub -- -j8 -l8
-Invoked command in '/home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub' returned '0': /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub -- -j8 -l8
-Invoking command in '/home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub': /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub
-Invoked command in '/home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub' returned '0': /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/test/build/cpp_pubsub

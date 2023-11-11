@@ -1,0 +1,11 @@
+[ 12%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m
+[ 37%] Built target listenerfloat
+[ 62%] Built target talkerfloat
+[ 87%] Built target state_publisher
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:2:10:[m[K [01;31m[Kfatal error: [m[Kros_gz_interfaces/msg/param_vec.hpp: No such file or directory
+    2 | #include [01;31m[K"ros_gz_interfaces/msg/param_vec.hpp"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/isolating_bearing.dir/build.make:76: CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/isolating_bearing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

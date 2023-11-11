@@ -1,0 +1,36 @@
+[0.171s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/test_float -- -j8 -l8
+[0.286s] [35m[1mConsolidate compiler generated dependencies of target isolating_bearing[0m
+[0.334s] [ 25%] Built target listenerfloat
+[0.343s] [ 50%] Built target talkerfloat
+[0.347s] [ 62%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m
+[0.356s] [ 87%] Built target state_publisher
+[5.576s] [01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:[m[K In function ‘[01m[Kvoid isolate_bearing(ros_gz_interfaces::msg::ParamVec_<std::allocator<void> >::SharedPtr)[m[K’:
+[5.577s] [01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:16:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbearing_msg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[5.577s]    16 |                     auto [01;35m[Kbearing_msg[m[K = std_msgs::msg::Float64(); // Create a Float64 message
+[5.577s]       |                          [01;35m[K^~~~~~~~~~~[m[K
+[17.900s] [100%] [32m[1mLinking CXX executable isolating_bearing[0m
+[18.876s] [100%] Built target isolating_bearing
+[18.905s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/test_float' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/test_float -- -j8 -l8
+[18.974s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/test_float
+[18.988s] -- Install configuration: ""
+[18.989s] -- Execute custom install script
+[18.990s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/isolating_bearing
+[18.990s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/state_publisher
+[18.990s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/talkerfloat
+[18.991s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/listenerfloat
+[18.991s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/package_run_dependencies/test_float
+[18.992s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/parent_prefix_path/test_float
+[18.992s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.sh
+[18.992s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.dsv
+[18.993s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.sh
+[18.993s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.dsv
+[18.993s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.bash
+[18.994s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.sh
+[18.994s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.zsh
+[18.994s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.dsv
+[18.995s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.dsv
+[19.014s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/packages/test_float
+[19.014s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig.cmake
+[19.015s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig-version.cmake
+[19.015s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.xml
+[19.020s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/test_float' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/test_float

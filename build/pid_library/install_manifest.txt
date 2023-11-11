@@ -1,0 +1,3 @@
+/home/t-lemmel/Aquabot_Tom/install/pid_library/lib/libpid_library.a
+/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/export_pid_libraryExport.cmake
+/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/export_pid_libraryExport-noconfig.cmake

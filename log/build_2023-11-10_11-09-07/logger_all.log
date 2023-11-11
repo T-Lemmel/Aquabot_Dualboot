@@ -1,0 +1,492 @@
+[1.223s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--continue-on-error']
+[1.223s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=True, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7fb247ea9300>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7fb247e59090>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7fb247e59090>>)
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.281s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.281s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/t-lemmel/Aquabot_Tom'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.281s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.282s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.295s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.296s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'ignore'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'ignore_ament_install'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['colcon_pkg']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'colcon_pkg'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['colcon_meta']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'colcon_meta'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['ros']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'ros'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['cmake', 'python']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'cmake'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'python'
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['python_setup_py']
+[1.297s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'python_setup_py'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['ignore', 'ignore_ament_install']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'ignore'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'ignore_ament_install'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['colcon_pkg']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'colcon_pkg'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['colcon_meta']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'colcon_meta'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['ros']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'ros'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['cmake', 'python']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'cmake'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'python'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['python_setup_py']
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'python_setup_py'
+[1.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extensions ['ignore', 'ignore_ament_install']
+[1.299s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extension 'ignore'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extension 'ignore_ament_install'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extensions ['colcon_pkg']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extension 'colcon_pkg'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extensions ['colcon_meta']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extension 'colcon_meta'
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extensions ['ros']
+[1.300s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation) by extension 'ros'
+[1.303s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package_thruster_activation' with type 'ros.ament_cmake' and name 'package_thruster_activation'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extensions ['ignore', 'ignore_ament_install']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extension 'ignore'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extension 'ignore_ament_install'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extensions ['colcon_pkg']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extension 'colcon_pkg'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extensions ['colcon_meta']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extension 'colcon_meta'
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extensions ['ros']
+[1.303s] Level 1:colcon.colcon_core.package_identification:_identify(src/package_thruster_activation_save) by extension 'ros'
+[1.304s] DEBUG:colcon.colcon_core.package_identification:Package 'src/package_thruster_activation_save' with type 'ros.ament_cmake' and name 'package_thruster_activation_save'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extensions ['ignore', 'ignore_ament_install']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'ignore'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'ignore_ament_install'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extensions ['colcon_pkg']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'colcon_pkg'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extensions ['colcon_meta']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'colcon_meta'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extensions ['ros']
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'ros'
+[1.304s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extensions ['cmake', 'python']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'cmake'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'python'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extensions ['python_setup_py']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library) by extension 'python_setup_py'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/build) by extensions ['ignore', 'ignore_ament_install']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/build) by extension 'ignore'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/build) ignored
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extensions ['ignore', 'ignore_ament_install']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extension 'ignore'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extension 'ignore_ament_install'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extensions ['colcon_pkg']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extension 'colcon_pkg'
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extensions ['colcon_meta']
+[1.305s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extension 'colcon_meta'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extensions ['ros']
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/example_system) by extension 'ros'
+[1.306s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_pid_library/example_system' with type 'ros.ament_cmake' and name 'example_system'
+[1.306s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/install) by extensions ['ignore', 'ignore_ament_install']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/install) by extension 'ignore'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/install) ignored
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/log) by extensions ['ignore', 'ignore_ament_install']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/log) by extension 'ignore'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/log) ignored
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extensions ['ignore', 'ignore_ament_install']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extension 'ignore'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extension 'ignore_ament_install'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extensions ['colcon_pkg']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extension 'colcon_pkg'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extensions ['colcon_meta']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extension 'colcon_meta'
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extensions ['ros']
+[1.307s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/pid_library) by extension 'ros'
+[1.308s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_pid_library/pid_library' with type 'ros.ament_cmake' and name 'pid_library'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extensions ['ignore', 'ignore_ament_install']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extension 'ignore'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extension 'ignore_ament_install'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extensions ['colcon_pkg']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extension 'colcon_pkg'
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extensions ['colcon_meta']
+[1.308s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extension 'colcon_meta'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extensions ['ros']
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/ros2_pid_library/use_library) by extension 'ros'
+[1.309s] DEBUG:colcon.colcon_core.package_identification:Package 'src/ros2_pid_library/use_library' with type 'ros.ament_cmake' and name 'use_library'
+[1.309s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extensions ['ignore', 'ignore_ament_install']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extension 'ignore'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extension 'ignore_ament_install'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extensions ['colcon_pkg']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extension 'colcon_pkg'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extensions ['colcon_meta']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extension 'colcon_meta'
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extensions ['ros']
+[1.310s] Level 1:colcon.colcon_core.package_identification:_identify(src/test_float) by extension 'ros'
+[1.311s] DEBUG:colcon.colcon_core.package_identification:Package 'src/test_float' with type 'ros.ament_cmake' and name 'test_float'
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.311s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[1.423s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[1.460s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/t-lemmel/vrx_ws/install
+[1.479s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 283 installed packages in /opt/ros/humble
+[1.481s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'cmake_args' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'cmake_target' from command line to 'None'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.595s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'cmake_clean_cache' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'cmake_clean_first' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'cmake_force_configure' from command line to 'False'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'ament_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'catkin_cmake_args' from command line to 'None'
+[1.596s] Level 5:colcon.colcon_core.verb:set package 'example_system' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.596s] DEBUG:colcon.colcon_core.verb:Building package 'example_system' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-lemmel/Aquabot_Tom/build/example_system', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-lemmel/Aquabot_Tom/install/example_system', 'merge_install': False, 'path': '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system', 'symlink_install': True, 'test_result_base': None}
+[1.613s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'cmake_args' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'cmake_target' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'cmake_clean_cache' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'cmake_clean_first' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'cmake_force_configure' from command line to 'False'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'ament_cmake_args' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'catkin_cmake_args' from command line to 'None'
+[1.614s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.614s] DEBUG:colcon.colcon_core.verb:Building package 'package_thruster_activation' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation', 'merge_install': False, 'path': '/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation', 'symlink_install': True, 'test_result_base': None}
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'cmake_target' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'cmake_clean_cache' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'cmake_clean_first' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'cmake_force_configure' from command line to 'False'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'ament_cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'catkin_cmake_args' from command line to 'None'
+[1.632s] Level 5:colcon.colcon_core.verb:set package 'package_thruster_activation_save' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.632s] DEBUG:colcon.colcon_core.verb:Building package 'package_thruster_activation_save' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save', 'merge_install': False, 'path': '/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation_save', 'symlink_install': True, 'test_result_base': None}
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'cmake_args' from command line to 'None'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'cmake_target' from command line to 'None'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'cmake_clean_cache' from command line to 'False'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'cmake_clean_first' from command line to 'False'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'cmake_force_configure' from command line to 'False'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'ament_cmake_args' from command line to 'None'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'catkin_cmake_args' from command line to 'None'
+[1.650s] Level 5:colcon.colcon_core.verb:set package 'pid_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.650s] DEBUG:colcon.colcon_core.verb:Building package 'pid_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-lemmel/Aquabot_Tom/build/pid_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-lemmel/Aquabot_Tom/install/pid_library', 'merge_install': False, 'path': '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/pid_library', 'symlink_install': True, 'test_result_base': None}
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'cmake_args' from command line to 'None'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'cmake_target' from command line to 'None'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'cmake_clean_cache' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'cmake_clean_first' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'cmake_force_configure' from command line to 'False'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'ament_cmake_args' from command line to 'None'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'catkin_cmake_args' from command line to 'None'
+[1.668s] Level 5:colcon.colcon_core.verb:set package 'test_float' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.668s] DEBUG:colcon.colcon_core.verb:Building package 'test_float' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-lemmel/Aquabot_Tom/build/test_float', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-lemmel/Aquabot_Tom/install/test_float', 'merge_install': False, 'path': '/home/t-lemmel/Aquabot_Tom/src/test_float', 'symlink_install': True, 'test_result_base': None}
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'cmake_target' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'cmake_clean_cache' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'cmake_clean_first' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'cmake_force_configure' from command line to 'False'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'ament_cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'catkin_cmake_args' from command line to 'None'
+[1.686s] Level 5:colcon.colcon_core.verb:set package 'use_library' build argument 'catkin_skip_building_tests' from command line to 'False'
+[1.686s] DEBUG:colcon.colcon_core.verb:Building package 'use_library' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-lemmel/Aquabot_Tom/build/use_library', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-lemmel/Aquabot_Tom/install/use_library', 'merge_install': False, 'path': '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/use_library', 'symlink_install': True, 'test_result_base': None}
+[1.704s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[1.722s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[1.722s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/pid_library' with build type 'ament_cmake'
+[1.723s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/pid_library'
+[1.743s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[1.743s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.743s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.800s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system' with build type 'ament_cmake'
+[1.801s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system'
+[1.820s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.820s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.882s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation' with build type 'ament_cmake'
+[1.883s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation'
+[1.902s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.902s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[1.974s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation_save' with build type 'ament_cmake'
+[1.974s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation_save'
+[1.993s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[1.993s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.056s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-lemmel/Aquabot_Tom/src/test_float' with build type 'ament_cmake'
+[2.056s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-lemmel/Aquabot_Tom/src/test_float'
+[2.076s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.076s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.141s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/pid_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/pid_library -- -j8 -l8
+[2.145s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/example_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/example_system -- -j8 -l8
+[2.149s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation -- -j8 -l8
+[2.155s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save -- -j8 -l8
+[2.164s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/test_float -- -j8 -l8
+[2.254s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/example_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/example_system -- -j8 -l8
+[2.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation -- -j8 -l8
+[2.264s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/pid_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/pid_library -- -j8 -l8
+[2.275s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save -- -j8 -l8
+[2.310s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/example_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/example_system
+[2.314s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation
+[2.316s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/pid_library': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/pid_library
+[2.321s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save
+[2.346s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_system)
+[2.347s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/example_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/example_system
+[2.375s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system' for CMake module files
+[2.376s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system' for CMake config files
+[2.376s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_system', 'cmake_prefix_path')
+[2.399s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/hook/cmake_prefix_path.ps1'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/hook/cmake_prefix_path.dsv'
+[2.400s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/hook/cmake_prefix_path.sh'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/lib'
+[2.401s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/bin'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/lib/pkgconfig/example_system.pc'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/lib/python3.10/site-packages'
+[2.402s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/bin'
+[2.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.ps1'
+[2.421s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.dsv'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.sh'
+[2.422s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.bash'
+[2.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.zsh'
+[2.424s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/example_system/share/colcon-core/packages/example_system)
+[2.426s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_thruster_activation)
+[2.427s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation' for CMake module files
+[2.446s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation' for CMake config files
+[2.447s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_thruster_activation', 'cmake_prefix_path')
+[2.466s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/hook/cmake_prefix_path.ps1'
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/hook/cmake_prefix_path.dsv'
+[2.467s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/hook/cmake_prefix_path.sh'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/bin'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib/pkgconfig/package_thruster_activation.pc'
+[2.468s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib/python3.10/site-packages'
+[2.469s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/bin'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.ps1'
+[2.487s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.dsv'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.sh'
+[2.488s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.bash'
+[2.489s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.zsh'
+[2.489s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/colcon-core/packages/package_thruster_activation)
+[2.490s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_library)
+[2.491s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/pid_library' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/pid_library
+[2.509s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library' for CMake module files
+[2.510s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library' for CMake config files
+[2.510s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_library', 'cmake_prefix_path')
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/hook/cmake_prefix_path.ps1'
+[2.529s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/hook/cmake_prefix_path.dsv'
+[2.530s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/hook/cmake_prefix_path.sh'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/bin'
+[2.530s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib/pkgconfig/pid_library.pc'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib/python3.10/site-packages'
+[2.531s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/bin'
+[2.549s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.ps1'
+[2.550s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.dsv'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.sh'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.bash'
+[2.551s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.zsh'
+[2.552s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/pid_library/share/colcon-core/packages/pid_library)
+[2.553s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_thruster_activation_save)
+[2.554s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save' for CMake module files
+[2.573s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save' for CMake config files
+[2.574s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_thruster_activation_save', 'cmake_prefix_path')
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/hook/cmake_prefix_path.ps1'
+[2.592s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/hook/cmake_prefix_path.dsv'
+[2.593s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/hook/cmake_prefix_path.sh'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/lib'
+[2.593s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/bin'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/lib/pkgconfig/package_thruster_activation_save.pc'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/lib/python3.10/site-packages'
+[2.594s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/bin'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.ps1'
+[2.613s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.dsv'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.sh'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.bash'
+[2.614s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.zsh'
+[2.615s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/colcon-core/packages/package_thruster_activation_save)
+[2.636s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(example_system)
+[2.654s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system' for CMake module files
+[2.655s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system' for CMake config files
+[2.655s] Level 1:colcon.colcon_core.shell:create_environment_hook('example_system', 'cmake_prefix_path')
+[2.673s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/hook/cmake_prefix_path.ps1'
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/hook/cmake_prefix_path.dsv'
+[2.674s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/hook/cmake_prefix_path.sh'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/lib'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/bin'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/lib/pkgconfig/example_system.pc'
+[2.675s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/lib/python3.10/site-packages'
+[2.676s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/example_system/bin'
+[2.694s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.ps1'
+[2.695s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.dsv'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.sh'
+[2.696s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.bash'
+[2.697s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.zsh'
+[2.697s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/example_system/share/colcon-core/packages/example_system)
+[2.717s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_thruster_activation)
+[2.735s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation' for CMake module files
+[2.736s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation' for CMake config files
+[2.736s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_thruster_activation', 'cmake_prefix_path')
+[2.754s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/hook/cmake_prefix_path.ps1'
+[2.755s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/hook/cmake_prefix_path.dsv'
+[2.755s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/hook/cmake_prefix_path.sh'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/bin'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib/pkgconfig/package_thruster_activation.pc'
+[2.756s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib/python3.10/site-packages'
+[2.757s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/bin'
+[2.776s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.ps1'
+[2.776s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.dsv'
+[2.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.sh'
+[2.777s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.bash'
+[2.778s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.zsh'
+[2.778s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/colcon-core/packages/package_thruster_activation)
+[2.797s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(pid_library)
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library' for CMake module files
+[2.816s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library' for CMake config files
+[2.817s] Level 1:colcon.colcon_core.shell:create_environment_hook('pid_library', 'cmake_prefix_path')
+[2.835s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/hook/cmake_prefix_path.ps1'
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/hook/cmake_prefix_path.dsv'
+[2.836s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/hook/cmake_prefix_path.sh'
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib'
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/bin'
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib/pkgconfig/pid_library.pc'
+[2.837s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib/python3.10/site-packages'
+[2.838s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/pid_library/bin'
+[2.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.ps1'
+[2.857s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.dsv'
+[2.857s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.sh'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.bash'
+[2.858s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.zsh'
+[2.859s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/pid_library/share/colcon-core/packages/pid_library)
+[2.859s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/use_library' with build type 'ament_cmake'
+[2.859s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/use_library'
+[2.879s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.879s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.957s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(package_thruster_activation_save)
+[2.975s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save' for CMake module files
+[2.976s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save' for CMake config files
+[2.976s] Level 1:colcon.colcon_core.shell:create_environment_hook('package_thruster_activation_save', 'cmake_prefix_path')
+[2.994s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/hook/cmake_prefix_path.ps1'
+[2.995s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/hook/cmake_prefix_path.dsv'
+[2.995s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/hook/cmake_prefix_path.sh'
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/lib'
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/bin'
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/lib/pkgconfig/package_thruster_activation_save.pc'
+[2.996s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/lib/python3.10/site-packages'
+[2.997s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/bin'
+[3.015s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.ps1'
+[3.015s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.dsv'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.sh'
+[3.016s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.bash'
+[3.017s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.zsh'
+[3.017s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/colcon-core/packages/package_thruster_activation_save)
+[3.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/use_library': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/use_library -- -j8 -l8
+[3.112s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/use_library' returned '0': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/use_library -- -j8 -l8
+[3.146s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/use_library': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/use_library
+[3.174s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(use_library)
+[3.175s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/use_library' returned '0': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/use_library
+[3.193s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library' for CMake module files
+[3.194s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library' for CMake config files
+[3.194s] Level 1:colcon.colcon_core.shell:create_environment_hook('use_library', 'cmake_prefix_path')
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/hook/cmake_prefix_path.ps1'
+[3.213s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/hook/cmake_prefix_path.dsv'
+[3.214s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/hook/cmake_prefix_path.sh'
+[3.214s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/lib'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/bin'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/lib/pkgconfig/use_library.pc'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/lib/python3.10/site-packages'
+[3.215s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/bin'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.ps1'
+[3.234s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.dsv'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.sh'
+[3.235s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.bash'
+[3.236s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.zsh'
+[3.236s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/use_library/share/colcon-core/packages/use_library)
+[3.289s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(use_library)
+[3.307s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library' for CMake module files
+[3.308s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library' for CMake config files
+[3.308s] Level 1:colcon.colcon_core.shell:create_environment_hook('use_library', 'cmake_prefix_path')
+[3.326s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/hook/cmake_prefix_path.ps1'
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/hook/cmake_prefix_path.dsv'
+[3.327s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/hook/cmake_prefix_path.sh'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/lib'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/bin'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/lib/pkgconfig/use_library.pc'
+[3.328s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/lib/python3.10/site-packages'
+[3.329s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/use_library/bin'
+[3.347s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.ps1'
+[3.348s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.dsv'
+[3.348s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.sh'
+[3.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.bash'
+[3.349s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.zsh'
+[3.349s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/use_library/share/colcon-core/packages/use_library)
+[7.937s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/test_float' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/test_float -- -j8 -l8
+[8.002s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(test_float)
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/test_float' for CMake module files
+[8.021s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/test_float' for CMake config files
+[8.022s] Level 1:colcon.colcon_core.shell:create_environment_hook('test_float', 'cmake_prefix_path')
+[8.040s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/hook/cmake_prefix_path.ps1'
+[8.040s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/hook/cmake_prefix_path.dsv'
+[8.041s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/hook/cmake_prefix_path.sh'
+[8.041s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/test_float/lib'
+[8.041s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/test_float/bin'
+[8.042s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/test_float/lib/pkgconfig/test_float.pc'
+[8.042s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/test_float/lib/python3.10/site-packages'
+[8.042s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/test_float/bin'
+[8.060s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.ps1'
+[8.061s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.dsv'
+[8.061s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.sh'
+[8.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.bash'
+[8.062s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.zsh'
+[8.062s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/test_float/share/colcon-core/packages/test_float)
+[8.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[8.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[8.073s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '2'
+[8.073s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[8.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[8.098s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[8.098s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[8.113s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[8.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.ps1'
+[8.134s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/t-lemmel/Aquabot_Tom/install/_local_setup_util_ps1.py'
+[8.135s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.ps1'
+[8.155s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.sh'
+[8.155s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/t-lemmel/Aquabot_Tom/install/_local_setup_util_sh.py'
+[8.156s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.sh'
+[8.175s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.bash'
+[8.176s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.bash'
+[8.196s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.zsh'
+[8.196s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.zsh'

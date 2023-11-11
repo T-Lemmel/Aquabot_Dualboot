@@ -1,0 +1,546 @@
+[0.000000] (-) TimerEvent: {}
+[0.000351] (example_system) JobQueued: {'identifier': 'example_system', 'dependencies': OrderedDict()}
+[0.002894] (package_thruster_activation) JobQueued: {'identifier': 'package_thruster_activation', 'dependencies': OrderedDict()}
+[0.003271] (package_thruster_activation_save) JobQueued: {'identifier': 'package_thruster_activation_save', 'dependencies': OrderedDict()}
+[0.003323] (pid_library) JobQueued: {'identifier': 'pid_library', 'dependencies': OrderedDict()}
+[0.003463] (test_float) JobQueued: {'identifier': 'test_float', 'dependencies': OrderedDict()}
+[0.003503] (use_library) JobQueued: {'identifier': 'use_library', 'dependencies': OrderedDict([('pid_library', '/home/t-lemmel/Aquabot_Tom/install/pid_library')])}
+[0.003589] (pid_library) JobStarted: {'identifier': 'pid_library'}
+[0.098050] (-) TimerEvent: {}
+[0.179545] (example_system) JobStarted: {'identifier': 'example_system'}
+[0.198176] (-) TimerEvent: {}
+[0.298527] (-) TimerEvent: {}
+[0.331761] (package_thruster_activation) JobStarted: {'identifier': 'package_thruster_activation'}
+[0.398699] (-) TimerEvent: {}
+[0.484025] (package_thruster_activation_save) JobStarted: {'identifier': 'package_thruster_activation_save'}
+[0.498818] (-) TimerEvent: {}
+[0.599415] (-) TimerEvent: {}
+[0.700629] (-) TimerEvent: {}
+[0.704298] (test_float) JobStarted: {'identifier': 'test_float'}
+[0.800850] (-) TimerEvent: {}
+[0.901597] (-) TimerEvent: {}
+[0.925980] (pid_library) JobProgress: {'identifier': 'pid_library', 'progress': 'cmake'}
+[0.928769] (pid_library) JobProgress: {'identifier': 'pid_library', 'progress': 'build'}
+[0.931826] (pid_library) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/pid_library', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/pid_library', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/pid_library'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.942020] (example_system) JobProgress: {'identifier': 'example_system', 'progress': 'cmake'}
+[0.944226] (example_system) JobProgress: {'identifier': 'example_system', 'progress': 'build'}
+[0.947390] (example_system) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/example_system', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/example_system', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/example_system'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.959882] (package_thruster_activation) JobProgress: {'identifier': 'package_thruster_activation', 'progress': 'cmake'}
+[0.960012] (package_thruster_activation) JobProgress: {'identifier': 'package_thruster_activation', 'progress': 'build'}
+[0.960566] (package_thruster_activation) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.967908] (package_thruster_activation_save) JobProgress: {'identifier': 'package_thruster_activation_save', 'progress': 'cmake'}
+[0.968923] (package_thruster_activation_save) JobProgress: {'identifier': 'package_thruster_activation_save', 'progress': 'build'}
+[0.970226] (package_thruster_activation_save) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.986411] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'cmake'}
+[0.986763] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'build'}
+[0.987502] (test_float) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/test_float', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/test_float', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/test_float'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[1.001752] (-) TimerEvent: {}
+[1.018865] (example_system) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.073035] (test_float) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.102035] (-) TimerEvent: {}
+[1.112560] (pid_library) StdoutLine: {'line': b'[100%] Built target pid_library\n'}
+[1.156220] (pid_library) CommandEnded: {'returncode': 0}
+[1.157382] (package_thruster_activation) StdoutLine: {'line': b'[100%] Built target thruster_activation\n'}
+[1.170782] (package_thruster_activation_save) StdoutLine: {'line': b'[100%] Built target thruster_activation\n'}
+[1.198081] (package_thruster_activation) CommandEnded: {'returncode': 0}
+[1.202812] (-) TimerEvent: {}
+[1.216249] (package_thruster_activation_save) CommandEnded: {'returncode': 0}
+[1.239135] (pid_library) JobProgress: {'identifier': 'pid_library', 'progress': 'install'}
+[1.276884] (pid_library) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/t-lemmel/Aquabot_Tom/build/pid_library'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/pid_library', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/pid_library'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[1.284155] (package_thruster_activation) JobProgress: {'identifier': 'package_thruster_activation', 'progress': 'install'}
+[1.285135] (package_thruster_activation) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[1.305488] (package_thruster_activation_save) JobProgress: {'identifier': 'package_thruster_activation_save', 'progress': 'install'}
+[1.305648] (-) TimerEvent: {}
+[1.306025] (package_thruster_activation_save) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[1.306941] (pid_library) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.307118] (pid_library) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.307299] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/environment/library_path.sh\n'}
+[1.307696] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/environment/library_path.dsv\n'}
+[1.308391] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/include/pid_library//pid_library.h\n'}
+[1.309873] (package_thruster_activation) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.311047] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/ament_index/resource_index/package_run_dependencies/pid_library\n'}
+[1.312956] (package_thruster_activation) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.313315] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/ament_index/resource_index/parent_prefix_path/pid_library\n'}
+[1.313615] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/environment/ament_prefix_path.sh\n'}
+[1.313783] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/environment/ament_prefix_path.dsv\n'}
+[1.313999] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/environment/path.sh\n'}
+[1.314560] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/environment/path.dsv\n'}
+[1.315426] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/local_setup.bash\n'}
+[1.316308] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/local_setup.sh\n'}
+[1.317206] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/local_setup.zsh\n'}
+[1.318298] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/local_setup.dsv\n'}
+[1.320079] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib/package_thruster_activation/thruster_activation\n'}
+[1.320475] (pid_library) StdoutLine: {'line': b'-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.dsv\n'}
+[1.320867] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation\n'}
+[1.321150] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation\n'}
+[1.321317] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.sh\n'}
+[1.321676] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.dsv\n'}
+[1.322456] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/path.sh\n'}
+[1.323324] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/path.dsv\n'}
+[1.324429] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.bash\n'}
+[1.325154] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.sh\n'}
+[1.325483] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.zsh\n'}
+[1.325811] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.dsv\n'}
+[1.326100] (package_thruster_activation) StdoutLine: {'line': b'-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.dsv\n'}
+[1.327850] (package_thruster_activation_save) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.329648] (package_thruster_activation_save) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[1.331141] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/lib/package_thruster_activation_save/thruster_activation\n'}
+[1.333196] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation_save\n'}
+[1.333830] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation_save\n'}
+[1.339899] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/environment/ament_prefix_path.sh\n'}
+[1.341512] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/environment/ament_prefix_path.dsv\n'}
+[1.343362] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/environment/path.sh\n'}
+[1.344936] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/environment/path.dsv\n'}
+[1.345346] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/local_setup.bash\n'}
+[1.345609] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/local_setup.sh\n'}
+[1.345807] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/local_setup.zsh\n'}
+[1.346001] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/local_setup.dsv\n'}
+[1.346199] (package_thruster_activation_save) StdoutLine: {'line': b'-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.dsv\n'}
+[1.357243] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/packages/package_thruster_activation\n'}
+[1.362162] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig.cmake\n'}
+[1.368961] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig-version.cmake\n'}
+[1.369690] (package_thruster_activation) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.xml\n'}
+[1.370259] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/ament_index/resource_index/packages/pid_library\n'}
+[1.370484] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.372571] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.373954] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/pid_libraryConfig.cmake\n'}
+[1.374176] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/pid_libraryConfig-version.cmake\n'}
+[1.374601] (pid_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/package.xml\n'}
+[1.375015] (pid_library) StdoutLine: {'line': b'-- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/pid_library/lib/libpid_library.a\n'}
+[1.375174] (pid_library) StdoutLine: {'line': b'-- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/export_pid_libraryExport.cmake\n'}
+[1.375354] (pid_library) StdoutLine: {'line': b'-- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/pid_library/share/pid_library/cmake/export_pid_libraryExport-noconfig.cmake\n'}
+[1.375547] (pid_library) CommandEnded: {'returncode': 0}
+[1.377138] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/ament_index/resource_index/packages/package_thruster_activation_save\n'}
+[1.378164] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/cmake/package_thruster_activation_saveConfig.cmake\n'}
+[1.379236] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/cmake/package_thruster_activation_saveConfig-version.cmake\n'}
+[1.380197] (package_thruster_activation_save) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save/share/package_thruster_activation_save/package.xml\n'}
+[1.406077] (-) TimerEvent: {}
+[1.507567] (-) TimerEvent: {}
+[1.521768] (example_system) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.553920] (example_system) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.597057] (test_float) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.599847] (package_thruster_activation) CommandEnded: {'returncode': 0}
+[1.609621] (-) TimerEvent: {}
+[1.624784] (test_float) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.668793] (example_system) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.674872] (example_system) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.695174] (example_system) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.710138] (-) TimerEvent: {}
+[1.725613] (test_float) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.733386] (test_float) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.734878] (example_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.751553] (test_float) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.786675] (example_system) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.789244] (test_float) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.810308] (-) TimerEvent: {}
+[1.834372] (package_thruster_activation_save) CommandEnded: {'returncode': 0}
+[1.849055] (test_float) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.910929] (-) TimerEvent: {}
+[1.994732] (example_system) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.998445] (example_system) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.011014] (-) TimerEvent: {}
+[2.049340] (test_float) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[2.053312] (test_float) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[2.115520] (-) TimerEvent: {}
+[2.216849] (-) TimerEvent: {}
+[2.317487] (-) TimerEvent: {}
+[2.323490] (pid_library) JobEnded: {'identifier': 'pid_library', 'rc': 0}
+[2.325218] (use_library) JobStarted: {'identifier': 'use_library'}
+[2.398416] (example_system) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.417899] (-) TimerEvent: {}
+[2.456004] (test_float) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[2.523068] (-) TimerEvent: {}
+[2.625480] (-) TimerEvent: {}
+[2.726399] (-) TimerEvent: {}
+[2.827887] (-) TimerEvent: {}
+[2.843978] (package_thruster_activation) JobEnded: {'identifier': 'package_thruster_activation', 'rc': 0}
+[2.928574] (-) TimerEvent: {}
+[2.961465] (example_system) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.009437] (test_float) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.8 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.029847] (-) TimerEvent: {}
+[3.086230] (package_thruster_activation_save) JobEnded: {'identifier': 'package_thruster_activation_save', 'rc': 0}
+[3.090698] (use_library) JobProgress: {'identifier': 'use_library', 'progress': 'cmake'}
+[3.093406] (use_library) JobProgress: {'identifier': 'use_library', 'progress': 'build'}
+[3.095157] (use_library) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/use_library', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/use_library', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/use_library'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[3.129906] (-) TimerEvent: {}
+[3.231227] (example_system) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.234323] (-) TimerEvent: {}
+[3.235916] (example_system) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/include>\n'}
+[3.236398] (example_system) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.236581] (example_system) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.236800] (example_system) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.237596] (example_system) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.239032] (example_system) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.239361] (example_system) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.239817] (example_system) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.241864] (example_system) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.255417] (example_system) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (add_executable):\n'}
+[3.255992] (example_system) StderrLine: {'line': b'  Cannot find source file:\n'}
+[3.256143] (example_system) StderrLine: {'line': b'\n'}
+[3.256265] (example_system) StderrLine: {'line': b'    src/state_publisher.cpp\n'}
+[3.256382] (example_system) StderrLine: {'line': b'\n'}
+[3.256500] (example_system) StderrLine: {'line': b'  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .mpp .m .M .mm .ixx .cppm .h\n'}
+[3.256657] (example_system) StderrLine: {'line': b'  .hh .h++ .hm .hpp .hxx .in .txx .f .F .for .f77 .f90 .f95 .f03 .hip .ispc\n'}
+[3.256804] (example_system) StderrLine: {'line': b'\n'}
+[3.257095] (example_system) StderrLine: {'line': b'\x1b[0m\n'}
+[3.257209] (example_system) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (add_executable):\n'}
+[3.257313] (example_system) StderrLine: {'line': b'  No SOURCES given to target: state_publisher\n'}
+[3.257460] (example_system) StderrLine: {'line': b'\n'}
+[3.257592] (example_system) StderrLine: {'line': b'\x1b[0m\n'}
+[3.257726] (example_system) StderrLine: {'line': b'\x1b[0mCMake Generate step failed.  Build files cannot be regenerated correctly.\x1b[0m\n'}
+[3.277987] (example_system) StderrLine: {'line': b'gmake: *** [Makefile:308: cmake_check_build_system] Error 1\n'}
+[3.281274] (example_system) CommandEnded: {'returncode': 2}
+[3.284693] (use_library) StdoutLine: {'line': b'[100%] Built target use_library\n'}
+[3.321148] (use_library) CommandEnded: {'returncode': 0}
+[3.322374] (test_float) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.323462] (test_float) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[3.323696] (test_float) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.324765] (test_float) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[3.332436] (test_float) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.334499] (-) TimerEvent: {}
+[3.338274] (test_float) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[3.365525] (test_float) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.365864] (test_float) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.369363] (test_float) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.374616] (test_float) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.437584] (-) TimerEvent: {}
+[3.440634] (test_float) StdoutLine: {'line': b'-- Generating done\n'}
+[3.448207] (test_float) StdoutLine: {'line': b'-- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/test_float\n'}
+[3.537783] (-) TimerEvent: {}
+[3.542723] (test_float) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target listenerfloat\x1b[0m\n'}
+[3.543440] (test_float) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target talkerfloat\x1b[0m\n'}
+[3.555771] (test_float) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target state_publisher\x1b[0m\n'}
+[3.582474] (test_float) StdoutLine: {'line': b'[ 12%] \x1b[32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o\x1b[0m\n'}
+[3.590406] (test_float) StdoutLine: {'line': b'[ 37%] Built target listenerfloat\n'}
+[3.600861] (test_float) StdoutLine: {'line': b'[ 62%] Built target talkerfloat\n'}
+[3.608493] (test_float) StdoutLine: {'line': b'[ 87%] Built target state_publisher\n'}
+[3.638157] (-) TimerEvent: {}
+[3.643167] (example_system) JobEnded: {'identifier': 'example_system', 'rc': 2}
+[3.649594] (use_library) JobProgress: {'identifier': 'use_library', 'progress': 'install'}
+[3.649874] (use_library) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/t-lemmel/Aquabot_Tom/build/use_library'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/use_library', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/use_library'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[3.677383] (use_library) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.678934] (use_library) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.681070] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/lib/use_library/use_library\n'}
+[3.682521] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/ament_index/resource_index/package_run_dependencies/use_library\n'}
+[3.684816] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/ament_index/resource_index/parent_prefix_path/use_library\n'}
+[3.685816] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/environment/ament_prefix_path.sh\n'}
+[3.686464] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/environment/ament_prefix_path.dsv\n'}
+[3.686730] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/environment/path.sh\n'}
+[3.686962] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/environment/path.dsv\n'}
+[3.687701] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/local_setup.bash\n'}
+[3.687923] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/local_setup.sh\n'}
+[3.688143] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/local_setup.zsh\n'}
+[3.688327] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/local_setup.dsv\n'}
+[3.688471] (use_library) StdoutLine: {'line': b'-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.dsv\n'}
+[3.715708] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/ament_index/resource_index/packages/use_library\n'}
+[3.716733] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/cmake/use_libraryConfig.cmake\n'}
+[3.717304] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/cmake/use_libraryConfig-version.cmake\n'}
+[3.717507] (use_library) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/use_library/share/use_library/package.xml\n'}
+[3.720674] (use_library) CommandEnded: {'returncode': 0}
+[3.738654] (-) TimerEvent: {}
+[3.840347] (-) TimerEvent: {}
+[3.950141] (-) TimerEvent: {}
+[4.051543] (-) TimerEvent: {}
+[4.152517] (-) TimerEvent: {}
+[4.234064] (use_library) JobEnded: {'identifier': 'use_library', 'rc': 0}
+[4.252697] (-) TimerEvent: {}
+[4.353427] (-) TimerEvent: {}
+[4.454410] (-) TimerEvent: {}
+[4.555328] (-) TimerEvent: {}
+[4.655720] (-) TimerEvent: {}
+[4.756442] (-) TimerEvent: {}
+[4.857328] (-) TimerEvent: {}
+[4.957828] (-) TimerEvent: {}
+[5.058336] (-) TimerEvent: {}
+[5.158874] (-) TimerEvent: {}
+[5.259657] (-) TimerEvent: {}
+[5.360956] (-) TimerEvent: {}
+[5.461616] (-) TimerEvent: {}
+[5.562370] (-) TimerEvent: {}
+[5.663603] (-) TimerEvent: {}
+[5.765033] (-) TimerEvent: {}
+[5.865431] (-) TimerEvent: {}
+[5.966056] (-) TimerEvent: {}
+[6.066856] (-) TimerEvent: {}
+[6.167665] (-) TimerEvent: {}
+[6.268595] (-) TimerEvent: {}
+[6.369478] (-) TimerEvent: {}
+[6.470113] (-) TimerEvent: {}
+[6.570710] (-) TimerEvent: {}
+[6.672146] (-) TimerEvent: {}
+[6.772504] (-) TimerEvent: {}
+[6.872835] (-) TimerEvent: {}
+[6.973382] (-) TimerEvent: {}
+[7.074816] (-) TimerEvent: {}
+[7.176189] (-) TimerEvent: {}
+[7.276984] (-) TimerEvent: {}
+[7.377642] (-) TimerEvent: {}
+[7.478610] (-) TimerEvent: {}
+[7.579050] (-) TimerEvent: {}
+[7.679541] (-) TimerEvent: {}
+[7.780837] (-) TimerEvent: {}
+[7.881342] (-) TimerEvent: {}
+[7.982013] (-) TimerEvent: {}
+[8.083702] (-) TimerEvent: {}
+[8.185236] (-) TimerEvent: {}
+[8.286609] (-) TimerEvent: {}
+[8.387715] (-) TimerEvent: {}
+[8.488544] (-) TimerEvent: {}
+[8.589236] (-) TimerEvent: {}
+[8.689887] (-) TimerEvent: {}
+[8.791323] (-) TimerEvent: {}
+[8.891979] (-) TimerEvent: {}
+[8.992802] (-) TimerEvent: {}
+[9.093401] (-) TimerEvent: {}
+[9.194477] (-) TimerEvent: {}
+[9.295606] (-) TimerEvent: {}
+[9.396174] (-) TimerEvent: {}
+[9.496890] (-) TimerEvent: {}
+[9.598252] (-) TimerEvent: {}
+[9.699342] (-) TimerEvent: {}
+[9.800351] (-) TimerEvent: {}
+[9.900937] (-) TimerEvent: {}
+[10.001543] (-) TimerEvent: {}
+[10.102168] (-) TimerEvent: {}
+[10.203570] (-) TimerEvent: {}
+[10.304696] (-) TimerEvent: {}
+[10.405079] (-) TimerEvent: {}
+[10.506097] (-) TimerEvent: {}
+[10.607484] (-) TimerEvent: {}
+[10.708582] (-) TimerEvent: {}
+[10.809438] (-) TimerEvent: {}
+[10.910063] (-) TimerEvent: {}
+[11.010857] (-) TimerEvent: {}
+[11.111694] (-) TimerEvent: {}
+[11.212093] (-) TimerEvent: {}
+[11.313031] (-) TimerEvent: {}
+[11.414126] (-) TimerEvent: {}
+[11.515055] (-) TimerEvent: {}
+[11.616305] (-) TimerEvent: {}
+[11.717104] (-) TimerEvent: {}
+[11.818691] (-) TimerEvent: {}
+[11.919689] (-) TimerEvent: {}
+[12.020185] (-) TimerEvent: {}
+[12.120534] (-) TimerEvent: {}
+[12.220919] (-) TimerEvent: {}
+[12.321710] (-) TimerEvent: {}
+[12.422508] (-) TimerEvent: {}
+[12.523221] (-) TimerEvent: {}
+[12.623831] (-) TimerEvent: {}
+[12.724198] (-) TimerEvent: {}
+[12.824641] (-) TimerEvent: {}
+[12.925513] (-) TimerEvent: {}
+[13.026402] (-) TimerEvent: {}
+[13.126915] (-) TimerEvent: {}
+[13.227330] (-) TimerEvent: {}
+[13.328012] (-) TimerEvent: {}
+[13.428960] (-) TimerEvent: {}
+[13.530486] (-) TimerEvent: {}
+[13.631825] (-) TimerEvent: {}
+[13.732385] (-) TimerEvent: {}
+[13.833326] (-) TimerEvent: {}
+[13.934427] (-) TimerEvent: {}
+[14.035541] (-) TimerEvent: {}
+[14.136853] (-) TimerEvent: {}
+[14.238160] (-) TimerEvent: {}
+[14.338495] (-) TimerEvent: {}
+[14.438987] (-) TimerEvent: {}
+[14.539820] (-) TimerEvent: {}
+[14.640336] (-) TimerEvent: {}
+[14.740733] (-) TimerEvent: {}
+[14.841090] (-) TimerEvent: {}
+[14.941555] (-) TimerEvent: {}
+[15.042296] (-) TimerEvent: {}
+[15.142970] (-) TimerEvent: {}
+[15.243418] (-) TimerEvent: {}
+[15.344113] (-) TimerEvent: {}
+[15.444568] (-) TimerEvent: {}
+[15.545470] (-) TimerEvent: {}
+[15.646462] (-) TimerEvent: {}
+[15.747346] (-) TimerEvent: {}
+[15.847780] (-) TimerEvent: {}
+[15.948540] (-) TimerEvent: {}
+[16.049144] (-) TimerEvent: {}
+[16.150163] (-) TimerEvent: {}
+[16.251681] (-) TimerEvent: {}
+[16.352553] (-) TimerEvent: {}
+[16.452887] (-) TimerEvent: {}
+[16.553376] (-) TimerEvent: {}
+[16.653993] (-) TimerEvent: {}
+[16.755432] (-) TimerEvent: {}
+[16.856579] (-) TimerEvent: {}
+[16.957116] (-) TimerEvent: {}
+[17.058009] (-) TimerEvent: {}
+[17.158713] (-) TimerEvent: {}
+[17.259291] (-) TimerEvent: {}
+[17.360124] (-) TimerEvent: {}
+[17.460733] (-) TimerEvent: {}
+[17.561200] (-) TimerEvent: {}
+[17.661818] (-) TimerEvent: {}
+[17.762765] (-) TimerEvent: {}
+[17.863565] (-) TimerEvent: {}
+[17.964839] (-) TimerEvent: {}
+[18.065939] (-) TimerEvent: {}
+[18.166859] (-) TimerEvent: {}
+[18.267288] (-) TimerEvent: {}
+[18.367901] (-) TimerEvent: {}
+[18.468496] (-) TimerEvent: {}
+[18.568912] (-) TimerEvent: {}
+[18.670017] (-) TimerEvent: {}
+[18.770730] (-) TimerEvent: {}
+[18.871062] (-) TimerEvent: {}
+[18.971402] (-) TimerEvent: {}
+[19.071923] (-) TimerEvent: {}
+[19.172525] (-) TimerEvent: {}
+[19.273125] (-) TimerEvent: {}
+[19.373833] (-) TimerEvent: {}
+[19.474857] (-) TimerEvent: {}
+[19.575524] (-) TimerEvent: {}
+[19.676380] (-) TimerEvent: {}
+[19.777133] (-) TimerEvent: {}
+[19.877779] (-) TimerEvent: {}
+[19.978268] (-) TimerEvent: {}
+[20.078729] (-) TimerEvent: {}
+[20.179421] (-) TimerEvent: {}
+[20.280763] (-) TimerEvent: {}
+[20.381814] (-) TimerEvent: {}
+[20.482199] (-) TimerEvent: {}
+[20.582735] (-) TimerEvent: {}
+[20.684108] (-) TimerEvent: {}
+[20.785253] (-) TimerEvent: {}
+[20.885644] (-) TimerEvent: {}
+[20.986432] (-) TimerEvent: {}
+[21.087503] (-) TimerEvent: {}
+[21.187894] (-) TimerEvent: {}
+[21.288234] (-) TimerEvent: {}
+[21.388545] (-) TimerEvent: {}
+[21.488887] (-) TimerEvent: {}
+[21.589252] (-) TimerEvent: {}
+[21.689933] (-) TimerEvent: {}
+[21.790740] (-) TimerEvent: {}
+[21.892578] (-) TimerEvent: {}
+[21.993142] (-) TimerEvent: {}
+[22.094055] (-) TimerEvent: {}
+[22.194815] (-) TimerEvent: {}
+[22.296506] (-) TimerEvent: {}
+[22.397601] (-) TimerEvent: {}
+[22.498528] (-) TimerEvent: {}
+[22.599325] (-) TimerEvent: {}
+[22.700361] (-) TimerEvent: {}
+[22.801792] (-) TimerEvent: {}
+[22.902517] (-) TimerEvent: {}
+[23.003068] (-) TimerEvent: {}
+[23.104456] (-) TimerEvent: {}
+[23.204918] (-) TimerEvent: {}
+[23.305441] (-) TimerEvent: {}
+[23.406707] (-) TimerEvent: {}
+[23.508164] (-) TimerEvent: {}
+[23.608570] (-) TimerEvent: {}
+[23.708962] (-) TimerEvent: {}
+[23.809402] (-) TimerEvent: {}
+[23.909722] (-) TimerEvent: {}
+[24.010201] (-) TimerEvent: {}
+[24.110860] (-) TimerEvent: {}
+[24.211494] (-) TimerEvent: {}
+[24.312883] (-) TimerEvent: {}
+[24.414029] (-) TimerEvent: {}
+[24.515127] (-) TimerEvent: {}
+[24.616704] (-) TimerEvent: {}
+[24.718069] (-) TimerEvent: {}
+[24.818437] (-) TimerEvent: {}
+[24.919003] (-) TimerEvent: {}
+[25.020460] (-) TimerEvent: {}
+[25.120829] (-) TimerEvent: {}
+[25.221222] (-) TimerEvent: {}
+[25.321712] (-) TimerEvent: {}
+[25.422141] (-) TimerEvent: {}
+[25.522519] (-) TimerEvent: {}
+[25.622991] (-) TimerEvent: {}
+[25.723697] (-) TimerEvent: {}
+[25.824287] (-) TimerEvent: {}
+[25.924699] (-) TimerEvent: {}
+[26.025256] (-) TimerEvent: {}
+[26.126487] (-) TimerEvent: {}
+[26.227184] (-) TimerEvent: {}
+[26.328541] (-) TimerEvent: {}
+[26.429424] (-) TimerEvent: {}
+[26.530781] (-) TimerEvent: {}
+[26.631928] (-) TimerEvent: {}
+[26.732494] (-) TimerEvent: {}
+[26.832978] (-) TimerEvent: {}
+[26.933619] (-) TimerEvent: {}
+[27.034517] (-) TimerEvent: {}
+[27.135872] (-) TimerEvent: {}
+[27.236581] (-) TimerEvent: {}
+[27.337258] (-) TimerEvent: {}
+[27.437642] (-) TimerEvent: {}
+[27.538177] (-) TimerEvent: {}
+[27.638969] (-) TimerEvent: {}
+[27.739549] (-) TimerEvent: {}
+[27.840072] (-) TimerEvent: {}
+[27.940905] (-) TimerEvent: {}
+[28.041277] (-) TimerEvent: {}
+[28.141699] (-) TimerEvent: {}
+[28.242202] (-) TimerEvent: {}
+[28.343447] (-) TimerEvent: {}
+[28.444441] (-) TimerEvent: {}
+[28.545309] (-) TimerEvent: {}
+[28.646741] (-) TimerEvent: {}
+[28.748565] (-) TimerEvent: {}
+[28.849009] (-) TimerEvent: {}
+[28.949630] (-) TimerEvent: {}
+[29.050560] (-) TimerEvent: {}
+[29.151341] (-) TimerEvent: {}
+[29.252520] (-) TimerEvent: {}
+[29.352862] (-) TimerEvent: {}
+[29.453257] (-) TimerEvent: {}
+[29.553741] (-) TimerEvent: {}
+[29.605074] (test_float) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable isolating_bearing\x1b[0m\n'}
+[29.654178] (-) TimerEvent: {}
+[29.754538] (-) TimerEvent: {}
+[29.855227] (-) TimerEvent: {}
+[29.955788] (-) TimerEvent: {}
+[30.056328] (-) TimerEvent: {}
+[30.157452] (-) TimerEvent: {}
+[30.258137] (-) TimerEvent: {}
+[30.358723] (-) TimerEvent: {}
+[30.459130] (-) TimerEvent: {}
+[30.559503] (-) TimerEvent: {}
+[30.659922] (-) TimerEvent: {}
+[30.760435] (-) TimerEvent: {}
+[30.861985] (-) TimerEvent: {}
+[30.887652] (test_float) StdoutLine: {'line': b'[100%] Built target isolating_bearing\n'}
+[30.921903] (test_float) CommandEnded: {'returncode': 0}
+[30.962099] (-) TimerEvent: {}
+[31.013067] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'install'}
+[31.014575] (test_float) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/t-lemmel/Aquabot_Tom/build/test_float'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/test_float', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1975'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1975,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1975'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/f7e6ac5a_63f3_4c60_a406_6705cf7df690'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.140'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/test_float'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=356cefd8910f8fc525217b53654dd72a'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[31.044583] (test_float) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[31.046192] (test_float) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[31.047625] (test_float) StdoutLine: {'line': b'-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/isolating_bearing\n'}
+[31.062517] (-) TimerEvent: {}
+[31.074495] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/state_publisher\n'}
+[31.074755] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/talkerfloat\n'}
+[31.075060] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/listenerfloat\n'}
+[31.076302] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/package_run_dependencies/test_float\n'}
+[31.076881] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/parent_prefix_path/test_float\n'}
+[31.077911] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.sh\n'}
+[31.078970] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.dsv\n'}
+[31.079488] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.sh\n'}
+[31.079742] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.dsv\n'}
+[31.080037] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.bash\n'}
+[31.080711] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.sh\n'}
+[31.081378] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.zsh\n'}
+[31.081957] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.dsv\n'}
+[31.082484] (test_float) StdoutLine: {'line': b'-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.dsv\n'}
+[31.113227] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/packages/test_float\n'}
+[31.114589] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig.cmake\n'}
+[31.115619] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig-version.cmake\n'}
+[31.116136] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.xml\n'}
+[31.120642] (test_float) CommandEnded: {'returncode': 0}
+[31.162778] (-) TimerEvent: {}
+[31.263979] (-) TimerEvent: {}
+[31.366359] (-) TimerEvent: {}
+[31.467588] (-) TimerEvent: {}
+[31.567994] (-) TimerEvent: {}
+[31.587381] (test_float) JobEnded: {'identifier': 'test_float', 'rc': 0}
+[31.600794] (-) EventReactorShutdown: {}

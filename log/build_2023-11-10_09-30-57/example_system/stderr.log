@@ -1,0 +1,97 @@
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:12:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_publisher[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   12 |     auto publisher = node_publisher->create_publisher<std_msgs::[01;31m[Kmsg_publisher[m[K::Float64>("state_topic", 10);
+      |                                                                 [01;31m[K^~~~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:12:38:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   12 |     auto publisher = node_publisher->[01;31m[Kcreate_publisher<std_msgs::msg_publisher::Float64>[m[K("state_topic", 10);
+      |                                      [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:12:88:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_publisher<<expression error> >(const char [12], int)[m[K’
+   12 |     auto publisher = [01;31m[Knode_publisher->create_publisher<std_msgs::msg_publisher::Float64>("state_topic", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  195 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:195:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:12:88:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   12 |     auto publisher = [01;31m[Knode_publisher->create_publisher<std_msgs::msg_publisher::Float64>("state_topic", 10)[m[K;
+      |                      [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:15:72:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_subscriber[m[K’ is not a member of ‘[01m[Kstd_msgs[m[K’
+   15 |     auto subscription = node_subscriber->create_subscription<std_msgs::[01;31m[Kmsg_subscriber[m[K::Float64>(
+      |                                                                        [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:15:42:[m[K [01;31m[Kerror: [m[Kparse error in template argument list
+   15 |     auto subscription = node_subscriber->[01;31m[Kcreate_subscription<std_msgs::msg_subscriber::Float64>[m[K(
+      |                                          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:15:96:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Krclcpp::Node::create_subscription<<expression error> >(const char [47], int, void (&)(std_msgs::msg::Float64_<std::allocator<void> >::SharedPtr))[m[K’
+   15 |     auto subscription = [01;31m[Knode_subscriber->create_subscription<std_msgs::msg_subscriber::Float64>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   16 | [01;31m[K        "/wamv/sensors/acoustics/receiver/range_bearing",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                       
+   17 | [01;31m[K        10,[m[K
+      |         [01;31m[K~~~[m[K                                                                                     
+   18 | [01;31m[K        messageCallback[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~[m[K                                                                         
+   19 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                                                                                           
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class CallbackT, class AllocatorT, class SubscriptionT, class MessageMemoryStrategyT> std::shared_ptr<ROSMessageT> rclcpp::Node::create_subscription(const string&, const rclcpp::QoS&, CallbackT&&, const rclcpp::SubscriptionOptionsWithAllocator<AllocatorT>&, typename MessageMemoryStrategyT::SharedPtr)[m[K’
+  219 |   [01;36m[Kcreate_subscription[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:219:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:15:96:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |     auto subscription = [01;31m[Knode_subscriber->create_subscription<std_msgs::msg_subscriber::Float64>([m[K
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^[m[K
+   16 | [01;31m[K        "/wamv/sensors/acoustics/receiver/range_bearing",[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K                                       
+   17 | [01;31m[K        10,[m[K
+      |         [01;31m[K~~~[m[K                                                                                     
+   18 | [01;31m[K        messageCallback[m[K
+      |         [01;31m[K~~~~~~~~~~~~~~~[m[K                                                                         
+   19 | [01;31m[K    )[m[K;
+      |     [01;31m[K~[m[K                                                                                           
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:28:23:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg_subscriber[m[K’ was not declared in this scope; did you mean ‘[01m[Knode_subscriber[m[K’?
+   28 |         message.data= [01;31m[Kmsg_subscriber[m[K.bearing;; // Replace with your desired float64 value
+      |                       [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                       [32m[Knode_subscriber[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:1[m[K:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:29:21:[m[K [01;31m[Kerror: [m[K‘[01m[Knode[m[K’ was not declared in this scope
+   29 |         RCLCPP_INFO([01;31m[Knode[m[K->get_logger(), "Publish: %.2f", message.data);
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", message.data);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   29 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", message.data);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", message.data);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[K<declaration error>[m[K’ is not a template [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   29 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", message.data);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:29:9:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   29 |         [01;31m[KRCLCPP_INFO[m[K(node->get_logger(), "Publish: %.2f", message.data);
+      |         [01;31m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:[m[K At global scope:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/ros2_pid_library/example_system/src/state_publisher.cpp:41:1:[m[K [01;31m[Kerror: [m[Kexpected declaration before ‘[01m[K}[m[K’ token
+   41 | [01;31m[K}[m[K
+      | [01;31m[K^[m[K
+gmake[2]: *** [CMakeFiles/state_publisher.dir/build.make:76: CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/state_publisher.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

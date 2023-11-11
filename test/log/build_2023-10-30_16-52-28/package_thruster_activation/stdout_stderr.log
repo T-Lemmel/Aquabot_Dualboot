@@ -1,9 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target thruster_activation[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/thruster_activation.dir/src/thruster_activation.cpp.o[0m
-[01m[K/home/t-lemmel/Aquabot_Tom/test/package_thruster_activation/src/thruster_activation.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
-[01m[K/home/t-lemmel/Aquabot_Tom/test/package_thruster_activation/src/thruster_activation.cpp:20:39:[m[K [01;31m[Kerror: [m[K‘[01m[KFloat32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’
-   20 |         auto message = std_msgs::msg::[01;31m[KFloat32[m[K();
-      |                                       [01;31m[K^~~~~~~[m[K
-gmake[2]: *** [CMakeFiles/thruster_activation.dir/build.make:76: CMakeFiles/thruster_activation.dir/src/thruster_activation.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/thruster_activation.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

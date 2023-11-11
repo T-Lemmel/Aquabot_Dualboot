@@ -1,0 +1,4 @@
+source;share/package_thruster_activation_save/local_setup.bash
+source;share/package_thruster_activation_save/local_setup.dsv
+source;share/package_thruster_activation_save/local_setup.sh
+source;share/package_thruster_activation_save/local_setup.zsh
