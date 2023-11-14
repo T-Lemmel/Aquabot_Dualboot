@@ -1,0 +1,17 @@
+[35m[1mConsolidate compiler generated dependencies of target listenerfloat[0m
+[35m[1mConsolidate compiler generated dependencies of target isolating_bearing[0m
+[ 75%] Built target talkerfloat
+[ 75%] Built target state_publisher
+[ 75%] Built target listenerfloat
+[ 87%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:[m[K In function ‘[01m[Kvoid isolate_bearing(ros_gz_interfaces::msg::ParamVec_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:17:26:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kbearing_msg[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+   17 |                     auto [01;35m[Kbearing_msg[m[K = std_msgs::msg::Float64(); // Create a Float64 message
+      |                          [01;35m[K^~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:33:5:[m[K [01;31m[Kerror: [m[K‘[01m[Ksubscription[m[K’ was not declared in this scope
+   33 |     [01;31m[Ksubscription[m[K = node->create_subscription<ros_gz_interfaces::msg::ParamVec>(
+      |     [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/isolating_bearing.dir/build.make:76: CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/isolating_bearing.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

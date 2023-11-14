@@ -1,0 +1,346 @@
+[0.000000] (-) TimerEvent: {}
+[0.002200] (-) JobUnselected: {'identifier': 'example_system'}
+[0.003070] (-) JobUnselected: {'identifier': 'package_thruster_activation'}
+[0.004391] (-) JobUnselected: {'identifier': 'package_thruster_activation_save'}
+[0.005543] (-) JobUnselected: {'identifier': 'pid_library'}
+[0.005805] (-) JobUnselected: {'identifier': 'use_library'}
+[0.006496] (test_float) JobQueued: {'identifier': 'test_float', 'dependencies': OrderedDict()}
+[0.006723] (test_float) JobStarted: {'identifier': 'test_float'}
+[0.096646] (-) TimerEvent: {}
+[0.199102] (-) TimerEvent: {}
+[0.242354] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'cmake'}
+[0.243481] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'build'}
+[0.245906] (test_float) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/test_float', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/test_float', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2214'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1996,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1996'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60720dcf_ba72_45f8_abdf_17a69072ca14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/test_float'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.300330] (-) TimerEvent: {}
+[0.380349] (test_float) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target isolating_bearing\x1b[0m\n'}
+[0.399518] (-) TimerEvent: {}
+[0.410849] (test_float) StdoutLine: {'line': b'[ 25%] Built target state_publisher\n'}
+[0.412890] (test_float) StdoutLine: {'line': b'[ 75%] Built target listenerfloat\n'}
+[0.413546] (test_float) StdoutLine: {'line': b'[ 75%] Built target talkerfloat\n'}
+[0.426767] (test_float) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o\x1b[0m\n'}
+[0.499633] (-) TimerEvent: {}
+[0.600194] (-) TimerEvent: {}
+[0.701049] (-) TimerEvent: {}
+[0.802055] (-) TimerEvent: {}
+[0.903431] (-) TimerEvent: {}
+[1.003944] (-) TimerEvent: {}
+[1.104752] (-) TimerEvent: {}
+[1.205380] (-) TimerEvent: {}
+[1.306391] (-) TimerEvent: {}
+[1.406994] (-) TimerEvent: {}
+[1.507382] (-) TimerEvent: {}
+[1.607749] (-) TimerEvent: {}
+[1.708106] (-) TimerEvent: {}
+[1.808517] (-) TimerEvent: {}
+[1.908970] (-) TimerEvent: {}
+[2.009860] (-) TimerEvent: {}
+[2.110601] (-) TimerEvent: {}
+[2.211568] (-) TimerEvent: {}
+[2.312101] (-) TimerEvent: {}
+[2.412929] (-) TimerEvent: {}
+[2.514283] (-) TimerEvent: {}
+[2.615944] (-) TimerEvent: {}
+[2.717494] (-) TimerEvent: {}
+[2.818718] (-) TimerEvent: {}
+[2.919660] (-) TimerEvent: {}
+[3.020263] (-) TimerEvent: {}
+[3.120567] (-) TimerEvent: {}
+[3.221037] (-) TimerEvent: {}
+[3.322103] (-) TimerEvent: {}
+[3.422588] (-) TimerEvent: {}
+[3.523247] (-) TimerEvent: {}
+[3.623994] (-) TimerEvent: {}
+[3.724686] (-) TimerEvent: {}
+[3.825204] (-) TimerEvent: {}
+[3.925785] (-) TimerEvent: {}
+[4.026482] (-) TimerEvent: {}
+[4.127144] (-) TimerEvent: {}
+[4.227917] (-) TimerEvent: {}
+[4.329123] (-) TimerEvent: {}
+[4.430557] (-) TimerEvent: {}
+[4.531879] (-) TimerEvent: {}
+[4.633396] (-) TimerEvent: {}
+[4.734287] (-) TimerEvent: {}
+[4.834871] (-) TimerEvent: {}
+[4.935722] (-) TimerEvent: {}
+[5.036074] (-) TimerEvent: {}
+[5.136417] (-) TimerEvent: {}
+[5.237186] (-) TimerEvent: {}
+[5.338322] (-) TimerEvent: {}
+[5.438705] (-) TimerEvent: {}
+[5.539125] (-) TimerEvent: {}
+[5.639728] (-) TimerEvent: {}
+[5.740088] (-) TimerEvent: {}
+[5.840503] (-) TimerEvent: {}
+[5.940968] (-) TimerEvent: {}
+[6.041943] (-) TimerEvent: {}
+[6.142583] (-) TimerEvent: {}
+[6.243608] (-) TimerEvent: {}
+[6.344388] (-) TimerEvent: {}
+[6.445536] (-) TimerEvent: {}
+[6.546570] (-) TimerEvent: {}
+[6.647578] (-) TimerEvent: {}
+[6.748697] (-) TimerEvent: {}
+[6.849421] (-) TimerEvent: {}
+[6.950095] (-) TimerEvent: {}
+[7.050465] (-) TimerEvent: {}
+[7.151193] (-) TimerEvent: {}
+[7.251970] (-) TimerEvent: {}
+[7.352453] (-) TimerEvent: {}
+[7.453145] (-) TimerEvent: {}
+[7.553790] (-) TimerEvent: {}
+[7.654964] (-) TimerEvent: {}
+[7.755485] (-) TimerEvent: {}
+[7.855799] (-) TimerEvent: {}
+[7.956159] (-) TimerEvent: {}
+[8.056624] (-) TimerEvent: {}
+[8.157205] (-) TimerEvent: {}
+[8.257766] (-) TimerEvent: {}
+[8.358502] (-) TimerEvent: {}
+[8.458958] (-) TimerEvent: {}
+[8.559413] (-) TimerEvent: {}
+[8.660244] (-) TimerEvent: {}
+[8.761261] (-) TimerEvent: {}
+[8.862294] (-) TimerEvent: {}
+[8.963580] (-) TimerEvent: {}
+[9.064291] (-) TimerEvent: {}
+[9.165468] (-) TimerEvent: {}
+[9.266874] (-) TimerEvent: {}
+[9.367798] (-) TimerEvent: {}
+[9.468215] (-) TimerEvent: {}
+[9.568951] (-) TimerEvent: {}
+[9.669287] (-) TimerEvent: {}
+[9.769742] (-) TimerEvent: {}
+[9.870303] (-) TimerEvent: {}
+[9.970672] (-) TimerEvent: {}
+[10.071055] (-) TimerEvent: {}
+[10.171395] (-) TimerEvent: {}
+[10.271761] (-) TimerEvent: {}
+[10.372114] (-) TimerEvent: {}
+[10.472677] (-) TimerEvent: {}
+[10.573411] (-) TimerEvent: {}
+[10.673770] (-) TimerEvent: {}
+[10.774149] (-) TimerEvent: {}
+[10.874519] (-) TimerEvent: {}
+[10.974860] (-) TimerEvent: {}
+[11.075252] (-) TimerEvent: {}
+[11.176265] (-) TimerEvent: {}
+[11.277353] (-) TimerEvent: {}
+[11.377970] (-) TimerEvent: {}
+[11.479100] (-) TimerEvent: {}
+[11.580215] (-) TimerEvent: {}
+[11.681215] (-) TimerEvent: {}
+[11.782159] (-) TimerEvent: {}
+[11.882913] (-) TimerEvent: {}
+[11.983931] (-) TimerEvent: {}
+[12.085216] (-) TimerEvent: {}
+[12.186404] (-) TimerEvent: {}
+[12.287754] (-) TimerEvent: {}
+[12.388087] (-) TimerEvent: {}
+[12.488444] (-) TimerEvent: {}
+[12.588936] (-) TimerEvent: {}
+[12.689887] (-) TimerEvent: {}
+[12.790585] (-) TimerEvent: {}
+[12.891188] (-) TimerEvent: {}
+[12.991810] (-) TimerEvent: {}
+[13.092385] (-) TimerEvent: {}
+[13.193344] (-) TimerEvent: {}
+[13.294116] (-) TimerEvent: {}
+[13.395012] (-) TimerEvent: {}
+[13.495808] (-) TimerEvent: {}
+[13.596700] (-) TimerEvent: {}
+[13.697463] (-) TimerEvent: {}
+[13.798179] (-) TimerEvent: {}
+[13.898644] (-) TimerEvent: {}
+[13.999089] (-) TimerEvent: {}
+[14.099700] (-) TimerEvent: {}
+[14.201282] (-) TimerEvent: {}
+[14.302081] (-) TimerEvent: {}
+[14.403022] (-) TimerEvent: {}
+[14.504238] (-) TimerEvent: {}
+[14.604636] (-) TimerEvent: {}
+[14.705109] (-) TimerEvent: {}
+[14.805810] (-) TimerEvent: {}
+[14.906392] (-) TimerEvent: {}
+[15.007109] (-) TimerEvent: {}
+[15.107860] (-) TimerEvent: {}
+[15.208931] (-) TimerEvent: {}
+[15.309601] (-) TimerEvent: {}
+[15.410098] (-) TimerEvent: {}
+[15.510805] (-) TimerEvent: {}
+[15.612079] (-) TimerEvent: {}
+[15.713245] (-) TimerEvent: {}
+[15.814266] (-) TimerEvent: {}
+[15.915516] (-) TimerEvent: {}
+[16.016090] (-) TimerEvent: {}
+[16.116740] (-) TimerEvent: {}
+[16.217605] (-) TimerEvent: {}
+[16.318067] (-) TimerEvent: {}
+[16.418716] (-) TimerEvent: {}
+[16.519246] (-) TimerEvent: {}
+[16.620536] (-) TimerEvent: {}
+[16.721073] (-) TimerEvent: {}
+[16.821666] (-) TimerEvent: {}
+[16.922197] (-) TimerEvent: {}
+[17.023192] (-) TimerEvent: {}
+[17.123778] (-) TimerEvent: {}
+[17.224331] (-) TimerEvent: {}
+[17.325046] (-) TimerEvent: {}
+[17.426593] (-) TimerEvent: {}
+[17.527405] (-) TimerEvent: {}
+[17.628244] (-) TimerEvent: {}
+[17.728547] (-) TimerEvent: {}
+[17.828915] (-) TimerEvent: {}
+[17.929395] (-) TimerEvent: {}
+[18.029955] (-) TimerEvent: {}
+[18.130999] (-) TimerEvent: {}
+[18.232486] (-) TimerEvent: {}
+[18.333774] (-) TimerEvent: {}
+[18.434900] (-) TimerEvent: {}
+[18.535640] (-) TimerEvent: {}
+[18.636026] (-) TimerEvent: {}
+[18.736515] (-) TimerEvent: {}
+[18.837520] (-) TimerEvent: {}
+[18.937962] (-) TimerEvent: {}
+[19.038941] (-) TimerEvent: {}
+[19.140152] (-) TimerEvent: {}
+[19.241119] (-) TimerEvent: {}
+[19.341771] (-) TimerEvent: {}
+[19.442905] (-) TimerEvent: {}
+[19.544116] (-) TimerEvent: {}
+[19.645192] (-) TimerEvent: {}
+[19.745924] (-) TimerEvent: {}
+[19.847183] (-) TimerEvent: {}
+[19.948457] (-) TimerEvent: {}
+[20.049404] (-) TimerEvent: {}
+[20.150763] (-) TimerEvent: {}
+[20.251895] (-) TimerEvent: {}
+[20.352228] (-) TimerEvent: {}
+[20.452610] (-) TimerEvent: {}
+[20.553025] (-) TimerEvent: {}
+[20.653696] (-) TimerEvent: {}
+[20.754720] (-) TimerEvent: {}
+[20.855116] (-) TimerEvent: {}
+[20.955606] (-) TimerEvent: {}
+[21.055960] (-) TimerEvent: {}
+[21.157144] (-) TimerEvent: {}
+[21.257661] (-) TimerEvent: {}
+[21.358691] (-) TimerEvent: {}
+[21.459807] (-) TimerEvent: {}
+[21.560975] (-) TimerEvent: {}
+[21.662161] (-) TimerEvent: {}
+[21.763768] (-) TimerEvent: {}
+[21.864676] (-) TimerEvent: {}
+[21.966248] (-) TimerEvent: {}
+[22.067397] (-) TimerEvent: {}
+[22.168023] (-) TimerEvent: {}
+[22.268536] (-) TimerEvent: {}
+[22.368884] (-) TimerEvent: {}
+[22.469363] (-) TimerEvent: {}
+[22.569882] (-) TimerEvent: {}
+[22.670264] (-) TimerEvent: {}
+[22.770675] (-) TimerEvent: {}
+[22.871288] (-) TimerEvent: {}
+[22.971884] (-) TimerEvent: {}
+[23.072884] (-) TimerEvent: {}
+[23.173351] (-) TimerEvent: {}
+[23.273857] (-) TimerEvent: {}
+[23.375625] (-) TimerEvent: {}
+[23.477253] (-) TimerEvent: {}
+[23.578616] (-) TimerEvent: {}
+[23.680714] (-) TimerEvent: {}
+[23.781707] (-) TimerEvent: {}
+[23.882497] (-) TimerEvent: {}
+[23.983487] (-) TimerEvent: {}
+[24.084011] (-) TimerEvent: {}
+[24.185209] (-) TimerEvent: {}
+[24.285710] (-) TimerEvent: {}
+[24.386327] (-) TimerEvent: {}
+[24.486691] (-) TimerEvent: {}
+[24.587024] (-) TimerEvent: {}
+[24.687414] (-) TimerEvent: {}
+[24.788028] (-) TimerEvent: {}
+[24.888900] (-) TimerEvent: {}
+[24.989688] (-) TimerEvent: {}
+[25.090083] (-) TimerEvent: {}
+[25.190840] (-) TimerEvent: {}
+[25.291568] (-) TimerEvent: {}
+[25.392534] (-) TimerEvent: {}
+[25.493123] (-) TimerEvent: {}
+[25.594231] (-) TimerEvent: {}
+[25.695124] (-) TimerEvent: {}
+[25.796132] (-) TimerEvent: {}
+[25.896726] (-) TimerEvent: {}
+[25.997362] (-) TimerEvent: {}
+[26.099186] (-) TimerEvent: {}
+[26.200215] (-) TimerEvent: {}
+[26.300553] (-) TimerEvent: {}
+[26.400920] (-) TimerEvent: {}
+[26.501287] (-) TimerEvent: {}
+[26.601694] (-) TimerEvent: {}
+[26.702081] (-) TimerEvent: {}
+[26.802585] (-) TimerEvent: {}
+[26.903058] (-) TimerEvent: {}
+[27.004740] (-) TimerEvent: {}
+[27.105787] (-) TimerEvent: {}
+[27.206103] (-) TimerEvent: {}
+[27.306548] (-) TimerEvent: {}
+[27.407068] (-) TimerEvent: {}
+[27.507899] (-) TimerEvent: {}
+[27.609114] (-) TimerEvent: {}
+[27.710180] (-) TimerEvent: {}
+[27.811268] (-) TimerEvent: {}
+[27.912386] (-) TimerEvent: {}
+[28.013272] (-) TimerEvent: {}
+[28.067965] (test_float) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable isolating_bearing\x1b[0m\n'}
+[28.113564] (-) TimerEvent: {}
+[28.214894] (-) TimerEvent: {}
+[28.315612] (-) TimerEvent: {}
+[28.417204] (-) TimerEvent: {}
+[28.518169] (-) TimerEvent: {}
+[28.618495] (-) TimerEvent: {}
+[28.718877] (-) TimerEvent: {}
+[28.819560] (-) TimerEvent: {}
+[28.920464] (-) TimerEvent: {}
+[29.021185] (-) TimerEvent: {}
+[29.121637] (-) TimerEvent: {}
+[29.222806] (-) TimerEvent: {}
+[29.324092] (-) TimerEvent: {}
+[29.425052] (-) TimerEvent: {}
+[29.526048] (-) TimerEvent: {}
+[29.583390] (test_float) StdoutLine: {'line': b'[100%] Built target isolating_bearing\n'}
+[29.619892] (test_float) CommandEnded: {'returncode': 0}
+[29.626262] (-) TimerEvent: {}
+[29.723783] (test_float) JobProgress: {'identifier': 'test_float', 'progress': 'install'}
+[29.726372] (-) TimerEvent: {}
+[29.759625] (test_float) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/t-lemmel/Aquabot_Tom/build/test_float'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/test_float', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2214'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1996,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1996'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/60720dcf_ba72_45f8_abdf_17a69072ca14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.109'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/test_float'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation_save:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[29.791156] (test_float) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[29.793111] (test_float) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[29.793986] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/isolating_bearing\n'}
+[29.794799] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/state_publisher\n'}
+[29.795872] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/talkerfloat\n'}
+[29.796885] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/listenerfloat\n'}
+[29.797636] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/package_run_dependencies/test_float\n'}
+[29.799220] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/parent_prefix_path/test_float\n'}
+[29.801004] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.sh\n'}
+[29.802543] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.dsv\n'}
+[29.803356] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.sh\n'}
+[29.804478] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.dsv\n'}
+[29.804667] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.bash\n'}
+[29.804904] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.sh\n'}
+[29.805151] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.zsh\n'}
+[29.805310] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.dsv\n'}
+[29.805476] (test_float) StdoutLine: {'line': b'-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.dsv\n'}
+[29.826500] (-) TimerEvent: {}
+[29.832136] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/packages/test_float\n'}
+[29.833166] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig.cmake\n'}
+[29.834525] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig-version.cmake\n'}
+[29.835210] (test_float) StdoutLine: {'line': b'-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.xml\n'}
+[29.839113] (test_float) CommandEnded: {'returncode': 0}
+[29.926976] (-) TimerEvent: {}
+[30.029298] (-) TimerEvent: {}
+[30.131074] (-) TimerEvent: {}
+[30.232853] (-) TimerEvent: {}
+[30.333444] (-) TimerEvent: {}
+[30.336949] (test_float) JobEnded: {'identifier': 'test_float', 'rc': 0}
+[30.341548] (-) EventReactorShutdown: {}

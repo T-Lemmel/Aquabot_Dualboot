@@ -1,1 +1,0 @@
-/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save/ament_cmake_environment_hooks/local_setup.bash

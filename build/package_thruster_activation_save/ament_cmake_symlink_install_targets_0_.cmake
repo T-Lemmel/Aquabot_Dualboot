@@ -1,1 +1,0 @@
-ament_cmake_symlink_install_targets("TARGET_FILES" "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation_save/thruster_activation" "TARGETS" "thruster_activation" "DESTINATION" "lib/package_thruster_activation_save")

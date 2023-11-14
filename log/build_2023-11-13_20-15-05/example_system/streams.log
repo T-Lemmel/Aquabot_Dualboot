@@ -1,0 +1,24 @@
+[0.472s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/example_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/example_system -- -j8 -l8
+[2.873s] [100%] Built target example_system
+[2.889s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/example_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/example_system -- -j8 -l8
+[2.937s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/example_system': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/example_system
+[2.960s] -- Install configuration: ""
+[3.217s] -- Execute custom install script
+[3.272s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/lib/example_system/example_system
+[3.296s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system//launch/example_sys_launch.py
+[3.297s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/ament_index/resource_index/package_run_dependencies/example_system
+[3.298s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/ament_index/resource_index/parent_prefix_path/example_system
+[3.299s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/environment/ament_prefix_path.sh
+[3.300s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/environment/ament_prefix_path.dsv
+[3.300s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/environment/path.sh
+[3.301s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/environment/path.dsv
+[3.301s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/local_setup.bash
+[3.302s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/local_setup.sh
+[3.303s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/local_setup.zsh
+[3.303s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/local_setup.dsv
+[3.303s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.dsv
+[3.316s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/ament_index/resource_index/packages/example_system
+[3.317s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/cmake/example_systemConfig.cmake
+[3.317s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/cmake/example_systemConfig-version.cmake
+[3.318s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/example_system/share/example_system/package.xml
+[3.322s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/example_system' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/example_system

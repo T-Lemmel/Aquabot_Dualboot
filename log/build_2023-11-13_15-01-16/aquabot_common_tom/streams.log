@@ -1,0 +1,42 @@
+[0.995s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom -- -j8 -l8
+[1.232s] [100%] Built target cloud_reader
+[1.272s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom -- -j8 -l8
+[1.366s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom
+[1.391s] -- Install configuration: ""
+[1.391s] -- Execute custom install script
+[1.391s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/gps2pose.py
+[1.392s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/waypoint_tracker.py
+[1.394s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/CHANGELOG.rst
+[1.395s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/LICENSE
+[1.395s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/MANIFEST.in
+[1.396s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/__init__.py
+[1.398s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/__pycache__/__init__.cpython-310.pyc
+[1.400s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/__pycache__/_version.cpython-310.pyc
+[1.400s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/__pycache__/conversion.cpython-310.pyc
+[1.401s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/__pycache__/error.cpython-310.pyc
+[1.401s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/_version.py
+[1.402s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/conversion.py
+[1.402s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/utm/error.py
+[1.404s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/launch/Cmd.yaml
+[1.405s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/launch/cloud.rviz
+[1.405s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/launch/cloud_launch.py
+[1.407s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/launch/cmd_launch.py
+[1.436s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/launch/config.rviz
+[1.436s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/lib/aquabot_common_tom/cloud_reader
+[1.437s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/ament_index/resource_index/package_run_dependencies/aquabot_common_tom
+[1.437s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/ament_index/resource_index/parent_prefix_path/aquabot_common_tom
+[1.437s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/environment/ament_prefix_path.sh
+[1.437s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/environment/ament_prefix_path.dsv
+[1.437s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/environment/path.sh
+[1.437s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/environment/path.dsv
+[1.437s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/local_setup.bash
+[1.438s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/local_setup.sh
+[1.438s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/local_setup.zsh
+[1.438s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/local_setup.dsv
+[1.438s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/package.dsv
+[1.444s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/ament_index/resource_index/packages/aquabot_common_tom
+[1.445s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.446s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/cmake/aquabot_common_tomConfig.cmake
+[1.448s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/cmake/aquabot_common_tomConfig-version.cmake
+[1.448s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common_tom/share/aquabot_common_tom/package.xml
+[2.087s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom

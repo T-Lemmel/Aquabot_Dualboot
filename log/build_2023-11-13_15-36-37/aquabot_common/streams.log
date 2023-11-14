@@ -1,0 +1,181 @@
+[0.353s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/aquabot_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/aquabot_common
+[0.442s] -- The C compiler identification is GNU 11.4.0
+[0.545s] -- The CXX compiler identification is GNU 11.4.0
+[0.561s] -- Detecting C compiler ABI info
+[0.655s] -- Detecting C compiler ABI info - done
+[0.666s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.666s] -- Detecting C compile features
+[0.667s] -- Detecting C compile features - done
+[0.671s] -- Detecting CXX compiler ABI info
+[0.774s] -- Detecting CXX compiler ABI info - done
+[0.784s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.784s] -- Detecting CXX compile features
+[0.785s] -- Detecting CXX compile features - done
+[0.788s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.008s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.085s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.266s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.273s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.286s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.305s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.333s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.439s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.442s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.579s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.615s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.680s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.694s] -- Looking for pthread.h
+[1.786s] -- Looking for pthread.h - found
+[1.786s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.880s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.881s] -- Found Threads: TRUE  
+[2.511s] -- Checking for module 'eigen3'
+[2.527s] --   Found eigen3, version 3.4.0
+[2.569s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[2.569s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[2.598s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found suitable version "1.74.0", minimum required is "1.65.0") found components: system filesystem date_time iostreams serialization 
+[2.620s] -- Checking for module 'flann'
+[2.637s] --   Found flann, version 1.9.1
+[2.686s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[2.687s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[2.733s] -- Found GLEW: /usr/lib/x86_64-linux-gnu/libGLEW.so  
+[2.739s] -- Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so  found components: OpenGL GLX 
+[2.923s] -- Found MPI_C: /usr/lib/x86_64-linux-gnu/libmpi.so (found version "3.1") 
+[2.923s] -- Found MPI: TRUE (found version "3.1") found components: C 
+[2.926s] -- Found JsonCpp: /usr/lib/x86_64-linux-gnu/libjsoncpp.so (found suitable version "1.9.5", minimum required is "0.7.0") 
+[2.937s] -- Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11") 
+[2.959s] -- Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37") 
+[2.974s] -- Found Eigen3: /usr/include/eigen3 (found version "3.4.0") 
+[3.084s] -- Found X11: /usr/include   
+[3.084s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so
+[3.178s] -- Looking for XOpenDisplay in /usr/lib/x86_64-linux-gnu/libX11.so;/usr/lib/x86_64-linux-gnu/libXext.so - found
+[3.178s] -- Looking for gethostbyname
+[3.266s] -- Looking for gethostbyname - found
+[3.266s] -- Looking for connect
+[3.353s] -- Looking for connect - found
+[3.353s] -- Looking for remove
+[3.441s] -- Looking for remove - found
+[3.441s] -- Looking for shmat
+[3.528s] -- Looking for shmat - found
+[3.529s] -- Looking for IceConnectionNumber in ICE
+[3.625s] -- Looking for IceConnectionNumber in ICE - found
+[3.724s] -- Found EXPAT: /usr/lib/x86_64-linux-gnu/libexpat.so (found version "2.4.7") 
+[3.727s] -- Found double-conversion: /usr/lib/x86_64-linux-gnu/libdouble-conversion.so  
+[3.729s] -- Found LZ4: /usr/lib/x86_64-linux-gnu/liblz4.so (found version "1.9.3") 
+[3.731s] -- Found LZMA: /usr/lib/x86_64-linux-gnu/liblzma.so (found version "5.2.5") 
+[3.747s] -- Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80") 
+[3.752s] -- Found TIFF: /usr/lib/x86_64-linux-gnu/libtiff.so (found version "4.3.0")  
+[3.758s] -- Found Freetype: /usr/lib/x86_64-linux-gnu/libfreetype.so (found version "2.11.1") 
+[3.765s] -- Found utf8cpp: /usr/include/utf8cpp  
+[3.867s] -- Checking for module 'libusb-1.0'
+[3.888s] --   Found libusb-1.0, version 1.0.25
+[3.939s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[3.941s] -- Found OpenNI: /usr/lib/libOpenNI.so;libusb::libusb (found version "1.5.4.0") 
+[3.941s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.021s] -- Found OpenNI2: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb (found version "2.2.0.33") 
+[4.021s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.022s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[4.208s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[4.216s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.224s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[4.400s] -- Found Qhull version 8.0.2
+[4.581s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[4.754s] -- looking for PCL_COMMON
+[4.755s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[4.756s] -- looking for PCL_KDTREE
+[4.757s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[4.757s] -- looking for PCL_OCTREE
+[4.759s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[4.759s] -- looking for PCL_SEARCH
+[4.760s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[4.761s] -- looking for PCL_SAMPLE_CONSENSUS
+[4.762s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[4.762s] -- looking for PCL_FILTERS
+[4.763s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[4.764s] -- looking for PCL_2D
+[4.764s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[4.764s] -- looking for PCL_GEOMETRY
+[4.765s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[4.765s] -- looking for PCL_IO
+[4.766s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[4.766s] -- looking for PCL_FEATURES
+[4.767s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[4.768s] -- looking for PCL_ML
+[4.769s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[4.769s] -- looking for PCL_SEGMENTATION
+[4.770s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[4.770s] -- looking for PCL_VISUALIZATION
+[4.772s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[4.772s] -- looking for PCL_SURFACE
+[4.773s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[4.773s] -- looking for PCL_REGISTRATION
+[4.774s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[4.775s] -- looking for PCL_KEYPOINTS
+[4.776s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[4.776s] -- looking for PCL_TRACKING
+[4.777s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[4.778s] -- looking for PCL_RECOGNITION
+[4.779s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[4.779s] -- looking for PCL_STEREO
+[4.780s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[4.780s] -- looking for PCL_APPS
+[4.781s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[4.782s] -- looking for PCL_IN_HAND_SCANNER
+[4.783s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[4.783s] -- looking for PCL_MODELER
+[4.783s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[4.784s] -- looking for PCL_POINT_CLOUD_EDITOR
+[4.784s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[4.784s] -- looking for PCL_OUTOFCORE
+[4.785s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[4.786s] -- looking for PCL_PEOPLE
+[4.787s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[4.788s] -- Found PCL: pcl_common;pcl_kdtree;pcl_octree;pcl_search;pcl_sample_consensus;pcl_filters;pcl_io;pcl_features;pcl_ml;pcl_segmentation;pcl_visualization;pcl_surface;pcl_registration;pcl_keypoints;pcl_tracking;pcl_recognition;pcl_stereo;pcl_apps;pcl_outofcore;pcl_people;Boost::system;Boost::filesystem;Boost::date_time;Boost::iostreams;Boost::serialization;/usr/lib/libOpenNI.so;libusb::libusb;/usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb;VTK::ChartsCore;VTK::CommonColor;VTK::CommonComputationalGeometry;VTK::CommonCore;VTK::CommonDataModel;VTK::CommonExecutionModel;VTK::CommonMath;VTK::CommonMisc;VTK::CommonTransforms;VTK::FiltersCore;VTK::FiltersExtraction;VTK::FiltersGeneral;VTK::FiltersGeometry;VTK::FiltersModeling;VTK::FiltersSources;VTK::ImagingCore;VTK::ImagingSources;VTK::InteractionImage;VTK::InteractionStyle;VTK::InteractionWidgets;VTK::IOCore;VTK::IOGeometry;VTK::IOImage;VTK::IOLegacy;VTK::IOPLY;VTK::RenderingAnnotation;VTK::RenderingCore;VTK::RenderingContext2D;VTK::RenderingLOD;VTK::RenderingFreeType;VTK::ViewsCore;VTK::ViewsContext2D;VTK::RenderingOpenGL2;VTK::GUISupportQt;FLANN::FLANN;QHULL::QHULL  
+[4.892s] -- Configuring done
+[4.941s] -- Generating done
+[4.944s] -- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/aquabot_common
+[4.962s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/aquabot_common -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/aquabot_common
+[4.965s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common -- -j8 -l8
+[5.036s] [ 50%] [32mBuilding CXX object CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o[0m
+[20.278s] [100%] [32m[1mLinking CXX executable cloud_reader[0m
+[21.812s] [100%] Built target cloud_reader
+[21.828s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common -- -j8 -l8
+[21.863s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/aquabot_common
+[21.873s] -- Install configuration: ""
+[21.874s] -- Execute custom install script
+[21.874s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/gps2pose.py
+[21.886s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/waypoint_tracker.py
+[21.898s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/CHANGELOG.rst
+[21.910s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/LICENSE
+[21.922s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/MANIFEST.in
+[21.934s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__init__.py
+[21.945s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/__init__.cpython-310.pyc
+[21.957s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/_version.cpython-310.pyc
+[21.969s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/conversion.cpython-310.pyc
+[21.980s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/error.cpython-310.pyc
+[21.992s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/_version.py
+[22.003s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/conversion.py
+[22.015s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/error.py
+[22.027s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/Cmd.yaml
+[22.039s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/cloud.rviz
+[22.051s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/cloud_launch.py
+[22.063s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/cmd_launch.py
+[22.074s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/config.rviz
+[22.087s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/cloud_reader
+[22.098s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/ament_index/resource_index/package_run_dependencies/aquabot_common
+[22.110s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/ament_index/resource_index/parent_prefix_path/aquabot_common
+[22.122s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.sh
+[22.134s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.dsv
+[22.146s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/path.sh
+[22.158s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/path.dsv
+[22.169s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.bash
+[22.181s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.sh
+[22.193s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.zsh
+[22.205s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.dsv
+[22.217s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/package.dsv
+[22.229s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/ament_index/resource_index/packages/aquabot_common
+[22.241s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[22.253s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig.cmake
+[22.264s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig-version.cmake
+[22.276s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/package.xml
+[22.290s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/aquabot_common

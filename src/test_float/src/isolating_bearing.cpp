@@ -5,6 +5,7 @@
 rclcpp::Node::SharedPtr node; // Declare node globally
 rclcpp::Publisher<std_msgs::msg::Float64>::SharedPtr publisher; // Declare publisher globally
 
+
 void isolate_bearing(const ros_gz_interfaces::msg::ParamVec::SharedPtr msg) {
 
 	
@@ -16,7 +17,7 @@ void isolate_bearing(const ros_gz_interfaces::msg::ParamVec::SharedPtr msg) {
 	            auto bearing_msg = std_msgs::msg::Float64(); // Create a Float64 message
     		    bearing_msg.data = bearing; // Set the 'data' field of the message
     		    
-	            //publisher->publish(bearing_msg); C'EST CETTE LIGNE QUI POSE PROBLEME
+	            publisher->publish(bearing_msg); //C'EST CETTE LIGNE QUI POSE PROBLEME
 	            
     		    RCLCPP_INFO(rclcpp::get_logger("rclcpp"), "Publishing Bearing: %f", bearing);
 	        }
@@ -27,8 +28,8 @@ void isolate_bearing(const ros_gz_interfaces::msg::ParamVec::SharedPtr msg) {
 int main(int argc, char **argv)
 {
     rclcpp::init(argc, argv);
-    auto node = rclcpp::Node::make_shared("state_isolated_bearing");
-    auto publisher = node->create_publisher<std_msgs::msg::Float64>("state_isolated_bearing", 10);
+    node = rclcpp::Node::make_shared("state_isolated_bearing");
+    publisher = node->create_publisher<std_msgs::msg::Float64>("state_isolated_bearing", 10);
     auto subscription = node->create_subscription<ros_gz_interfaces::msg::ParamVec>(
         "/wamv/sensors/acoustics/receiver/range_bearing",
         10,
