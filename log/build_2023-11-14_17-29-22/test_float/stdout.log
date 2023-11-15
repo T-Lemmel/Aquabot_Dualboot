@@ -1,0 +1,25 @@
+[ 50%] Built target talkerfloat
+[ 75%] Built target listenerfloat
+[ 50%] Built target isolating_bearing
+[100%] Built target state_publisher
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/isolating_bearing
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/state_publisher
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/talkerfloat
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/listenerfloat
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/package_run_dependencies/test_float
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/parent_prefix_path/test_float
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.bash
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.zsh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/packages/test_float
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig.cmake
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig-version.cmake
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.xml
