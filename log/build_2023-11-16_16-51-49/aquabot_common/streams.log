@@ -1,0 +1,42 @@
+[1.518s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common -- -j8 -l8
+[1.755s] [100%] Built target cloud_reader
+[1.810s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common -- -j8 -l8
+[1.965s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/aquabot_common
+[1.980s] -- Install configuration: ""
+[1.986s] -- Execute custom install script
+[2.011s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/gps2pose.py
+[2.011s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/waypoint_tracker.py
+[2.011s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/CHANGELOG.rst
+[2.012s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/LICENSE
+[2.012s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/MANIFEST.in
+[2.012s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__init__.py
+[2.012s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/__init__.cpython-310.pyc
+[2.012s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/_version.cpython-310.pyc
+[2.012s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/conversion.cpython-310.pyc
+[2.013s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/__pycache__/error.cpython-310.pyc
+[2.013s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/_version.py
+[2.014s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/conversion.py
+[2.014s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/utm/error.py
+[2.017s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/Cmd.yaml
+[2.018s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/cloud.rviz
+[2.018s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/cloud_launch.py
+[2.019s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/cmd_launch.py
+[2.019s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/launch/config.rviz
+[2.020s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/lib/aquabot_common/cloud_reader
+[2.021s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/ament_index/resource_index/package_run_dependencies/aquabot_common
+[2.021s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/ament_index/resource_index/parent_prefix_path/aquabot_common
+[2.021s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.sh
+[2.021s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/ament_prefix_path.dsv
+[2.021s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/path.sh
+[2.021s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/environment/path.dsv
+[2.025s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.bash
+[2.026s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.sh
+[2.028s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.zsh
+[2.030s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/local_setup.dsv
+[2.031s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/package.dsv
+[2.046s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/ament_index/resource_index/packages/aquabot_common
+[2.046s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/cmake/ament_cmake_export_dependencies-extras.cmake
+[2.046s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig.cmake
+[2.046s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/cmake/aquabot_commonConfig-version.cmake
+[2.046s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/aquabot_common/share/aquabot_common/package.xml
+[2.922s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/aquabot_common
