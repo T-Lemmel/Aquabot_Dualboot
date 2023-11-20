@@ -1,0 +1,26 @@
+[0m** WARNING ** io features related to pcap will be disabled[0m
+In file included from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl/rcl/context.h:25:10:[m[K [01;31m[Kfatal error: [m[Krmw/init.h: No such file or directory
+   25 | #include [01;31m[K"rmw/init.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/humble/include/rcl/rcl/guard_condition.h:26[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:30[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/gps2pose.cpp:1[m[K:
+[01m[K/opt/ros/humble/include/rcl/rcl/context.h:25:10:[m[K [01;31m[Kfatal error: [m[Krmw/init.h: No such file or directory
+   25 | #include [01;31m[K"rmw/init.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~[m[K
+compilation terminated.
+compilation terminated.
+gmake[2]: *** [CMakeFiles/gps2pose.dir/build.make:90: CMakeFiles/gps2pose.dir/src/waypoint_tracker.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/gps2pose.dir/build.make:76: CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gps2pose.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

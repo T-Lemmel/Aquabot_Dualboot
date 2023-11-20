@@ -1,0 +1,26 @@
+[0.364s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/pid_performance_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/pid_performance_test -- -j8 -l8
+[0.469s] [35m[1mConsolidate compiler generated dependencies of target wind[0m
+[0.522s] [ 50%] [32mBuilding CXX object CMakeFiles/wind.dir/src/wind.cpp.o[0m
+[12.507s] [100%] [32m[1mLinking CXX executable wind[0m
+[13.152s] [100%] Built target wind
+[13.181s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/pid_performance_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/pid_performance_test -- -j8 -l8
+[13.256s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/pid_performance_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/pid_performance_test
+[13.280s] -- Install configuration: ""
+[13.281s] -- Execute custom install script
+[13.282s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/lib/pid_performance_test/wind
+[13.307s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/ament_index/resource_index/package_run_dependencies/pid_performance_test
+[13.333s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/ament_index/resource_index/parent_prefix_path/pid_performance_test
+[13.354s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/environment/ament_prefix_path.sh
+[13.379s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/environment/ament_prefix_path.dsv
+[13.402s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/environment/path.sh
+[13.424s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/environment/path.dsv
+[13.445s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/local_setup.bash
+[13.470s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/local_setup.sh
+[13.498s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/local_setup.zsh
+[13.521s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/local_setup.dsv
+[13.545s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/package.dsv
+[13.570s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/ament_index/resource_index/packages/pid_performance_test
+[13.598s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/cmake/pid_performance_testConfig.cmake
+[13.627s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/cmake/pid_performance_testConfig-version.cmake
+[13.657s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/pid_performance_test/share/pid_performance_test/package.xml
+[13.695s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/pid_performance_test' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/pid_performance_test

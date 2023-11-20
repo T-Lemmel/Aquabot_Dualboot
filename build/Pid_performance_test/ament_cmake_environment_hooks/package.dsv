@@ -1,0 +1,4 @@
+source;share/Pid_performance_test/local_setup.bash
+source;share/Pid_performance_test/local_setup.dsv
+source;share/Pid_performance_test/local_setup.sh
+source;share/Pid_performance_test/local_setup.zsh

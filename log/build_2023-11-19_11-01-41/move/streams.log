@@ -1,0 +1,79 @@
+[0.089s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move -- -j8 -l8
+[0.148s] [35m[1mConsolidate compiler generated dependencies of target waypoint_tracker[0m
+[0.159s] [ 25%] [32mBuilding CXX object CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o[0m
+[0.173s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_tracker.dir/src/waypoint_tracker.cpp.o[0m
+[0.517s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/gps2pose.cpp:8:10:[m[K [01;31m[Kfatal error: [m[Kros_gz_interfaces/msg/param_vec.hpp: No such file or directory
+[0.517s]     8 | #include [01;31m[K<ros_gz_interfaces/msg/param_vec.hpp>[m[K
+[0.517s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.517s] compilation terminated.
+[0.522s] gmake[2]: *** [CMakeFiles/gps2pose.dir/build.make:76: CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o] Error 1
+[0.522s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gps2pose.dir/all] Error 2
+[0.522s] gmake[1]: *** Waiting for unfinished jobs....
+[3.232s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:[m[K In constructor ‘[01m[KTracker::Tracker()[m[K’:
+[3.232s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:22:9:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::Quaternion_(double)[m[K’
+[3.233s]    22 |         [01;31m[Korientation(0.0)[m[K {
+[3.233s]       |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[3.233s] In file included from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:22[m[K,
+[3.233s]                  from [01m[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7[m[K,
+[3.233s]                  from [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:4[m[K:
+[3.233s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:53:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Quaternion_<ContainerAllocator>::Quaternion_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[3.233s]    53 |   explicit [01;36m[KQuaternion_[m[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[3.233s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[3.233s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:53:51:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst std::allocator<void>&[m[K’
+[3.233s]    53 |   explicit Quaternion_([01;36m[Kconst ContainerAllocator & _alloc[m[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[3.233s]       |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~[m[K
+[3.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:36:12:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kgeometry_msgs::msg::Quaternion_<ContainerAllocator>::Quaternion_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>][m[K’
+[3.234s]    36 |   explicit [01;36m[KQuaternion_[m[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)
+[3.234s]       |            [01;36m[K^~~~~~~~~~~[m[K
+[3.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:36:66:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Krosidl_runtime_cpp::MessageInitialization[m[K’
+[3.234s]    36 |   explicit Quaternion_([01;36m[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL[m[K)
+[3.234s]       |                        [01;36m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[3.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >::Quaternion_(const geometry_msgs::msg::Quaternion_<std::allocator<void> >&)[m[K’
+[3.234s]    32 | struct [01;36m[KQuaternion_[m[K
+[3.234s]       |        [01;36m[K^~~~~~~~~~~[m[K
+[3.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kconst geometry_msgs::msg::Quaternion_<std::allocator<void> >&[m[K’
+[3.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >::Quaternion_(geometry_msgs::msg::Quaternion_<std::allocator<void> >&&)[m[K’
+[3.234s] [01m[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:[m[K [01;36m[Knote: [m[K  no known conversion for argument 1 from ‘[01m[Kdouble[m[K’ to ‘[01m[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >&&[m[K’
+[3.234s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:22:24:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Ktf2_ros::Buffer::Buffer()[m[K’
+[3.235s]    22 |         orientation(0.0[01;31m[K)[m[K {
+[3.235s]       |                        [01;31m[K^[m[K
+[3.235s] In file included from [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:7[m[K:
+[3.235s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)[m[K’
+[3.235s]    73 |   TF2_ROS_PUBLIC [01;36m[KBuffer[m[K(
+[3.235s]       |                  [01;36m[K^~~~~~[m[K
+[3.235s] [01m[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:[m[K [01;36m[Knote: [m[K  candidate expects 3 arguments, 0 provided
+[3.235s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:24:50:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass std::__cxx11::basic_string<char>[m[K’ has no member named ‘[01m[Kget_value[m[K’
+[3.236s]    24 |     target = declare_parameter("target", "none").[01;31m[Kget_value[m[K<std::string>();
+[3.236s]       |                                                  [01;31m[K^~~~~~~~~[m[K
+[3.236s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:24:71:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K>[m[K’ token
+[3.236s]    24 |     target = declare_parameter("target", "none").get_value<std::string[01;31m[K>[m[K();
+[3.236s]       |                                                                       [01;31m[K^[m[K
+[3.236s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:24:73:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[3.236s]    24 |     target = declare_parameter("target", "none").get_value<std::string>([01;31m[K)[m[K;
+[3.236s]       |                                                                         [01;31m[K^[m[K
+[3.238s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:26:51:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Kget_value[m[K’ in ‘[01m[K((Tracker*)this)->Tracker::<anonymous>.rclcpp::Node::declare_parameter<double>(std::__cxx11::basic_string<char>(((const char*)"distance"), std::allocator<char>()), 0.0, rcl_interfaces::msg::ParameterDescriptor_<std::allocator<void> >(rosidl_runtime_cpp::MessageInitialization::ALL), 0)[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+[3.238s]    26 |     distance = declare_parameter("distance", 0.0).[01;31m[Kget_value[m[K<float>();
+[3.238s]       |                                                   [01;31m[K^~~~~~~~~[m[K
+[3.238s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:26:61:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[Kfloat[m[K’
+[3.238s]    26 |     distance = declare_parameter("distance", 0.0).get_value<[01;31m[Kfloat[m[K>();
+[3.238s]       |                                                             [01;31m[K^~~~~[m[K
+[3.249s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:47:5:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KKw[m[K’
+[3.249s]    47 |     [01;31m[KKw[m[K = 1.0
+[3.249s]       |     [01;31m[K^~[m[K
+[3.249s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:53:83:[m[K [01;31m[Kerror: [m[Kexpected primary-expression before ‘[01m[K)[m[K’ token
+[3.249s]    53 |     timer = create_timer(std::chrono::milliseconds(10), [this]() { this->move(); }[01;31m[K)[m[K;
+[3.249s]       |                                                                                   [01;31m[K^[m[K
+[3.250s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:[m[K In member function ‘[01m[Kvoid Tracker::move()[m[K’:
+[3.250s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:67:91:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kstd_msgs::msg::Header_<std::allocator<void> >::_stamp_type[m[K’ {aka ‘[01m[Kbuiltin_interfaces::msg::Time_<std::allocator<void> >[m[K’} to non-scalar type ‘[01m[Ktf2::TimePoint[m[K’ {aka ‘[01m[Kstd::chrono::time_point<std::chrono::_V2::system_clock, std::chrono::duration<long int, std::ratio<1, 1000000000> > >[m[K’} requested
+[3.250s]    67 |       tf2::TimePoint time = [01;31m[Ktf_buffer.lookupTransform("world", me, rclcpp::Time()).header.stamp[m[K;
+[3.250s]       |                             [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~[m[K
+[3.252s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:88:114:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_transform_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} to non-scalar type ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} requested
+[3.252s]    88 |         geometry_msgs::msg::TransformStamped err_world_target = [01;31m[Ktf_buffer.lookupTransform("world", target, time).transform[m[K;
+[3.252s]       |                                                                 [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[3.252s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:90:108:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_transform_type[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::Transform_<std::allocator<void> >[m[K’} to non-scalar type ‘[01m[Kgeometry_msgs::msg::TransformStamped[m[K’ {aka ‘[01m[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >[m[K’} requested
+[3.252s]    90 |         geometry_msgs::msg::TransformStamped err_world_boat = [01;31m[Ktf_buffer.lookupTransform("world", me, time).transform[m[K;
+[3.252s]       |                                                               [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~[m[K
+[6.981s] gmake[2]: *** [CMakeFiles/waypoint_tracker.dir/build.make:76: CMakeFiles/waypoint_tracker.dir/src/waypoint_tracker.cpp.o] Error 1
+[6.981s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/waypoint_tracker.dir/all] Error 2
+[6.981s] gmake: *** [Makefile:146: all] Error 2
+[6.984s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move -- -j8 -l8

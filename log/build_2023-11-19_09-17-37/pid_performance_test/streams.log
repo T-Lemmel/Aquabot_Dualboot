@@ -1,0 +1,12 @@
+[0.373s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/pid_performance_test': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/pid_performance_test -- -j8 -l8
+[0.488s] [35m[1mConsolidate compiler generated dependencies of target wind[0m
+[0.566s] [ 50%] [32mBuilding CXX object CMakeFiles/wind.dir/src/wind.cpp.o[0m
+[6.474s] [01m[K/home/t-lemmel/Aquabot_Tom/src/pid_performance_test/src/wind.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[6.474s] [01m[K/home/t-lemmel/Aquabot_Tom/src/pid_performance_test/src/wind.cpp:13:39:[m[K [01;31m[Kerror: [m[K‘[01m[KFloa32[m[K’ is not a member of ‘[01m[Kstd_msgs::msg[m[K’; did you mean ‘[01m[KFloat32[m[K’?
+[6.474s]    13 |         auto message = std_msgs::msg::[01;31m[KFloa32[m[K();
+[6.474s]       |                                       [01;31m[K^~~~~~[m[K
+[6.474s]       |                                       [32m[KFloat32[m[K
+[8.060s] gmake[2]: *** [CMakeFiles/wind.dir/build.make:76: CMakeFiles/wind.dir/src/wind.cpp.o] Error 1
+[8.061s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/wind.dir/all] Error 2
+[8.061s] gmake: *** [Makefile:146: all] Error 2
+[8.065s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/pid_performance_test' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/pid_performance_test -- -j8 -l8

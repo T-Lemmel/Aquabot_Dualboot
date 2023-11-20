@@ -1,0 +1,192 @@
+[0.000000] (-) TimerEvent: {}
+[0.000147] (-) JobUnselected: {'identifier': 'aquabot_common'}
+[0.000890] (-) JobUnselected: {'identifier': 'example_system'}
+[0.000926] (-) JobUnselected: {'identifier': 'package_thruster_activation'}
+[0.001050] (-) JobUnselected: {'identifier': 'pid_library'}
+[0.001075] (-) JobUnselected: {'identifier': 'pid_performance_test'}
+[0.001157] (-) JobUnselected: {'identifier': 'test_float'}
+[0.001180] (-) JobUnselected: {'identifier': 'use_library'}
+[0.001256] (move) JobQueued: {'identifier': 'move', 'dependencies': OrderedDict()}
+[0.001309] (move) JobStarted: {'identifier': 'move'}
+[0.089240] (move) JobProgress: {'identifier': 'move', 'progress': 'cmake'}
+[0.090563] (move) JobProgress: {'identifier': 'move', 'progress': 'build'}
+[0.091669] (move) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/move', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/move', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/pid_library/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib::/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '2091'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1970,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1970'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d99c66b_dc0d_4bb3_ae0f_000c3e58d47d'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.432'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/move'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/move:/home/t-lemmel/Aquabot_Tom/install/use_library:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/pid_performance_test:/home/t-lemmel/Aquabot_Tom/install/pid_library:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/example_system:/home/t-lemmel/Aquabot_Tom/install/aquabot_common:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.099671] (-) TimerEvent: {}
+[0.129588] (move) StdoutLine: {'line': b'-- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)\n'}
+[0.199806] (-) TimerEvent: {}
+[0.300108] (-) TimerEvent: {}
+[0.306797] (move) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.400345] (-) TimerEvent: {}
+[0.437004] (move) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.441137] (move) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.449733] (move) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.468482] (move) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.492673] (move) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.500418] (-) TimerEvent: {}
+[0.574111] (move) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.575866] (move) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.600540] (-) TimerEvent: {}
+[0.700795] (-) TimerEvent: {}
+[0.740725] (move) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.800929] (-) TimerEvent: {}
+[0.901231] (-) TimerEvent: {}
+[1.001637] (-) TimerEvent: {}
+[1.102030] (-) TimerEvent: {}
+[1.202501] (-) TimerEvent: {}
+[1.302784] (-) TimerEvent: {}
+[1.403072] (-) TimerEvent: {}
+[1.503363] (-) TimerEvent: {}
+[1.603658] (-) TimerEvent: {}
+[1.703962] (-) TimerEvent: {}
+[1.804310] (-) TimerEvent: {}
+[1.839442] (move) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.860679] (move) StdoutLine: {'line': b'-- Generating done\n'}
+[1.863516] (move) StdoutLine: {'line': b'-- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/move\n'}
+[1.898267] (move) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target waypoint_tracker\x1b[0m\n'}
+[1.904438] (-) TimerEvent: {}
+[1.911188] (move) StdoutLine: {'line': b'[ 25%] \x1b[32mBuilding CXX object CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o\x1b[0m\n'}
+[1.923044] (move) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/waypoint_tracker.dir/src/waypoint_tracker.cpp.o\x1b[0m\n'}
+[2.004579] (-) TimerEvent: {}
+[2.104890] (-) TimerEvent: {}
+[2.205216] (-) TimerEvent: {}
+[2.305581] (-) TimerEvent: {}
+[2.332928] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/gps2pose.cpp:9:10:\x1b[m\x1b[K \x1b[01;31m\x1b[Kfatal error: \x1b[m\x1b[Kutm.h: No such file or directory\n'}
+[2.333204] (move) StderrLine: {'line': b'    9 | #include \x1b[01;31m\x1b[K<utm.h>\x1b[m\x1b[K\n'}
+[2.333369] (move) StderrLine: {'line': b'      |          \x1b[01;31m\x1b[K^~~~~~~\x1b[m\x1b[K\n'}
+[2.333521] (move) StderrLine: {'line': b'compilation terminated.\n'}
+[2.337585] (move) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/gps2pose.dir/build.make:76: CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o] Error 1\n'}
+[2.337905] (move) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gps2pose.dir/all] Error 2\n'}
+[2.338082] (move) StderrLine: {'line': b'gmake[1]: *** Waiting for unfinished jobs....\n'}
+[2.405684] (-) TimerEvent: {}
+[2.506017] (-) TimerEvent: {}
+[2.606398] (-) TimerEvent: {}
+[2.706834] (-) TimerEvent: {}
+[2.807214] (-) TimerEvent: {}
+[2.907514] (-) TimerEvent: {}
+[3.007776] (-) TimerEvent: {}
+[3.108075] (-) TimerEvent: {}
+[3.208368] (-) TimerEvent: {}
+[3.308678] (-) TimerEvent: {}
+[3.409082] (-) TimerEvent: {}
+[3.509384] (-) TimerEvent: {}
+[3.609689] (-) TimerEvent: {}
+[3.709989] (-) TimerEvent: {}
+[3.810308] (-) TimerEvent: {}
+[3.910604] (-) TimerEvent: {}
+[4.010912] (-) TimerEvent: {}
+[4.111245] (-) TimerEvent: {}
+[4.211547] (-) TimerEvent: {}
+[4.311909] (-) TimerEvent: {}
+[4.412240] (-) TimerEvent: {}
+[4.512548] (-) TimerEvent: {}
+[4.612852] (-) TimerEvent: {}
+[4.713151] (-) TimerEvent: {}
+[4.813454] (-) TimerEvent: {}
+[4.913756] (-) TimerEvent: {}
+[5.014052] (-) TimerEvent: {}
+[5.114346] (-) TimerEvent: {}
+[5.172610] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:\x1b[m\x1b[K In constructor \xe2\x80\x98\x1b[01m\x1b[KTracker::Tracker()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.173040] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:22:9:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >::Quaternion_(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.173128] (move) StderrLine: {'line': b'   22 |         \x1b[01;31m\x1b[Korientation(0.0)\x1b[m\x1b[K {\n'}
+[5.173207] (move) StderrLine: {'line': b'      |         \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.173281] (move) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/detail/imu__struct.hpp:22\x1b[m\x1b[K,\n'}
+[5.173358] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/sensor_msgs/sensor_msgs/msg/imu.hpp:7\x1b[m\x1b[K,\n'}
+[5.173435] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:4\x1b[m\x1b[K:\n'}
+[5.173759] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:53:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<ContainerAllocator>::Quaternion_(const ContainerAllocator&, rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.173858] (move) StderrLine: {'line': b'   53 |   explicit \x1b[01;36m\x1b[KQuaternion_\x1b[m\x1b[K(const ContainerAllocator & _alloc, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[5.173939] (move) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.174013] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:53:51:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst std::allocator<void>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.174089] (move) StderrLine: {'line': b'   53 |   explicit Quaternion_(\x1b[01;36m\x1b[Kconst ContainerAllocator & _alloc\x1b[m\x1b[K, rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[5.174173] (move) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~\x1b[m\x1b[K\n'}
+[5.174264] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:36:12:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<ContainerAllocator>::Quaternion_(rosidl_runtime_cpp::MessageInitialization) [with ContainerAllocator = std::allocator<void>]\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.174348] (move) StderrLine: {'line': b'   36 |   explicit \x1b[01;36m\x1b[KQuaternion_\x1b[m\x1b[K(rosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL)\n'}
+[5.174420] (move) StderrLine: {'line': b'      |            \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.174498] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:36:66:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Krosidl_runtime_cpp::MessageInitialization\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.174572] (move) StderrLine: {'line': b'   36 |   explicit Quaternion_(\x1b[01;36m\x1b[Krosidl_runtime_cpp::MessageInitialization _init = rosidl_runtime_cpp::MessageInitialization::ALL\x1b[m\x1b[K)\n'}
+[5.174644] (move) StderrLine: {'line': b'      |                        \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.174714] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >::Quaternion_(const geometry_msgs::msg::Quaternion_<std::allocator<void> >&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.174788] (move) StderrLine: {'line': b'   32 | struct \x1b[01;36m\x1b[KQuaternion_\x1b[m\x1b[K\n'}
+[5.174860] (move) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.174931] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kconst geometry_msgs::msg::Quaternion_<std::allocator<void> >&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.175011] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kconstexpr geometry_msgs::msg::Quaternion_<std::allocator<void> >::Quaternion_(geometry_msgs::msg::Quaternion_<std::allocator<void> >&&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.175090] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/geometry_msgs/geometry_msgs/msg/detail/quaternion__struct.hpp:32:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99 to \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Quaternion_<std::allocator<void> >&&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.175163] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:22:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer()\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.175235] (move) StderrLine: {'line': b'   22 |         orientation(0.0\x1b[01;31m\x1b[K)\x1b[m\x1b[K {\n'}
+[5.175306] (move) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.175376] (move) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:7\x1b[m\x1b[K:\n'}
+[5.175446] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktf2_ros::Buffer::Buffer(rclcpp::Clock::SharedPtr, tf2::Duration, rclcpp::Node::SharedPtr)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.175518] (move) StderrLine: {'line': b'   73 |   TF2_ROS_PUBLIC \x1b[01;36m\x1b[KBuffer\x1b[m\x1b[K(\n'}
+[5.175588] (move) StderrLine: {'line': b'      |                  \x1b[01;36m\x1b[K^~~~~~\x1b[m\x1b[K\n'}
+[5.175658] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/tf2_ros/tf2_ros/buffer.h:73:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  candidate expects 3 arguments, 0 provided\n'}
+[5.188510] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:53:13:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kcreate_timer\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Krclcpp::create_timer\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[5.188684] (move) StderrLine: {'line': b'   53 |     timer = \x1b[01;31m\x1b[Kcreate_timer\x1b[m\x1b[K(std::chrono::milliseconds(10), [this]() { this->move(); });\n'}
+[5.188769] (move) StderrLine: {'line': b'      |             \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.188846] (move) StderrLine: {'line': b'      |             \x1b[32m\x1b[Krclcpp::create_timer\x1b[m\x1b[K\n'}
+[5.188921] (move) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_subscription.hpp:33\x1b[m\x1b[K,\n'}
+[5.188994] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_impl.hpp:43\x1b[m\x1b[K,\n'}
+[5.189077] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:1321\x1b[m\x1b[K,\n'}
+[5.189150] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[5.189224] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[5.189294] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[5.189365] (move) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:1\x1b[m\x1b[K:\n'}
+[5.189435] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/create_timer.hpp:57:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Krclcpp::create_timer\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[5.189526] (move) StderrLine: {'line': b'   57 | \x1b[01;36m\x1b[Kcreate_timer\x1b[m\x1b[K(\n'}
+[5.189610] (move) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[5.189785] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid Tracker::move()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.189912] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:67:39:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kclass tf2_ros::Buffer\x1b[m\x1b[K\xe2\x80\x99 has no member named \xe2\x80\x98\x1b[01m\x1b[Know\x1b[m\x1b[K\xe2\x80\x99\n'}
+[5.189997] (move) StderrLine: {'line': b'   67 |       tf2::TimePoint time = tf_buffer.\x1b[01;31m\x1b[Know\x1b[m\x1b[K();\n'}
+[5.190073] (move) StderrLine: {'line': b'      |                                       \x1b[01;31m\x1b[K^~~\x1b[m\x1b[K\n'}
+[5.192260] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:88:114:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_transform_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Transform_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[5.192413] (move) StderrLine: {'line': b'   88 |         geometry_msgs::msg::TransformStamped err_world_target = \x1b[01;31m\x1b[Ktf_buffer.lookupTransform("world", target, time).transform\x1b[m\x1b[K;\n'}
+[5.192507] (move) StderrLine: {'line': b'      |                                                                 \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.192690] (move) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:90:108:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >::_transform_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::Transform_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} to non-scalar type \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kgeometry_msgs::msg::TransformStamped_<std::allocator<void> >\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[5.192821] (move) StderrLine: {'line': b'   90 |         geometry_msgs::msg::TransformStamped err_world_boat = \x1b[01;31m\x1b[Ktf_buffer.lookupTransform("world", me, time).transform\x1b[m\x1b[K;\n'}
+[5.192907] (move) StderrLine: {'line': b'      |                                                               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.214442] (-) TimerEvent: {}
+[5.314750] (-) TimerEvent: {}
+[5.415045] (-) TimerEvent: {}
+[5.515342] (-) TimerEvent: {}
+[5.615650] (-) TimerEvent: {}
+[5.715953] (-) TimerEvent: {}
+[5.816257] (-) TimerEvent: {}
+[5.916561] (-) TimerEvent: {}
+[6.016864] (-) TimerEvent: {}
+[6.117167] (-) TimerEvent: {}
+[6.217477] (-) TimerEvent: {}
+[6.317786] (-) TimerEvent: {}
+[6.418088] (-) TimerEvent: {}
+[6.518400] (-) TimerEvent: {}
+[6.618659] (-) TimerEvent: {}
+[6.718974] (-) TimerEvent: {}
+[6.819291] (-) TimerEvent: {}
+[6.919606] (-) TimerEvent: {}
+[7.019966] (-) TimerEvent: {}
+[7.120264] (-) TimerEvent: {}
+[7.220591] (-) TimerEvent: {}
+[7.320887] (-) TimerEvent: {}
+[7.421184] (-) TimerEvent: {}
+[7.521499] (-) TimerEvent: {}
+[7.621814] (-) TimerEvent: {}
+[7.722199] (-) TimerEvent: {}
+[7.822565] (-) TimerEvent: {}
+[7.922861] (-) TimerEvent: {}
+[8.023174] (-) TimerEvent: {}
+[8.123444] (-) TimerEvent: {}
+[8.223861] (-) TimerEvent: {}
+[8.324154] (-) TimerEvent: {}
+[8.424427] (-) TimerEvent: {}
+[8.524780] (-) TimerEvent: {}
+[8.625057] (-) TimerEvent: {}
+[8.725455] (-) TimerEvent: {}
+[8.825790] (-) TimerEvent: {}
+[8.926162] (-) TimerEvent: {}
+[9.026501] (-) TimerEvent: {}
+[9.126780] (-) TimerEvent: {}
+[9.227099] (-) TimerEvent: {}
+[9.238947] (move) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/waypoint_tracker.dir/build.make:76: CMakeFiles/waypoint_tracker.dir/src/waypoint_tracker.cpp.o] Error 1\n'}
+[9.239233] (move) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/waypoint_tracker.dir/all] Error 2\n'}
+[9.239516] (move) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[9.242290] (move) CommandEnded: {'returncode': 2}
+[9.328365] (-) TimerEvent: {}
+[9.382081] (move) JobEnded: {'identifier': 'move', 'rc': 2}
+[9.392726] (-) EventReactorShutdown: {}

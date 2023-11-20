@@ -1,0 +1,68 @@
+[0.346s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move -- -j8 -l8
+[0.394s] -- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.665s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.691s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[0.768s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[1.137s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.144s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.145s] [0m** WARNING ** io features related to pcap will be disabled[0m
+[1.340s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[1.350s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.357s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[1.531s] -- Found Qhull version 8.0.2
+[1.714s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[1.887s] -- looking for PCL_COMMON
+[1.888s] -- looking for PCL_KDTREE
+[1.888s] -- looking for PCL_OCTREE
+[1.889s] -- looking for PCL_SEARCH
+[1.889s] -- looking for PCL_SAMPLE_CONSENSUS
+[1.890s] -- looking for PCL_FILTERS
+[1.890s] -- looking for PCL_2D
+[1.891s] -- looking for PCL_GEOMETRY
+[1.891s] -- looking for PCL_IO
+[1.892s] -- looking for PCL_FEATURES
+[1.893s] -- looking for PCL_ML
+[1.893s] -- looking for PCL_SEGMENTATION
+[1.894s] -- looking for PCL_VISUALIZATION
+[1.895s] -- looking for PCL_SURFACE
+[1.895s] -- looking for PCL_REGISTRATION
+[1.896s] -- looking for PCL_KEYPOINTS
+[1.897s] -- looking for PCL_TRACKING
+[1.898s] -- looking for PCL_RECOGNITION
+[1.898s] -- looking for PCL_STEREO
+[1.899s] -- looking for PCL_APPS
+[1.901s] -- looking for PCL_IN_HAND_SCANNER
+[1.901s] -- looking for PCL_MODELER
+[1.902s] -- looking for PCL_POINT_CLOUD_EDITOR
+[1.902s] -- looking for PCL_OUTOFCORE
+[1.903s] -- looking for PCL_PEOPLE
+[1.908s] -- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)
+[1.964s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.972s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.985s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.004s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.032s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.133s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.137s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.281s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.315s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.384s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.698s] -- Configuring done
+[2.755s] -- Generating done
+[2.758s] -- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/move
+[2.812s] [ 66%] [32mBuilding CXX object CMakeFiles/gps2pose.dir/src/waypoint_tracker.cpp.o[0m
+[2.812s] [ 33%] [32mBuilding CXX object CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o[0m
+[2.823s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[2.823s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[2.823s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.823s] compilation terminated.
+[2.823s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/gps2pose.cpp:1:10:[m[K [01;31m[Kfatal error: [m[Krclcpp/rclcpp.hpp: No such file or directory
+[2.823s]     1 | #include [01;31m[K<rclcpp/rclcpp.hpp>[m[K
+[2.824s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[2.824s] compilation terminated.
+[2.824s] gmake[2]: *** [CMakeFiles/gps2pose.dir/build.make:90: CMakeFiles/gps2pose.dir/src/waypoint_tracker.cpp.o] Error 1
+[2.824s] gmake[2]: *** Waiting for unfinished jobs....
+[2.824s] gmake[2]: *** [CMakeFiles/gps2pose.dir/build.make:76: CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o] Error 1
+[2.824s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/gps2pose.dir/all] Error 2
+[2.824s] gmake: *** [Makefile:146: all] Error 2
+[2.827s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move -- -j8 -l8

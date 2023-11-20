@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/thruster_activation.dir/src/thruster_activation.cpp.o[0m
+[100%] [32m[1mLinking CXX executable thruster_activation[0m
+[100%] Built target thruster_activation
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/lib/package_thruster_activation/thruster_activation
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/path.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/environment/path.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.bash
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.zsh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/local_setup.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/ament_index/resource_index/packages/package_thruster_activation
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig.cmake
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/cmake/package_thruster_activationConfig-version.cmake
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/package_thruster_activation/share/package_thruster_activation/package.xml

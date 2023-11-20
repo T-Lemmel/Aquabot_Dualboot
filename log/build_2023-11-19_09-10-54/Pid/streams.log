@@ -1,0 +1,40 @@
+[0.825s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/Pid': PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Pid performance test -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/Pid
+[0.931s] [0mCMake Error: Could not find cmake module file: CMakeDetermineperformanceCompiler.cmake[0m
+[0.932s] [0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.932s] Missing variable is:
+[0.932s] CMAKE_performance_COMPILER_ENV_VAR[0m
+[0.932s] [0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.932s] Missing variable is:
+[0.933s] CMAKE_performance_COMPILER[0m
+[0.933s] [0mCMake Error: Could not find cmake module file: /home/t-lemmel/Aquabot_Tom/build/Pid/CMakeFiles/3.22.1/CMakeperformanceCompiler.cmake[0m
+[0.933s] [0mCMake Error: Could not find cmake module file: CMakeDeterminetestCompiler.cmake[0m
+[0.933s] [0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.933s] Missing variable is:
+[0.933s] CMAKE_test_COMPILER_ENV_VAR[0m
+[0.933s] [0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+[0.934s] Missing variable is:
+[0.934s] CMAKE_test_COMPILER[0m
+[0.934s] [0mCMake Error: Could not find cmake module file: /home/t-lemmel/Aquabot_Tom/build/Pid/CMakeFiles/3.22.1/CMaketestCompiler.cmake[0m
+[0.963s] [31mCMake Error at CMakeLists.txt:2 (project):
+[0.963s]   No CMAKE_performance_COMPILER could be found.
+[0.963s] 
+[0.964s]   Tell CMake where to find the compiler by setting the CMake cache entry
+[0.965s]   CMAKE_performance_COMPILER to the full path to the compiler, or to the
+[0.965s]   compiler name if it is in the PATH.
+[0.965s] 
+[0.965s] [0m
+[0.966s] [0mCMake Error: Could not find cmake module file: CMakeperformanceInformation.cmake[0m
+[0.968s] [31mCMake Error at CMakeLists.txt:2 (project):
+[0.969s]   No CMAKE_test_COMPILER could be found.
+[0.969s] 
+[0.970s]   Tell CMake where to find the compiler by setting the CMake cache entry
+[0.970s]   CMAKE_test_COMPILER to the full path to the compiler, or to the compiler
+[0.970s]   name if it is in the PATH.
+[0.971s] 
+[0.971s] [0m
+[0.980s] [0mCMake Error: Could not find cmake module file: CMaketestInformation.cmake[0m
+[0.980s] [0mCMake Error: CMAKE_performance_COMPILER not set, after EnableLanguage[0m
+[0.981s] [0mCMake Error: CMAKE_test_COMPILER not set, after EnableLanguage[0m
+[0.981s] -- Configuring incomplete, errors occurred!
+[0.981s] See also "/home/t-lemmel/Aquabot_Tom/build/Pid/CMakeFiles/CMakeOutput.log".
+[0.981s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/Pid' returned '1': PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Pid performance test -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/Pid

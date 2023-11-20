@@ -1,0 +1,38 @@
+[0mCMake Error: Could not find cmake module file: CMakeDetermineperformanceCompiler.cmake[0m
+[0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_performance_COMPILER_ENV_VAR[0m
+[0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_performance_COMPILER[0m
+[0mCMake Error: Could not find cmake module file: /home/t-lemmel/Aquabot_Tom/build/Pid/CMakeFiles/3.22.1/CMakeperformanceCompiler.cmake[0m
+[0mCMake Error: Could not find cmake module file: CMakeDeterminetestCompiler.cmake[0m
+[0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_test_COMPILER_ENV_VAR[0m
+[0mCMake Error: Error required internal CMake variable not set, cmake may not be built correctly.
+Missing variable is:
+CMAKE_test_COMPILER[0m
+[0mCMake Error: Could not find cmake module file: /home/t-lemmel/Aquabot_Tom/build/Pid/CMakeFiles/3.22.1/CMaketestCompiler.cmake[0m
+[31mCMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_performance_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_performance_COMPILER to the full path to the compiler, or to the
+  compiler name if it is in the PATH.
+
+[0m
+[0mCMake Error: Could not find cmake module file: CMakeperformanceInformation.cmake[0m
+[31mCMake Error at CMakeLists.txt:2 (project):
+  No CMAKE_test_COMPILER could be found.
+
+  Tell CMake where to find the compiler by setting the CMake cache entry
+  CMAKE_test_COMPILER to the full path to the compiler, or to the compiler
+  name if it is in the PATH.
+
+[0m
+[0mCMake Error: Could not find cmake module file: CMaketestInformation.cmake[0m
+[0mCMake Error: CMAKE_performance_COMPILER not set, after EnableLanguage[0m
+[0mCMake Error: CMAKE_test_COMPILER not set, after EnableLanguage[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/t-lemmel/Aquabot_Tom/build/Pid/CMakeFiles/CMakeOutput.log".

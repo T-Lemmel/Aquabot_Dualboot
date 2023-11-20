@@ -1,0 +1,1 @@
+/home/t-lemmel/Aquabot_Tom/build/move/ament_cmake_environment_hooks/local_setup.bash

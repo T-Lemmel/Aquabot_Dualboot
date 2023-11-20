@@ -1,0 +1,2 @@
+source;share/pid_performance_test/environment/ament_prefix_path.sh
+source;share/pid_performance_test/environment/path.sh

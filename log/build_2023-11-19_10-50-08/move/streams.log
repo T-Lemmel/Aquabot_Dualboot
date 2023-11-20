@@ -1,0 +1,31 @@
+[0.402s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move -- -j8 -l8
+[0.461s] -- Found ament_cmake_auto: 1.3.5 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[0.752s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.915s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.918s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.926s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.941s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.962s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.043s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.044s] -- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.209s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.031s] -- Configuring done
+[2.071s] -- Generating done
+[2.073s] -- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/move
+[2.123s] [ 50%] [32mBuilding CXX object CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o[0m
+[2.123s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_tracker.dir/src/waypoint_tracker.cpp.o[0m
+[2.592s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/waypoint_tracker.cpp:6:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_listener.h: No such file or directory
+[2.593s]     6 | #include [01;31m[K<tf2_ros/transform_listener.h>[m[K
+[2.593s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.594s] compilation terminated.
+[2.601s] gmake[2]: *** [CMakeFiles/waypoint_tracker.dir/build.make:76: CMakeFiles/waypoint_tracker.dir/src/waypoint_tracker.cpp.o] Error 1
+[2.602s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/waypoint_tracker.dir/all] Error 2
+[2.602s] gmake[1]: *** Waiting for unfinished jobs....
+[2.620s] [01m[K/home/t-lemmel/Aquabot_Tom/src/move/src/gps2pose.cpp:7:10:[m[K [01;31m[Kfatal error: [m[Ktf2_ros/transform_broadcaster.h: No such file or directory
+[2.621s]     7 | #include [01;31m[K<tf2_ros/transform_broadcaster.h>[m[K
+[2.621s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[2.621s] compilation terminated.
+[2.629s] gmake[2]: *** [CMakeFiles/gps2pose.dir/build.make:76: CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o] Error 1
+[2.630s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/gps2pose.dir/all] Error 2
+[2.631s] gmake: *** [Makefile:146: all] Error 2
+[2.639s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move -- -j8 -l8
