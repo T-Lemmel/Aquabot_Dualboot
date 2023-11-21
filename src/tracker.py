@@ -106,16 +106,17 @@ class Tracker(Node):
         self.error_angle_derivative = 0.0
         self.error_distance_integer = 0.0
         self.error_distance_derivative = 0.0
+        self.distance_to_keep = 0.0 #desired distance to keep with target
 
         self.orientation = Quaternion()#relative orientation of boat frame to fixed world frame (quaternions) 
         self.imu_sub = self.create_subscription(Imu, '/wamv/sensors/imu/imu/data', self.update_orientation, 10)
 
         # control gains Aiming to work fine for waypoints at max pi/3 relative orientation to the boat 
         self.Kx = 75.
-        self.Kw = 1.0
+        self.Kw = 0.5
         self.Kxi = 10.0
-        self.Kwi = 0.0005
-        self.Kxd = 0.1
+        self.Kwi = 0.00005
+        self.Kxd = 0.0 
         self.Kwd = 0.5 
 
         self.timer = self.create_timer(0.1, self.control_loop)
@@ -184,36 +185,45 @@ class Tracker(Node):
 
         msg = Float64()
 
-        theta_boat_target = math.atan2(err.y, err.x)
-        error_angle = self.orientation.z - theta_boat_target
+        theta_boat_target = math.atan2(err.y, err.x) #angle from boat to target in fixed world frame
+        error_angle = self.orientation.z - theta_boat_target #finding the right angle to PID control to 0 by taking into acount the boat's own orientation around itself
+        
+        #debug purposes
         self.get_logger().info("error angle = %f" % error_angle)
         msg.data = error_angle
         self.angle_error_pub.publish(msg)
 
-        msg.data = angle = self.Kw*error_angle + self.Kwi*self.error_angle_integer + self.Kwd*self.error_angle_derivative
-        self.angle_pub.publish(msg)
+        
+        self.error_angle_derivative = (error_angle - self.old_error_angle)/0.01 #calculating differential term
+        self.error_angle_integer = self.error_angle_integer+error_angle #incrementing integral term
+        self.old_error_angle = error_angle #saving the error_angle for next iteration's differential term
+        msg.data = angle = self.Kw*error_angle + self.Kwi*self.error_angle_integer + self.Kwd*self.error_angle_derivative #calculating control output value
+        self.angle_pub.publish(msg) #publish to the thruster angle
 
-        error_distance = math.sqrt(err.x**2+err.y**2) - self.target.distance_to_keep
+        error_distance = math.sqrt(err.x**2+err.y**2) - self.distance_to_keep #distance from boat to target in fixed world frame minus the desired distance to keep 
 
+        #debug purposes
         self.get_logger().info("distance = %f" % error_distance)
         self.get_logger().info("error x = %f" % err.x)
         self.get_logger().info("error y = %f" % err.y)
-        self.error_distance_integer = self.error_distance_integer+error_distance
-        self.error_distance_derivative = self.error_distance_derivative + (error_distance - self.old_error_distance)
-        self.old_error_distance = error_distance;
-        msg.data = self.Kx *error_distance + self.Kxi*self.error_distance_integer + self.Kxd*self.error_distance_derivative
+
+        self.error_distance_integer = self.error_distance_integer+error_distance #incrementing integral term
+        self.error_distance_derivative = (error_distance - self.old_error_distance)/0.01 #calculating differential term
+        self.old_error_distance = error_distance; #saving the error_distance for next iteration's differential term
+        msg.data = self.Kx *error_distance + self.Kxi*self.error_distance_integer + self.Kxd*self.error_distance_derivative #calculating control output value
 
 	    # adapt thrust, not too much when rotating
-        
-        #msg.data = msg.data*(1-0.9*abs(self.thruster_angle)/(math.pi/2))
+
         if abs(error_angle)>0.4 :
             msg.data = clamp(msg.data, 1000.0)
         elif abs(error_angle)>0.2 :
             msg.data = clamp(msg.data, 6000.0)
+        elif abs(error_angle)>0.1 :
+            msg.data = clamp(msg.data, 9000.0)
         else : 
             msg.data = clamp(msg.data, 12000.0)
 
-        #in cause we went too far, stop the thruster and stop accelerating
+        #in cause we went too far, stop the thruster and reset integral error
         if error_distance < 0 :
             msg.data = abs(msg.data)
             self.error_distance_integer = 0.0
