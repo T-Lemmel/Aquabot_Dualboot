@@ -11,9 +11,10 @@ from ros_gz_interfaces.msg import ParamVec
 import utm
 from copy import deepcopy
 from rcl_interfaces.msg import SetParametersResult
-from std_msgs.msg import Float64
+from std_msgs.msg import Float64, Int32
 import math
 
+# THIS NODE DOES SUBSCRIBES TO VARIOUS TOPIC, PLACES FRAMES USING TF2
 
 me = 'wamv/wamv/base_link'
 
@@ -23,7 +24,7 @@ def clamp(val, high):
     return val
 
 
-class Waypoint:
+class Waypoint: #defines the waypoint class which will be used for actuals waypoints of the trajectory but also boats
     E = None
     N = None
     z = None
@@ -44,6 +45,7 @@ class Waypoint:
         self.pose.child_frame_id = link
 
     def update(self, now = None, latitude=None, longitude=None, orientation=None):
+
         if latitude is not None:
             E,N,_,_ = utm.from_latlon(latitude, longitude, self.z, self.Z)
 
@@ -90,12 +92,12 @@ class Place_frame(Node):
 
         Waypoint.br = TransformBroadcaster(self)
 
-        # get Waypoint data
+        # get Boat data
         self.Boat = Waypoint('wamv/wamv/base_link')
         self.gps_sub = self.create_subscription(NavSatFix, '/wamv/sensors/gps/gps/fix', self.gps_cb, 10)
         self.imu_sub = self.create_subscription(Imu, '/wamv/sensors/imu/imu/data', self.imu_cb, 10)
 
-        # buoy
+        # get buoy data
         self.buoy = Waypoint('buoy')
         self.buoy.pose.header.frame_id = 'wamv/wamv/base_link'
         self.buoy_sub = self.create_subscription(ParamVec, '/wamv/sensors/acoustics/receiver/range_bearing', self.buoy_cb, 10)
@@ -108,7 +110,12 @@ class Place_frame(Node):
         self.Waypoint_sub_x = self.create_subscription(Float64, 'waypoint_x', self.waypoint_frame_placing_x, 10)
         self.Waypoint_sub_y = self.create_subscription(Float64, 'waypoint_y', self.waypoint_frame_placing_y, 10)
         
-        # publishing timer
+        # allies data
+        self.allies = []
+        self.allies_sub = self.create_subscription(PoseArray, '/wamv/ais_sensor/allies_positions', self.allies_cb, 10)
+        self.allies_amount_pub = self.create_publisher(Int32, 'allies_amount', 10)
+
+        # loop timer
         self.timer = self.create_timer(0.05, self.loop)
         
     def is_init(self):
@@ -117,7 +124,7 @@ class Place_frame(Node):
     def gps_cb(self, msg: NavSatFix):
 
         if not self.is_init():
-            self.Boat.E,self.Boat.N, self.Boat.z,self.Boat.Z = utm.from_latlon(msg.latitude, msg.longitude)
+            self.Boat.E,self.Boat.N,self.Boat.z,self.Boat.Z = utm.from_latlon(msg.latitude, msg.longitude)
             return
         
         self.Boat.update(latitude = msg.latitude, longitude = msg.longitude)
@@ -155,17 +162,35 @@ class Place_frame(Node):
             self.Waypoint.pose.transform.translation.y = msg.data 
             self.waypoint_y = msg.data
 
+
+    def allies_cb(self, msg: PoseArray):
+
+        if not self.is_init():
+            return
+
+        # adapt messages
+        if len(self.allies) != len(msg.poses):
+            self.allies = [Waypoint(f'ally{i}') for i in range(len(msg.poses))]
+
+        for i,pose in enumerate(msg.poses):
+
+            self.allies[i].E,self.allies[i].N,self.allies[i].z,self.allies[i].Z = utm.from_latlon(pose.position.x, pose.position.y)
+            self.allies[i].update(self.get_clock().now(), pose.position.x, pose.position.y, pose.orientation)
+
     def loop(self):
 
         if not self.is_init():
             return
 
         now = self.get_clock().now()
-        self.Boat.publish(now)
+        self.Boat.publish(now) #update the position of the boat tf2 frame
             
-        self.Waypoint.publish(now)
+        self.Waypoint.publish(now) #update the position of the waypoint tf2 frame
 
-        self.buoy.publish(now)
+        self.buoy.publish(now) #update the position of the buoy tf2 frame
+
+        for ally in self.allies: #update the position of the allies tf2 frame
+            ally.publish(now)
 
 def main():
     rclpy.init()

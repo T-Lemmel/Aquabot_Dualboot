@@ -3,7 +3,7 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu, NavSatFix
-from geometry_msgs.msg import TransformStamped, PoseArray
+from geometry_msgs.msg import TransformStamped, PoseArray, Pose
 from rclpy.parameter import Parameter
 from geometry_msgs.msg import Quaternion
 from tf2_ros import TransformBroadcaster, TransformListener, TransformException, Buffer
@@ -11,9 +11,10 @@ from ros_gz_interfaces.msg import ParamVec
 import utm
 from copy import deepcopy
 from rcl_interfaces.msg import SetParametersResult
-from std_msgs.msg import Float64
+from std_msgs.msg import Float64, Int32
 import math
 
+# THIS NODE CALCULATES ALL USEFULL POSITION IN THE WORLD FIXED FRAME USING TF2, PUBLISH THE ONES NEEDED IN OTHER NODES AND SENDS THE BOAT TO A WAYPOINT THROUGH PID CONTROL
 
 me = 'wamv/wamv/base_link'
 
@@ -23,16 +24,9 @@ def clamp(val, high):
     return val
 
 
-class Waypoint:
-    E = None
-    N = None
-    z = None
-    Z = None
-    br = None
-    moving = False
+class Target:
+
     distance_to_keep = 0.0
-    already_placed_x = False
-    already_placed_y = False
 
     def __init__(self, link):
 
@@ -42,29 +36,6 @@ class Waypoint:
         self.pose = TransformStamped()
         self.pose.header.frame_id = 'world'
         self.pose.child_frame_id = link
-
-    def update(self, now = None, latitude=None, longitude=None, orientation=None):
-        if latitude is not None:
-            E,N,_,_ = utm.from_latlon(latitude, longitude, self.z, self.Z)
-
-            x = E - self.E
-            y = N - self.N
-
-            # estim velocity heading
-            if now is not None and self.t0 is None:
-                self.t0 = now
-            elif self.t0 is not None:
-                # previous pose is valid: estimate heading
-                dt = (now.nanoseconds - self.t0.nanoseconds) * 1e-9
-                self.heading = [(x - self.pose.transform.translation.x) / dt,
-                                (y - self.pose.transform.translation.y) / dt]
-                self.t0 = now
-                
-            self.pose.transform.translation.x = x
-            self.pose.transform.translation.y = y
-
-        if orientation is not None:
-            self.pose.transform.rotation = orientation
 
     def publish(self, now):
 
@@ -86,18 +57,23 @@ class Tracker(Node):
         super().__init__('tracker')
 
         #waypoint
-        self.target = Waypoint('waypoint')
+        self.target = Target('waypoint')
         
         self.tf_buffer = Buffer()
         self.tf_listener = TransformListener(self.tf_buffer, self)
 
         self.angle_pub = self.create_publisher(Float64, '/wamv/thrusters/main/pos', 10)
-        self.thruster_angle = 0.0
-        self.angle_sub = self.create_subscription(Float64,'/wamv/thrusters/main/pos', self.update_thruster_angle, 10)
         
         self.thrust_pub = self.create_publisher(Float64, '/wamv/thrusters/main/thrust', 10)
 
-        self.angle_error_pub = self.create_publisher(Float64, 'angle/error', 10)
+        self.angle_error_pub = self.create_publisher(Float64, 'angle/error', 10) #publisher for the angle that need to be controled to 0 in order ta align with waypoint, debug purposes
+
+        self.boat_pos_pub_x = self.create_publisher(Float64, 'boat_x', 10) #boat x position in world frame, used in other nodes
+        self.boat_pos_pub_y = self.create_publisher(Float64, 'boat_y', 10) #boat y position in wordl frame, used in other nodes
+
+
+        self.allies_amount_sub = self.create_subscription(Int32, 'allies/amount', self.publish_allies_poses, 10)
+        self.allies_pub = self.create_publisher(PoseArray, 'allies/pos/world_frame',10)
 
         # initialization of Pid internal variables
         self.old_error_angle = 0.0
@@ -119,17 +95,25 @@ class Tracker(Node):
         self.Kxd = 0.0 
         self.Kwd = 0.5 
 
-        self.timer = self.create_timer(0.1, self.control_loop)
+        self.timer = self.create_timer(0.1, self.publish_poses_and_control_loop)
 
-    def update_thruster_angle(self, msg: Float64):
-        self.thruster_angle = msg.data
+    def publish_allies_poses(self, msg: Int32):
+        msg = PoseArray()
+        for i in range(msg.data): #passes through all ally boats
+             pose = Pose() # create a new Pose message
+             ally_pose = self.tf_buffer.lookup_transform(
+                        'world',
+                        self.target.pose.child_frame_id,
+                        rclpy.time.Time()).transform.translation
+             pose.position.x, pose.position.y = ally_pose.x, ally_pose.y
+             msg.poses.append(pose)
+        self.allies_pub.publish(msg)
+
 
     def update_orientation(self, msg: Imu):
         self.orientation = msg.orientation
 
-    def control_loop(self):
-
-        # get pose error
+    def publish_poses_and_control_loop(self): # GET ALL NECESSARY POSES IN WORLD FRAMES PUBLISH SOME
 
         try:
             if ' ' in self.target.pose.header.frame_id:
@@ -158,10 +142,18 @@ class Tracker(Node):
                         'world',
                         me,
                         rclpy.time.Time()).transform.translation
+                    
+                    #publish boat position in world frame
+                    msg = Float64()
+                    msg.data = err_world_boat.x
+                    self.boat_pos_pub_x.publish(msg) 
+                    msg.data = err_world_boat.y
+                    self.boat_pos_pub_y.publish(msg)
                 
+                    #calculate the error of postion from boat to target in world frame using chasles relation
                     err = deepcopy(err_world_boat)
-                    err.x = err_world_target.x - err_world_boat.x #from boat to target by chasles relation
-                    err.y = err_world_target.y - err_world_boat.y #from boat to target by chasles relation
+                    err.x = err_world_target.x - err_world_boat.x
+                    err.y = err_world_target.y - err_world_boat.y 
 
                 else : #because the buoy is defined relative to the boat 
 
@@ -169,6 +161,7 @@ class Tracker(Node):
                             me,
                             self.target.pose.child_frame_id,
                             rclpy.time.Time()).transform.translation
+        
 
         except TransformException:
             self.get_logger().info(
