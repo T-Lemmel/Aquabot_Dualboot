@@ -3,9 +3,8 @@
 import rclpy
 from rclpy.node import Node
 from sensor_msgs.msg import Imu, NavSatFix
-from geometry_msgs.msg import TransformStamped, PoseArray
+from geometry_msgs.msg import TransformStamped, PoseArray, Pose, Quaternion
 from rclpy.parameter import Parameter
-from geometry_msgs.msg import Quaternion
 from tf2_ros import TransformBroadcaster, TransformListener, TransformException, Buffer
 from ros_gz_interfaces.msg import ParamVec
 import utm
@@ -30,16 +29,9 @@ class Waypoint: #defines the waypoint class which will be used for actuals waypo
     z = None
     Z = None
     br = None
-    moving = False
-    distance_to_keep = 0.0
-    already_placed_x = False
-    already_placed_y = False
-
+    
     def __init__(self, link):
 
-        # store info about previous
-        self.t0 = None
-        self.heading = None
         self.pose = TransformStamped()
         self.pose.header.frame_id = 'world'
         self.pose.child_frame_id = link
@@ -52,16 +44,6 @@ class Waypoint: #defines the waypoint class which will be used for actuals waypo
             x = E - self.E
             y = N - self.N
 
-            # estim velocity heading
-            if now is not None and self.t0 is None:
-                self.t0 = now
-            elif self.t0 is not None:
-                # previous pose is valid: estimate heading
-                dt = (now.nanoseconds - self.t0.nanoseconds) * 1e-9
-                self.heading = [(x - self.pose.transform.translation.x) / dt,
-                                (y - self.pose.transform.translation.y) / dt]
-                self.t0 = now
-                
             self.pose.transform.translation.x = x
             self.pose.transform.translation.y = y
 
@@ -71,15 +53,7 @@ class Waypoint: #defines the waypoint class which will be used for actuals waypo
     def publish(self, now):
 
         self.pose.header.stamp = now.to_msg()
-
-        if self.heading is not None: #estimate pose if moving
-            pose = deepcopy(self.pose)
-            dt = (now.nanoseconds - self.t0.nanoseconds) * 1e-9
-            pose.transform.translation.x += self.heading[0]*dt 
-            pose.transform.translation.y += self.heading[1]*dt 
-            self.br.sendTransform(pose) #move frame
-        else:
-            self.br.sendTransform(self.pose) #move frame
+        self.br.sendTransform(self.pose) #move frame
 
 class Place_frame(Node):
 
@@ -97,21 +71,14 @@ class Place_frame(Node):
         self.gps_sub = self.create_subscription(NavSatFix, '/wamv/sensors/gps/gps/fix', self.gps_cb, 10)
         self.imu_sub = self.create_subscription(Imu, '/wamv/sensors/imu/imu/data', self.imu_cb, 10)
 
-        # get buoy data
-        self.buoy = Waypoint('buoy')
-        self.buoy.pose.header.frame_id = 'wamv/wamv/base_link'
-        self.buoy_sub = self.create_subscription(ParamVec, '/wamv/sensors/acoustics/receiver/range_bearing', self.buoy_cb, 10)
-        self.buoy.distance_to_keep = 0.0
-
         #waypoint
         self.Waypoint = Waypoint('waypoint')
-        self.waypoint_x = 0.0
-        self.waypoint_y = 0.0
-        self.Waypoint_sub_x = self.create_subscription(Float64, 'waypoint_x', self.waypoint_frame_placing_x, 10)
-        self.Waypoint_sub_y = self.create_subscription(Float64, 'waypoint_y', self.waypoint_frame_placing_y, 10)
-        
+        self.waypoint_pose = Pose()
+        self.Waypoint_pose_sub= self.create_subscription(Pose, 'waypoint_pose', self.waypoint_frame_placing, 10)
+
         # allies data
         self.allies = []
+        self.get_logger().info("subscribing to allies")
         self.allies_sub = self.create_subscription(PoseArray, '/wamv/ais_sensor/allies_positions', self.allies_cb, 10)
         self.allies_amount_pub = self.create_publisher(Int32, 'allies_amount', 10)
 
@@ -131,52 +98,45 @@ class Place_frame(Node):
 
     def imu_cb(self, msg: Imu):
         self.Boat.update(orientation = msg.orientation)
-
-
-    def buoy_cb(self, msg: ParamVec):
-
-        rho = None
-        theta = None
-
-        for param in msg.params:
-            if param.name == 'range':
-                rho = param.value.double_value
-            elif param.name == 'bearing':
-                theta = param.value.double_value
-
-        if rho is None or theta is None:
-            return
-
-        self.buoy.pose.transform.translation.x = rho * math.cos(theta)
-        self.buoy.pose.transform.translation.y = rho * math.sin(theta)
     
-    def waypoint_frame_placing_x(self, msg: Float64):
+    def waypoint_frame_placing(self, msg: Pose):
 
-        if (self.waypoint_x != msg.data) :
-            self.Waypoint.pose.transform.translation.x = msg.data
-            self.waypoint_x = msg.data
-    
-    def waypoint_frame_placing_y(self, msg: Float64):
+        if (self.waypoint_pose.position.x != msg.position.x) :
+            self.Waypoint.pose.transform.translation.x = msg.position.x
+            self.waypoint_pose.position.x = msg.position.x
+        if (self.waypoint_pose.position.y != msg.position.y) :
+            self.Waypoint.pose.transform.translation.y = msg.position.y
+            self.waypoint_pose.position.y = msg.position.y
 
-        if (self.waypoint_y != msg.data) :
-            self.Waypoint.pose.transform.translation.y = msg.data 
-            self.waypoint_y = msg.data
-
-
+    def allies_is_init(self):
+        for i in range(len(self.allies)):
+            if self.allies[i].Z is None :
+                return False
+        return True
+                
     def allies_cb(self, msg: PoseArray):
 
         if not self.is_init():
             return
 
+        self.get_logger().info("got past the init condition in ally")
         # adapt messages
         if len(self.allies) != len(msg.poses):
+            self.get_logger().info("creating waypoint object in self.allies")
             self.allies = [Waypoint(f'ally{i}') for i in range(len(msg.poses))]
 
+        if not self.allies_is_init():
+            for i,pose in enumerate(msg.poses):
+                self.allies[i].E,self.allies[i].N,self.allies[i].z,self.allies[i].Z = utm.from_latlon(pose.position.x, pose.position.y)
+            
         for i,pose in enumerate(msg.poses):
 
-            self.allies[i].E,self.allies[i].N,self.allies[i].z,self.allies[i].Z = utm.from_latlon(pose.position.x, pose.position.y)
-            self.allies[i].update(self.get_clock().now(), pose.position.x, pose.position.y, pose.orientation)
-
+            self.allies[i].update(self.get_clock().now(), latitude = pose.position.x, longitude = pose.position.y, orientation= pose.orientation)
+            self.get_logger().info("ally x in gps = %f" %pose.position.x)
+            msg = Int32()
+            msg.data = len(self.allies)
+            self.allies_amount_pub.publish(msg) # acts as a timer to keep publishing ally poses in tracker.py
+            
     def loop(self):
 
         if not self.is_init():
@@ -186,8 +146,6 @@ class Place_frame(Node):
         self.Boat.publish(now) #update the position of the boat tf2 frame
             
         self.Waypoint.publish(now) #update the position of the waypoint tf2 frame
-
-        self.buoy.publish(now) #update the position of the buoy tf2 frame
 
         for ally in self.allies: #update the position of the allies tf2 frame
             ally.publish(now)
