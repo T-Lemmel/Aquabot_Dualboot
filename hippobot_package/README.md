@@ -1,12 +1,14 @@
 Créé par : Ramses Alejandro Miam Suarez	
 
-Topics :
+Topics
+
+
 Topic ennemis possibles : PoseArray, 'posiEne'
 Topic obstacles : PoseArray, 'obstacles'
 
 Topic map : OccupancyGrid, '/world_map'
 
-Commandes utiles :
+Commandes utiles
 
 ros2 run hippobot_package cloud_reader
 ros2 run hippobot_package obstacle_node.py
