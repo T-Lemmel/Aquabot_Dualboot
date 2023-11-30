@@ -1,16 +1,36 @@
-cmake_minimum_required(VERSION 3.5)
+cmake_minimum_required(VERSION 3.8)
 project(hippobot_package)
+cmake_policy(SET CMP0074 NEW)
 
-find_package(ament_cmake REQUIRED)
-find_package(rclcpp REQUIRED)
-find_package(std_msgs REQUIRED)
+if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
+  add_compile_options(-Wall -Wextra -Wpedantic)
+endif()
 
-add_executable(hippo_node src/hippo_node.cpp)
-ament_target_dependencies(hippo_node rclcpp std_msgs)
+# find dependencies
+find_package(ament_cmake_auto REQUIRED)
+ament_auto_find_build_dependencies()
 
-install(TARGETS
-    hippo_node
-    DESTINATION lib/${PROJECT_NAME}
-)
+find_package(PCL REQUIRED)
 
-ament_package()
+set(CMAKE_CXX_STANDARD 17)
+
+
+include_directories(${PCL_INCLUDE_DIRS})
+link_directories(${PCL_LIBRARY_DIRS})
+add_definitions(${PCL_DEFINITIONS})
+
+
+ament_auto_add_executable(cloud_reader src/cloud_reader.cpp)
+target_link_libraries (cloud_reader ${PCL_LIBRARIES})
+
+install(PROGRAMS scripts/obstacle_node.py scripts/map_node.py
+        DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY scripts/utm
+        DESTINATION lib/${PROJECT_NAME})
+
+install(DIRECTORY launch
+        DESTINATION share/${PROJECT_NAME})
+
+
+ament_auto_package()
