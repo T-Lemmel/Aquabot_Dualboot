@@ -1,0 +1,136 @@
+[0.305s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/mapping': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/mapping
+[0.448s] -- The C compiler identification is GNU 11.4.0
+[0.573s] -- The CXX compiler identification is GNU 11.4.0
+[0.587s] -- Detecting C compiler ABI info
+[0.746s] -- Detecting C compiler ABI info - done
+[0.766s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.766s] -- Detecting C compile features
+[0.768s] -- Detecting C compile features - done
+[0.775s] -- Detecting CXX compiler ABI info
+[0.989s] -- Detecting CXX compiler ABI info - done
+[1.010s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.011s] -- Detecting CXX compile features
+[1.013s] -- Detecting CXX compile features - done
+[1.018s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.444s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.595s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.944s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.957s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.979s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.016s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.070s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.284s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.291s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.533s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.604s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.713s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.736s] -- Looking for pthread.h
+[2.951s] -- Looking for pthread.h - found
+[2.953s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.145s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.148s] -- Found Threads: TRUE  
+[4.608s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[4.610s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[4.610s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[5.477s] -- Checking for module 'eigen3'
+[5.507s] --   Found eigen3, version 3.4.0
+[5.592s] -- Found Eigen: /usr/include/eigen3 (Required is at least version "3.1") 
+[5.592s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[5.705s] -- Checking for module 'flann'
+[5.745s] --   Found flann, version 1.9.1
+[5.832s] -- Found FLANN: /usr/lib/x86_64-linux-gnu/libflann_cpp.so  
+[5.832s] -- FLANN found (include: /usr/include, lib: /usr/lib/x86_64-linux-gnu/libflann_cpp.so)
+[8.410s] -- Checking for module 'libusb-1.0'
+[8.441s] --   Found libusb-1.0, version 1.0.25
+[8.538s] -- Found libusb: /usr/lib/x86_64-linux-gnu/libusb-1.0.so  
+[8.541s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[8.671s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.017s] -- Eigen found (include: /usr/include/eigen3, version: 3.4.0)
+[9.029s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[9.040s] -- OpenNI2 found (version: 2.2.0.33, include: /usr/include/openni2, lib: /usr/lib/x86_64-linux-gnu/libOpenNI2.so;libusb::libusb)
+[9.439s] -- Found Qhull version 8.0.2
+[9.835s] -- OpenNI found (version: 1.5.4.0, include: /usr/include/ni, lib: /usr/lib/libOpenNI.so;libusb::libusb)
+[10.176s] -- Found PCL_COMMON: /usr/lib/x86_64-linux-gnu/libpcl_common.so  
+[10.179s] -- Found PCL_KDTREE: /usr/lib/x86_64-linux-gnu/libpcl_kdtree.so  
+[10.182s] -- Found PCL_OCTREE: /usr/lib/x86_64-linux-gnu/libpcl_octree.so  
+[10.185s] -- Found PCL_SEARCH: /usr/lib/x86_64-linux-gnu/libpcl_search.so  
+[10.189s] -- Found PCL_SAMPLE_CONSENSUS: /usr/lib/x86_64-linux-gnu/libpcl_sample_consensus.so  
+[10.193s] -- Found PCL_FILTERS: /usr/lib/x86_64-linux-gnu/libpcl_filters.so  
+[10.195s] -- Found PCL_2D: /usr/include/pcl-1.12  
+[10.197s] -- Found PCL_GEOMETRY: /usr/include/pcl-1.12  
+[10.201s] -- Found PCL_IO: /usr/lib/x86_64-linux-gnu/libpcl_io.so  
+[10.205s] -- Found PCL_FEATURES: /usr/lib/x86_64-linux-gnu/libpcl_features.so  
+[10.211s] -- Found PCL_ML: /usr/lib/x86_64-linux-gnu/libpcl_ml.so  
+[10.214s] -- Found PCL_SEGMENTATION: /usr/lib/x86_64-linux-gnu/libpcl_segmentation.so  
+[10.218s] -- Found PCL_VISUALIZATION: /usr/lib/x86_64-linux-gnu/libpcl_visualization.so  
+[10.221s] -- Found PCL_SURFACE: /usr/lib/x86_64-linux-gnu/libpcl_surface.so  
+[10.225s] -- Found PCL_REGISTRATION: /usr/lib/x86_64-linux-gnu/libpcl_registration.so  
+[10.230s] -- Found PCL_KEYPOINTS: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so  
+[10.234s] -- Found PCL_TRACKING: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so  
+[10.238s] -- Found PCL_RECOGNITION: /usr/lib/x86_64-linux-gnu/libpcl_recognition.so  
+[10.242s] -- Found PCL_STEREO: /usr/lib/x86_64-linux-gnu/libpcl_stereo.so  
+[10.245s] -- Found PCL_APPS: /usr/lib/x86_64-linux-gnu/libpcl_apps.so  
+[10.247s] -- Found PCL_IN_HAND_SCANNER: /usr/include/pcl-1.12  
+[10.249s] -- Found PCL_MODELER: /usr/include/pcl-1.12  
+[10.250s] -- Found PCL_POINT_CLOUD_EDITOR: /usr/include/pcl-1.12  
+[10.253s] -- Found PCL_OUTOFCORE: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so  
+[10.257s] -- Found PCL_PEOPLE: /usr/lib/x86_64-linux-gnu/libpcl_people.so  
+[11.423s] [33mCMake Warning (dev) at CMakeLists.txt:11 (find_package):
+[11.424s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[11.424s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[11.424s]   command to set the policy and suppress this warning.
+[11.424s] 
+[11.425s]   CMake variable PCL_ROOT is set to:
+[11.425s] 
+[11.425s]     /usr
+[11.426s] 
+[11.426s]   For compatibility, CMake is ignoring the variable.
+[11.426s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[11.427s] [0m
+[11.790s] -- Configuring done
+[12.015s] -- Generating done
+[12.020s] -- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/mapping
+[12.068s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/mapping' returned '0': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/mapping
+[12.069s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/mapping': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/mapping -- -j8 -l8
+[12.192s] [ 25%] [32mBuilding CXX object CMakeFiles/DetectAndPublishCentroids.dir/src/DetectAndPublishCentroids.cpp.o[0m
+[47.583s] [ 50%] [32m[1mLinking CXX executable DetectAndPublishCentroids[0m
+[50.701s] [ 50%] Built target DetectAndPublishCentroids
+[50.735s] [ 75%] [32mBuilding CXX object CMakeFiles/FillMap.dir/src/FillMap.cpp.o[0m
+[69.606s] [100%] [32m[1mLinking CXX executable FillMap[0m
+[71.689s] [100%] Built target FillMap
+[71.725s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/mapping' returned '0': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/mapping -- -j8 -l8
+[71.770s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/mapping': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/mapping
+[71.781s] -- Install configuration: ""
+[71.782s] -- Execute custom install script
+[71.784s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/CHANGELOG.rst
+[71.798s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/LICENSE
+[71.809s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/MANIFEST.in
+[71.821s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/__init__.py
+[71.833s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/__pycache__/__init__.cpython-310.pyc
+[71.845s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/__pycache__/_version.cpython-310.pyc
+[71.856s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/__pycache__/conversion.cpython-310.pyc
+[71.868s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/__pycache__/error.cpython-310.pyc
+[71.881s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/_version.py
+[71.895s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/conversion.py
+[71.906s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/utm/error.py
+[71.918s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/launch/config.rviz
+[71.931s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/launch/mapping_launch.py
+[71.943s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/DetectAndPublishCentroids
+[71.955s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/lib/mapping/FillMap
+[71.968s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/ament_index/resource_index/package_run_dependencies/mapping
+[71.982s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/ament_index/resource_index/parent_prefix_path/mapping
+[71.995s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/environment/ament_prefix_path.sh
+[72.007s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/environment/ament_prefix_path.dsv
+[72.018s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/environment/path.sh
+[72.030s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/environment/path.dsv
+[72.042s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/local_setup.bash
+[72.055s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/local_setup.sh
+[72.068s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/local_setup.zsh
+[72.080s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/local_setup.dsv
+[72.092s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.dsv
+[72.104s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/ament_index/resource_index/packages/mapping
+[72.116s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/cmake/ament_cmake_export_dependencies-extras.cmake
+[72.129s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/cmake/mappingConfig.cmake
+[72.141s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/cmake/mappingConfig-version.cmake
+[72.154s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.xml
+[72.169s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/mapping' returned '0': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ PYTHONPATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/mapping

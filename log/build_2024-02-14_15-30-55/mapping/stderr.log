@@ -1,0 +1,11 @@
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:[m[K In member function ‘[01m[Kvoid PointCloudProcessor::calculateCentroidsAndPublish(const std::vector<std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >&)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:104:18:[m[K [01;31m[Kerror: [m[K‘[01m[KMatrix3x3[m[K’ is not a member of ‘[01m[Ktf2[m[K’
+  104 |             tf2::[01;31m[KMatrix3x3[m[K m(boat_orientation);
+      |                  [01;31m[K^~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:106:13:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  106 |             [01;31m[Km[m[K.getRPY(roll, pitch, yaw);
+      |             [01;31m[K^[m[K
+      |             [32m[Ktm[m[K
+gmake[2]: *** [CMakeFiles/DetectAndPublishCentroids.dir/build.make:76: CMakeFiles/DetectAndPublishCentroids.dir/src/DetectAndPublishCentroids.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/DetectAndPublishCentroids.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

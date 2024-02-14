@@ -311,13 +311,13 @@ message(STATUS "Execute custom install script")
 # begin of custom install code
 
 # install(PROGRAMS "scripts/gps2pose.py" "scripts/waypoint_tracker.py" "DESTINATION" "lib/aquabot_common")
-ament_cmake_symlink_install_programs("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" PROGRAMS "scripts/gps2pose.py" "scripts/waypoint_tracker.py" "DESTINATION" "lib/aquabot_common")
+ament_cmake_symlink_install_programs("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" PROGRAMS "scripts/gps2pose.py" "scripts/waypoint_tracker.py" "DESTINATION" "lib/aquabot_common")
 
 # install(DIRECTORY "scripts/utm" "DESTINATION" "lib/aquabot_common")
-ament_cmake_symlink_install_directory("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" DIRECTORY "scripts/utm" "DESTINATION" "lib/aquabot_common")
+ament_cmake_symlink_install_directory("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" DIRECTORY "scripts/utm" "DESTINATION" "lib/aquabot_common")
 
 # install(DIRECTORY "launch" "DESTINATION" "share/aquabot_common")
-ament_cmake_symlink_install_directory("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" DIRECTORY "launch" "DESTINATION" "share/aquabot_common")
+ament_cmake_symlink_install_directory("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" DIRECTORY "launch" "DESTINATION" "share/aquabot_common")
 
 # install("TARGETS" "ARCHIVE_DESTINATION" "lib" "LIBRARY_DESTINATION" "lib" "RUNTIME_DESTINATION" "bin")
 include("/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
@@ -326,46 +326,46 @@ include("/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_symlink_ins
 include("/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_symlink_install_targets_1_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aquabot_common" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aquabot_common" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/aquabot_common" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aquabot_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aquabot_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/aquabot_common" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aquabot_common/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aquabot_common/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/aquabot_common/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aquabot_common/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aquabot_common/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/aquabot_common/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aquabot_common/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aquabot_common/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/aquabot_common/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aquabot_common/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aquabot_common/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/aquabot_common/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aquabot_common")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aquabot_common")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/aquabot_common")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aquabot_common")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aquabot_common")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/aquabot_common")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aquabot_common")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aquabot_common")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/aquabot_common")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aquabot_common")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aquabot_common")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/aquabot_common")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aquabot_common")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aquabot_common")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/aquabot_common")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/packages/aquabot_common" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/packages/aquabot_common" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_index/share/ament_index/resource_index/packages/aquabot_common" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/aquabot_common/cmake")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/aquabot_common/cmake")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_export_dependencies/ament_cmake_export_dependencies-extras.cmake" "DESTINATION" "share/aquabot_common/cmake")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_core/aquabot_commonConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_core/aquabot_commonConfig-version.cmake" "DESTINATION" "share/aquabot_common/cmake")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_core/aquabot_commonConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_core/aquabot_commonConfig-version.cmake" "DESTINATION" "share/aquabot_common/cmake")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_core/aquabot_commonConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/ament_cmake_core/aquabot_commonConfig-version.cmake" "DESTINATION" "share/aquabot_common/cmake")
 
-# install(FILES "/home/t-lemmel/Aquabot_Tom/src/aquabot_common/package.xml" "DESTINATION" "share/aquabot_common")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/src/aquabot_common/package.xml" "DESTINATION" "share/aquabot_common")
+# install(FILES "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common/package.xml" "DESTINATION" "share/aquabot_common")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common" FILES "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common/package.xml" "DESTINATION" "share/aquabot_common")

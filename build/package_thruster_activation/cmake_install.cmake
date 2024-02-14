@@ -1,4 +1,4 @@
-# Install script for directory: /home/t-lemmel/Aquabot_Tom/src/package_thruster_activation
+# Install script for directory: /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

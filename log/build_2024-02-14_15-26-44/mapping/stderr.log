@@ -1,0 +1,21 @@
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:128:5:[m[K [01;31m[Kerror: [m[K‘[01m[Kquaternion[m[K’ does not name a type
+  128 |     [01;31m[Kquaternion[m[K boat_orientation;
+      |     [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:[m[K In member function ‘[01m[Kvoid PointCloudProcessor::BoatPoseCallback(nav_msgs::msg::Odometry_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:46:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kboat_orientation[m[K’ was not declared in this scope
+   46 |         [01;31m[Kboat_orientation[m[K = msg->pose.pose.orientation;
+      |         [01;31m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:[m[K In member function ‘[01m[Kvoid PointCloudProcessor::calculateCentroidsAndPublish(const std::vector<std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >&)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:102:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  102 |             [01;31m[Ktf2[m[K::Quaternion q(boat_orientation.x, boat_orientation.y, boat_orientation.z, boat_orientation.w);
+      |             [01;31m[K^~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:103:13:[m[K [01;31m[Kerror: [m[K‘[01m[Ktf2[m[K’ has not been declared
+  103 |             [01;31m[Ktf2[m[K::Matrix3x3 m(q);
+      |             [01;31m[K^~~[m[K
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:105:13:[m[K [01;31m[Kerror: [m[K‘[01m[Km[m[K’ was not declared in this scope; did you mean ‘[01m[Ktm[m[K’?
+  105 |             [01;31m[Km[m[K.getRPY(roll, pitch, yaw);
+      |             [01;31m[K^[m[K
+      |             [32m[Ktm[m[K
+gmake[2]: *** [CMakeFiles/DetectAndPublishCentroids.dir/build.make:76: CMakeFiles/DetectAndPublishCentroids.dir/src/DetectAndPublishCentroids.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/DetectAndPublishCentroids.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

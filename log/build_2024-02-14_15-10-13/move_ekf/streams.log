@@ -1,0 +1,99 @@
+[0.335s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/Hippobot_ekf/move_ekf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/move_ekf
+[0.522s] -- The C compiler identification is GNU 11.4.0
+[0.656s] -- The CXX compiler identification is GNU 11.4.0
+[0.672s] -- Detecting C compiler ABI info
+[0.825s] -- Detecting C compiler ABI info - done
+[0.840s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.840s] -- Detecting C compile features
+[0.841s] -- Detecting C compile features - done
+[0.848s] -- Detecting CXX compiler ABI info
+[1.012s] -- Detecting CXX compiler ABI info - done
+[1.026s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.027s] -- Detecting CXX compile features
+[1.028s] -- Detecting CXX compile features - done
+[1.059s] -- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+[1.441s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.575s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.622s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[1.629s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.641s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.725s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.804s] -- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+[2.170s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.186s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.814s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.905s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.026s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.129s] -- Looking for pthread.h
+[3.354s] -- Looking for pthread.h - found
+[3.355s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.542s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.544s] -- Found Threads: TRUE  
+[8.524s] -- Configuring done
+[8.584s] -- Generating done
+[8.588s] -- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/move_ekf
+[8.610s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/Hippobot_ekf/move_ekf -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/move_ekf
+[8.613s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move_ekf -- -j8 -l8
+[10.658s] [ 25%] [32mBuilding CXX object CMakeFiles/stamp_wamv.dir/src/stamp_wamv.cpp.o[0m
+[10.658s] [ 50%] [32mBuilding CXX object CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o[0m
+[10.658s] [ 50%] Built target ament_cmake_python_symlink_move_ekf
+[10.659s] running egg_info
+[10.659s] creating move_ekf.egg-info
+[10.659s] writing move_ekf.egg-info/PKG-INFO
+[10.659s] writing dependency_links to move_ekf.egg-info/dependency_links.txt
+[10.659s] writing top-level names to move_ekf.egg-info/top_level.txt
+[10.659s] writing manifest file 'move_ekf.egg-info/SOURCES.txt'
+[10.660s] reading manifest file 'move_ekf.egg-info/SOURCES.txt'
+[10.660s] writing manifest file 'move_ekf.egg-info/SOURCES.txt'
+[10.660s] [ 50%] Built target ament_cmake_python_build_move_ekf_egg
+[21.975s] [ 75%] [32m[1mLinking CXX executable waypoint_publisher[0m
+[23.542s] [ 75%] Built target waypoint_publisher
+[40.881s] [100%] [32m[1mLinking CXX executable stamp_wamv[0m
+[43.178s] [100%] Built target stamp_wamv
+[43.233s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move_ekf -- -j8 -l8
+[43.385s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/move_ekf
+[43.405s] -- Install configuration: ""
+[43.407s] -- Execute custom install script
+[43.407s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/stamp_wamv
+[43.432s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/waypoint_publisher
+[43.454s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.sh
+[43.477s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.dsv
+[43.506s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/PKG-INFO
+[43.549s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/SOURCES.txt
+[43.574s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/dependency_links.txt
+[43.599s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/top_level.txt
+[43.624s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf/__init__.py
+[43.651s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/place_frame.py
+[43.687s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/tracker.py
+[43.726s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/CHANGELOG.rst
+[43.755s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/LICENSE
+[43.786s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/MANIFEST.in
+[43.818s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__init__.py
+[43.847s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/__init__.cpython-310.pyc
+[43.887s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/_version.cpython-310.pyc
+[43.917s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/conversion.cpython-310.pyc
+[43.943s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/error.cpython-310.pyc
+[43.978s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/_version.py
+[44.009s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/conversion.py
+[44.038s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/error.py
+[44.067s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/config.rviz
+[44.091s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/launch.py
+[44.114s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/params/ekf.yaml
+[44.139s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/package_run_dependencies/move_ekf
+[44.164s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/parent_prefix_path/move_ekf
+[44.185s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.sh
+[44.207s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.dsv
+[44.230s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.sh
+[44.256s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.dsv
+[44.281s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.bash
+[44.304s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.sh
+[44.327s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.zsh
+[44.351s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.dsv
+[44.376s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.dsv
+[44.399s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/packages/move_ekf
+[44.432s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig.cmake
+[44.458s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig-version.cmake
+[44.485s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.xml
+[44.637s] Listing '/home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf'...
+[44.639s] Compiling '/home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf/__init__.py'...
+[44.665s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/move_ekf

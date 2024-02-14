@@ -1,0 +1,134 @@
+[1.603s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces -- -j8 -l8
+[2.548s] [  2%] Built target my_robot_interfaces__cpp
+[2.548s] [ 12%] Built target my_robot_interfaces__rosidl_generator_c
+[2.549s] [ 12%] Built target ament_cmake_python_symlink_my_robot_interfaces
+[2.549s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_cpp
+[2.550s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_introspection_cpp
+[2.551s] [ 43%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_cpp
+[2.551s] [ 53%] Built target my_robot_interfaces__rosidl_typesupport_c
+[2.552s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c
+[2.552s] [ 74%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c
+[2.552s] [ 74%] Built target my_robot_interfaces
+[2.552s] [ 76%] Built target my_robot_interfaces__py
+[2.552s] [ 84%] Built target my_robot_interfaces__rosidl_generator_py
+[2.552s] [ 89%] Built target my_robot_interfaces__rosidl_typesupport_c__pyext
+[2.552s] [ 94%] Built target my_robot_interfaces__rosidl_typesupport_fastrtps_c__pyext
+[2.552s] [100%] Built target my_robot_interfaces__rosidl_typesupport_introspection_c__pyext
+[2.552s] running egg_info
+[2.552s] writing my_robot_interfaces.egg-info/PKG-INFO
+[2.552s] writing dependency_links to my_robot_interfaces.egg-info/dependency_links.txt
+[2.552s] writing top-level names to my_robot_interfaces.egg-info/top_level.txt
+[2.552s] reading manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.552s] writing manifest file 'my_robot_interfaces.egg-info/SOURCES.txt'
+[2.552s] [100%] Built target ament_cmake_python_build_my_robot_interfaces_egg
+[2.686s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces -- -j8 -l8
+[4.108s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces
+[4.485s] -- Install configuration: ""
+[4.486s] -- Execute custom install script
+[4.487s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/ament_index/resource_index/rosidl_interfaces/my_robot_interfaces
+[4.487s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/centroid_array_with_radius.h
+[4.490s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/centroid_with_radius.h
+[4.492s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__functions.h
+[4.493s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__struct.h
+[4.495s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__type_support.h
+[4.496s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__functions.h
+[4.497s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__struct.h
+[4.498s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__type_support.h
+[4.498s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_generator_c__visibility_control.h
+[4.500s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.sh
+[4.502s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/library_path.dsv
+[4.503s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__rosidl_typesupport_fastrtps_c.h
+[4.504s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__rosidl_typesupport_fastrtps_c.h
+[4.505s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[4.506s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__rosidl_typesupport_introspection_c.h
+[4.508s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__rosidl_typesupport_introspection_c.h
+[4.509s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[4.510s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/centroid_array_with_radius.hpp
+[4.511s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/centroid_with_radius.hpp
+[4.512s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__builder.hpp
+[4.513s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__struct.hpp
+[4.516s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__traits.hpp
+[4.518s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__builder.hpp
+[4.518s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__struct.hpp
+[4.519s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__traits.hpp
+[4.520s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__rosidl_typesupport_fastrtps_cpp.hpp
+[4.520s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__rosidl_typesupport_fastrtps_cpp.hpp
+[4.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[4.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_array_with_radius__rosidl_typesupport_introspection_cpp.hpp
+[4.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/include/my_robot_interfaces/my_robot_interfaces/msg/detail/centroid_with_radius__rosidl_typesupport_introspection_cpp.hpp
+[4.522s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.sh
+[4.522s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/pythonpath.dsv
+[4.522s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/PKG-INFO
+[4.523s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt
+[4.524s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt
+[4.524s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces-0.0.0-py3.10.egg-info/top_level.txt
+[4.525s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/__init__.py
+[4.525s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_c.c
+[4.526s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[4.526s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/_my_robot_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[4.526s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/libmy_robot_interfaces__rosidl_generator_py.so
+[4.527s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/__init__.py
+[4.527s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_centroid_array_with_radius.py
+[4.527s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_centroid_array_with_radius_s.c
+[4.528s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_centroid_with_radius.py
+[4.528s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg/_centroid_with_radius_s.c
+[4.529s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.529s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.530s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.530s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[4.530s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[4.531s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/my_robot_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[4.531s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/msg/CentroidWithRadius.idl
+[4.531s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/msg/CentroidArrayWithRadius.idl
+[4.532s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/msg/CentroidWithRadius.msg
+[4.532s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/msg/CentroidArrayWithRadius.msg
+[4.532s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/ament_index/resource_index/package_run_dependencies/my_robot_interfaces
+[4.533s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/ament_index/resource_index/parent_prefix_path/my_robot_interfaces
+[4.533s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.sh
+[4.534s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/ament_prefix_path.dsv
+[4.534s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.sh
+[4.534s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/environment/path.dsv
+[4.535s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.bash
+[4.535s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.sh
+[4.535s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.zsh
+[4.536s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/local_setup.dsv
+[4.536s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/package.dsv
+[4.536s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/ament_index/resource_index/packages/my_robot_interfaces
+[4.536s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake-extras.cmake
+[4.537s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[4.537s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[4.537s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[4.537s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[4.537s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[4.538s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[4.538s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig.cmake
+[4.538s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfacesConfig-version.cmake
+[4.539s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/package.xml
+[4.539s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_c.so
+[4.540s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_c.so
+[4.540s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_c.so
+[4.540s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_c.so
+[4.540s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[4.540s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_introspection_cpp.so
+[4.540s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_typesupport_cpp.so
+[4.541s] Listing '/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces'...
+[4.541s] Listing '/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages/my_robot_interfaces/msg'...
+[4.542s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib/libmy_robot_interfaces__rosidl_generator_py.so
+[4.542s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport.cmake
+[4.542s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cExport-noconfig.cmake
+[4.542s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[4.543s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[4.543s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[4.543s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[4.543s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport.cmake
+[4.543s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[4.544s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_cppExport.cmake
+[4.544s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[4.544s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[4.544s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[4.545s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[4.545s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport.cmake
+[4.545s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/my_robot_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[4.545s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport.cmake
+[4.545s] -- Up-to-date: /home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/share/my_robot_interfaces/cmake/export_my_robot_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[4.938s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/my_robot_interfaces

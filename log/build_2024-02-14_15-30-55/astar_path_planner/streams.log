@@ -1,0 +1,23 @@
+[1.620s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/astar_path_planner -- -j8 -l8
+[1.994s] [100%] Built target path_planner_cell_node
+[2.126s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/astar_path_planner -- -j8 -l8
+[2.198s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/astar_path_planner': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/astar_path_planner
+[2.214s] -- Install configuration: ""
+[2.215s] -- Execute custom install script
+[2.215s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/lib/astar_path_planner/path_planner_cell_node
+[2.216s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/ament_index/resource_index/package_run_dependencies/astar_path_planner
+[2.216s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/ament_index/resource_index/parent_prefix_path/astar_path_planner
+[2.216s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.sh
+[2.216s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/environment/ament_prefix_path.dsv
+[2.216s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/environment/path.sh
+[2.216s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/environment/path.dsv
+[2.216s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/local_setup.bash
+[2.217s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/local_setup.sh
+[2.217s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/local_setup.zsh
+[2.217s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/local_setup.dsv
+[2.217s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/package.dsv
+[2.236s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/ament_index/resource_index/packages/astar_path_planner
+[2.236s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig.cmake
+[2.236s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/cmake/astar_path_plannerConfig-version.cmake
+[2.236s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/astar_path_planner/share/astar_path_planner/package.xml
+[3.428s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/astar_path_planner' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/astar_path_planner

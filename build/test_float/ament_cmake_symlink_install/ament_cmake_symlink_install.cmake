@@ -314,43 +314,43 @@ message(STATUS "Execute custom install script")
 include("/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_float" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_float" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/test_float" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_float" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_float" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/test_float" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/test_float/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/test_float/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/test_float/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/test_float/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/test_float/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/test_float/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/test_float/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/test_float/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/test_float/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/test_float/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/test_float/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/test_float/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/test_float")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/test_float")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/test_float")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/test_float")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/test_float")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/test_float")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/test_float")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/test_float")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/test_float")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/test_float")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/test_float")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/test_float")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/test_float")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/test_float")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/test_float")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/packages/test_float" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/packages/test_float" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_index/share/ament_index/resource_index/packages/test_float" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_core/test_floatConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_core/test_floatConfig-version.cmake" "DESTINATION" "share/test_float/cmake")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_core/test_floatConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_core/test_floatConfig-version.cmake" "DESTINATION" "share/test_float/cmake")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_core/test_floatConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/test_float/ament_cmake_core/test_floatConfig-version.cmake" "DESTINATION" "share/test_float/cmake")
 
-# install(FILES "/home/t-lemmel/Aquabot_Tom/src/test_float/package.xml" "DESTINATION" "share/test_float")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/test_float" FILES "/home/t-lemmel/Aquabot_Tom/src/test_float/package.xml" "DESTINATION" "share/test_float")
+# install(FILES "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float/package.xml" "DESTINATION" "share/test_float")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float" FILES "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float/package.xml" "DESTINATION" "share/test_float")

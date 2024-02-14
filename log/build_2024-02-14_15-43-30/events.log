@@ -1,0 +1,162 @@
+[0.000000] (-) TimerEvent: {}
+[0.000328] (-) JobUnselected: {'identifier': 'aquabot_common'}
+[0.000402] (-) JobUnselected: {'identifier': 'aquabot_ekf'}
+[0.000498] (-) JobUnselected: {'identifier': 'astar_path_planner'}
+[0.000609] (-) JobUnselected: {'identifier': 'move_ekf'}
+[0.000675] (-) JobUnselected: {'identifier': 'my_robot_interfaces'}
+[0.000766] (-) JobUnselected: {'identifier': 'package_thruster_activation'}
+[0.000835] (-) JobUnselected: {'identifier': 'test_float'}
+[0.000906] (mapping) JobQueued: {'identifier': 'mapping', 'dependencies': OrderedDict([('my_robot_interfaces', '/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces')])}
+[0.000963] (mapping) JobStarted: {'identifier': 'mapping'}
+[0.098915] (-) TimerEvent: {}
+[0.103902] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'cmake'}
+[0.105402] (mapping) JobProgress: {'identifier': 'mapping', 'progress': 'build'}
+[0.107151] (mapping) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/t-lemmel/Aquabot_Tom/build/mapping', '--', '-j8', '-l8'], 'cwd': '/home/t-lemmel/Aquabot_Tom/build/mapping', 'env': OrderedDict([('GZ_SIM_SYSTEM_PLUGIN_PATH', '/home/t-lemmel/vrx_ws/install/lib'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('GZ_SIM_RESOURCE_PATH', '/home/t-lemmel/vrx_ws/install/share/wamv_description/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/models:/home/t-lemmel/vrx_ws/install/share/aquabot_gz/worlds:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models/tmp:/home/t-lemmel/vrx_ws/install/share/vrx_gz/models:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds/2023_practice:/home/t-lemmel/vrx_ws/install/share/vrx_gz/worlds:/home/t-lemmel/vrx_ws/install/share/aquabot_description/models:/home/t-lemmel/vrx_ws/install/share/vrx_gazebo/models:/home/t-lemmel/vrx_ws/install/share/'), ('USER', 't-lemmel'), ('LC_TIME', 'fr_FR.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib'), ('ros1_workspaces', ''), ('PS1_ori', '\\[\\e]0;\\u@\\h: \\w\\a\\]${debian_chroot:+($debian_chroot)}\\[\\033[01;32m\\]\\u@\\h\\[\\033[00m\\]:\\[\\033[01;34m\\]\\w\\[\\033[00m\\]\\$'), ('HOME', '/home/t-lemmel'), ('ros2_workspaces', '/opt/ros/humble /home/t-lemmel/vrx_ws /home/t-lemmel/Aquabot_Tom /home/t-lemmel/Ros_Labs /home/t-lemmel/Integ'), ('OLDPWD', '/home/t-lemmel/Aquabot_Tom/'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'fr_FR.UTF-8'), ('SYSTEMD_EXEC_PID', '5958'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('COLCON_PREFIX_PATH', '/home/t-lemmel/vrx_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 't-lemmel'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 't-lemmel'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/tlemmel-Predator-PH317-51:@/tmp/.ICE-unix/1992,unix/tlemmel-Predator-PH317-51:/tmp/.ICE-unix/1992'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'fr_FR.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/860fa539_56ca_407e_afa3_93b374dbb9d9'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':1'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'fr_FR.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.138'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/vrx_ws/install:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'fr_FR.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'fr_FR.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'fr_FR.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/t-lemmel/Aquabot_Tom/build/mapping'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/local/lib/python3.10/dist-packages:/home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages:/home/t-lemmel/vrx_ws/install/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'fr_FR.UTF-8'), ('LC_PAPER', 'fr_FR.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/mapping:/home/t-lemmel/Aquabot_Tom/install/move_ekf:/home/t-lemmel/Aquabot_Tom/install/astar_path_planner:/home/t-lemmel/Aquabot_Tom/install/aquabot_ekf:/home/t-lemmel/Aquabot_Tom/install/aquabot_common:/home/t-lemmel/vrx_ws/install:/opt/ros/humble')]), 'shell': False}
+[0.181628] (mapping) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target DetectAndPublishCentroids\x1b[0m\n'}
+[0.195611] (mapping) StdoutLine: {'line': b'[ 50%] Built target FillMap\n'}
+[0.198998] (-) TimerEvent: {}
+[0.230457] (mapping) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/DetectAndPublishCentroids.dir/src/DetectAndPublishCentroids.cpp.o\x1b[0m\n'}
+[0.299143] (-) TimerEvent: {}
+[0.399444] (-) TimerEvent: {}
+[0.499767] (-) TimerEvent: {}
+[0.600133] (-) TimerEvent: {}
+[0.700414] (-) TimerEvent: {}
+[0.800744] (-) TimerEvent: {}
+[0.901169] (-) TimerEvent: {}
+[1.001600] (-) TimerEvent: {}
+[1.101993] (-) TimerEvent: {}
+[1.202300] (-) TimerEvent: {}
+[1.302611] (-) TimerEvent: {}
+[1.402993] (-) TimerEvent: {}
+[1.503305] (-) TimerEvent: {}
+[1.603629] (-) TimerEvent: {}
+[1.704020] (-) TimerEvent: {}
+[1.804310] (-) TimerEvent: {}
+[1.904656] (-) TimerEvent: {}
+[2.004991] (-) TimerEvent: {}
+[2.105263] (-) TimerEvent: {}
+[2.205561] (-) TimerEvent: {}
+[2.305836] (-) TimerEvent: {}
+[2.406177] (-) TimerEvent: {}
+[2.506555] (-) TimerEvent: {}
+[2.606842] (-) TimerEvent: {}
+[2.707113] (-) TimerEvent: {}
+[2.807408] (-) TimerEvent: {}
+[2.907699] (-) TimerEvent: {}
+[3.007981] (-) TimerEvent: {}
+[3.108245] (-) TimerEvent: {}
+[3.208618] (-) TimerEvent: {}
+[3.309004] (-) TimerEvent: {}
+[3.409286] (-) TimerEvent: {}
+[3.509590] (-) TimerEvent: {}
+[3.609883] (-) TimerEvent: {}
+[3.710171] (-) TimerEvent: {}
+[3.810479] (-) TimerEvent: {}
+[3.910894] (-) TimerEvent: {}
+[4.011270] (-) TimerEvent: {}
+[4.111631] (-) TimerEvent: {}
+[4.211990] (-) TimerEvent: {}
+[4.312319] (-) TimerEvent: {}
+[4.412710] (-) TimerEvent: {}
+[4.513076] (-) TimerEvent: {}
+[4.613411] (-) TimerEvent: {}
+[4.713886] (-) TimerEvent: {}
+[4.814183] (-) TimerEvent: {}
+[4.914485] (-) TimerEvent: {}
+[5.014905] (-) TimerEvent: {}
+[5.115225] (-) TimerEvent: {}
+[5.215643] (-) TimerEvent: {}
+[5.316024] (-) TimerEvent: {}
+[5.416380] (-) TimerEvent: {}
+[5.516669] (-) TimerEvent: {}
+[5.617034] (-) TimerEvent: {}
+[5.717350] (-) TimerEvent: {}
+[5.817709] (-) TimerEvent: {}
+[5.918040] (-) TimerEvent: {}
+[6.018339] (-) TimerEvent: {}
+[6.118608] (-) TimerEvent: {}
+[6.218954] (-) TimerEvent: {}
+[6.319280] (-) TimerEvent: {}
+[6.419663] (-) TimerEvent: {}
+[6.520065] (-) TimerEvent: {}
+[6.620350] (-) TimerEvent: {}
+[6.720716] (-) TimerEvent: {}
+[6.821016] (-) TimerEvent: {}
+[6.921311] (-) TimerEvent: {}
+[7.021592] (-) TimerEvent: {}
+[7.121910] (-) TimerEvent: {}
+[7.222216] (-) TimerEvent: {}
+[7.322588] (-) TimerEvent: {}
+[7.422870] (-) TimerEvent: {}
+[7.523184] (-) TimerEvent: {}
+[7.623503] (-) TimerEvent: {}
+[7.723827] (-) TimerEvent: {}
+[7.824160] (-) TimerEvent: {}
+[7.924586] (-) TimerEvent: {}
+[8.024878] (-) TimerEvent: {}
+[8.125223] (-) TimerEvent: {}
+[8.225540] (-) TimerEvent: {}
+[8.294004] (mapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid PointCloudProcessor::calculateCentroidsAndPublish(const std::vector<std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[8.294208] (mapping) StderrLine: {'line': b'\x1b[01m\x1b[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:111:44:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Krequest for member \xe2\x80\x98\x1b[01m\x1b[Ktype\x1b[m\x1b[K\xe2\x80\x99 in \xe2\x80\x98\x1b[01m\x1b[Kyaw\x1b[m\x1b[K\xe2\x80\x99, which is of non-class type \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[8.294294] (mapping) StderrLine: {'line': b'  111 |             std::cout << "yaw type" << yaw.\x1b[01;31m\x1b[Ktype\x1b[m\x1b[K() << std::endl;\n'}
+[8.294366] (mapping) StderrLine: {'line': b'      |                                            \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[8.325642] (-) TimerEvent: {}
+[8.425958] (-) TimerEvent: {}
+[8.530284] (-) TimerEvent: {}
+[8.630613] (-) TimerEvent: {}
+[8.730975] (-) TimerEvent: {}
+[8.831275] (-) TimerEvent: {}
+[8.931552] (-) TimerEvent: {}
+[9.031909] (-) TimerEvent: {}
+[9.132245] (-) TimerEvent: {}
+[9.232546] (-) TimerEvent: {}
+[9.332906] (-) TimerEvent: {}
+[9.433220] (-) TimerEvent: {}
+[9.533527] (-) TimerEvent: {}
+[9.633866] (-) TimerEvent: {}
+[9.734243] (-) TimerEvent: {}
+[9.834508] (-) TimerEvent: {}
+[9.934800] (-) TimerEvent: {}
+[10.035189] (-) TimerEvent: {}
+[10.135650] (-) TimerEvent: {}
+[10.236067] (-) TimerEvent: {}
+[10.336392] (-) TimerEvent: {}
+[10.436757] (-) TimerEvent: {}
+[10.537149] (-) TimerEvent: {}
+[10.637486] (-) TimerEvent: {}
+[10.737880] (-) TimerEvent: {}
+[10.838251] (-) TimerEvent: {}
+[10.938620] (-) TimerEvent: {}
+[11.038950] (-) TimerEvent: {}
+[11.139309] (-) TimerEvent: {}
+[11.239616] (-) TimerEvent: {}
+[11.339963] (-) TimerEvent: {}
+[11.440364] (-) TimerEvent: {}
+[11.540739] (-) TimerEvent: {}
+[11.641054] (-) TimerEvent: {}
+[11.741358] (-) TimerEvent: {}
+[11.841951] (-) TimerEvent: {}
+[11.942315] (-) TimerEvent: {}
+[12.042645] (-) TimerEvent: {}
+[12.143041] (-) TimerEvent: {}
+[12.243418] (-) TimerEvent: {}
+[12.343820] (-) TimerEvent: {}
+[12.444117] (-) TimerEvent: {}
+[12.544501] (-) TimerEvent: {}
+[12.644897] (-) TimerEvent: {}
+[12.745217] (-) TimerEvent: {}
+[12.845542] (-) TimerEvent: {}
+[12.945856] (-) TimerEvent: {}
+[13.046132] (-) TimerEvent: {}
+[13.146429] (-) TimerEvent: {}
+[13.246728] (-) TimerEvent: {}
+[13.347075] (-) TimerEvent: {}
+[13.447381] (-) TimerEvent: {}
+[13.530355] (mapping) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/DetectAndPublishCentroids.dir/build.make:76: CMakeFiles/DetectAndPublishCentroids.dir/src/DetectAndPublishCentroids.cpp.o] Error 1\n'}
+[13.530667] (mapping) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/DetectAndPublishCentroids.dir/all] Error 2\n'}
+[13.530911] (mapping) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[13.533613] (mapping) CommandEnded: {'returncode': 2}
+[13.547476] (-) TimerEvent: {}
+[13.647800] (-) TimerEvent: {}
+[13.673479] (mapping) JobEnded: {'identifier': 'mapping', 'rc': 2}
+[13.685056] (-) EventReactorShutdown: {}

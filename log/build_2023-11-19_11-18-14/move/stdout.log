@@ -1,3 +1,0 @@
-[35m[1mConsolidate compiler generated dependencies of target waypoint_tracker[0m
-[ 25%] [32mBuilding CXX object CMakeFiles/gps2pose.dir/src/gps2pose.cpp.o[0m
-[ 50%] [32mBuilding CXX object CMakeFiles/waypoint_tracker.dir/src/waypoint_tracker.cpp.o[0m

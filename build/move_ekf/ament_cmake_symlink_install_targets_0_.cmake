@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/t-lemmel/Aquabot_Tom/build/move_ekf/stamp_wamv" "/home/t-lemmel/Aquabot_Tom/build/move_ekf/waypoint_publisher" "TARGETS" "stamp_wamv" "waypoint_publisher" "DESTINATION" "lib/move_ekf")

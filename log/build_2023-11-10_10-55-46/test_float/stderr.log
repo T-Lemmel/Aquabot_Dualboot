@@ -1,7 +1,0 @@
-[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:[m[K In function ‘[01m[Kvoid isolate_bearing(ros_gz_interfaces::msg::ParamVec_<std::allocator<void> >::SharedPtr)[m[K’:
-[01m[K/home/t-lemmel/Aquabot_Tom/src/test_float/src/isolating_bearing.cpp:10:47:[m[K [01;31m[Kerror: [m[Kbase operand of ‘[01m[K->[m[K’ has non-pointer type ‘[01m[Kconst _value_type[m[K’ {aka ‘[01m[Kconst rcl_interfaces::msg::ParameterValue_<std::allocator<void> >[m[K’}
-   10 |                     auto bearing = param.value[01;31m[K->[m[Kdouble_value;
-      |                                               [01;31m[K^~[m[K
-gmake[2]: *** [CMakeFiles/isolating_bearing.dir/build.make:76: CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o] Error 1
-gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/isolating_bearing.dir/all] Error 2
-gmake: *** [Makefile:146: all] Error 2

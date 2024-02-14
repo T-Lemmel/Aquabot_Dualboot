@@ -1,4 +1,4 @@
-# Install script for directory: /home/t-lemmel/Aquabot_Tom/src/test_float
+# Install script for directory: /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

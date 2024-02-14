@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/t-lemmel/Aquabot_Tom/build/astar_path_planner/path_planner_cell_node" "TARGETS" "path_planner_cell_node" "DESTINATION" "lib/astar_path_planner")

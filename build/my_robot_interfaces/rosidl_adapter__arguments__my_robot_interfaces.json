@@ -1,0 +1,7 @@
+{
+  "package_name": "my_robot_interfaces",
+  "non_idl_tuples": [
+    "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/my_robot_interfaces:msg/CentroidWithRadius.msg",
+    "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/my_robot_interfaces:msg/CentroidArrayWithRadius.msg"
+  ]
+}

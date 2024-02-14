@@ -57,7 +57,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/t-lemmel/Aquabot_Tom/src/package_thruster_activation
+CMAKE_SOURCE_DIR = /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-lemmel/Aquabot_Tom/build/package_thruster_activation

@@ -314,43 +314,43 @@ message(STATUS "Execute custom install script")
 include("/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/parent_prefix_path")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/package_thruster_activation/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/package_thruster_activation/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/ament_prefix_path.sh" "DESTINATION" "share/package_thruster_activation/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/package_thruster_activation/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/package_thruster_activation/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/ament_prefix_path.dsv" "DESTINATION" "share/package_thruster_activation/environment")
 
 # install(FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/package_thruster_activation/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/package_thruster_activation/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/opt/ros/humble/share/ament_cmake_core/cmake/environment_hooks/environment/path.sh" "DESTINATION" "share/package_thruster_activation/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/package_thruster_activation/environment")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/package_thruster_activation/environment")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/path.dsv" "DESTINATION" "share/package_thruster_activation/environment")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/package_thruster_activation")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/package_thruster_activation")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.bash" "DESTINATION" "share/package_thruster_activation")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/package_thruster_activation")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/package_thruster_activation")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.sh" "DESTINATION" "share/package_thruster_activation")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/package_thruster_activation")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/package_thruster_activation")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.zsh" "DESTINATION" "share/package_thruster_activation")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/package_thruster_activation")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/package_thruster_activation")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/local_setup.dsv" "DESTINATION" "share/package_thruster_activation")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/package_thruster_activation")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/package_thruster_activation")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_environment_hooks/package.dsv" "DESTINATION" "share/package_thruster_activation")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/packages/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/packages")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/packages/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/packages")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_index/share/ament_index/resource_index/packages/package_thruster_activation" "DESTINATION" "share/ament_index/resource_index/packages")
 
 # install(FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_core/package_thruster_activationConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_core/package_thruster_activationConfig-version.cmake" "DESTINATION" "share/package_thruster_activation/cmake")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_core/package_thruster_activationConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_core/package_thruster_activationConfig-version.cmake" "DESTINATION" "share/package_thruster_activation/cmake")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_core/package_thruster_activationConfig.cmake" "/home/t-lemmel/Aquabot_Tom/build/package_thruster_activation/ament_cmake_core/package_thruster_activationConfig-version.cmake" "DESTINATION" "share/package_thruster_activation/cmake")
 
-# install(FILES "/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation/package.xml" "DESTINATION" "share/package_thruster_activation")
-ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/src/package_thruster_activation/package.xml" "DESTINATION" "share/package_thruster_activation")
+# install(FILES "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation/package.xml" "DESTINATION" "share/package_thruster_activation")
+ament_cmake_symlink_install_files("/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation" FILES "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/package_thruster_activation/package.xml" "DESTINATION" "share/package_thruster_activation")

@@ -53,7 +53,7 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/t-lemmel/Aquabot_Tom/src/aquabot_common
+CMAKE_SOURCE_DIR = /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common
 
 # The top-level build directory on which CMake was run.
 CMAKE_BINARY_DIR = /home/t-lemmel/Aquabot_Tom/build/aquabot_common
@@ -70,18 +70,18 @@ include CMakeFiles/cloud_reader.dir/progress.make
 include CMakeFiles/cloud_reader.dir/flags.make
 
 CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o: CMakeFiles/cloud_reader.dir/flags.make
-CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o: /home/t-lemmel/Aquabot_Tom/src/aquabot_common/src/cloud_reader.cpp
+CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o: /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common/src/cloud_reader.cpp
 CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o: CMakeFiles/cloud_reader.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/t-lemmel/Aquabot_Tom/build/aquabot_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o -MF CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o.d -o CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o -c /home/t-lemmel/Aquabot_Tom/src/aquabot_common/src/cloud_reader.cpp
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o -MF CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o.d -o CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o -c /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common/src/cloud_reader.cpp
 
 CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-lemmel/Aquabot_Tom/src/aquabot_common/src/cloud_reader.cpp > CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common/src/cloud_reader.cpp > CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.i
 
 CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-lemmel/Aquabot_Tom/src/aquabot_common/src/cloud_reader.cpp -o CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common/src/cloud_reader.cpp -o CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.s
 
 # Object files for target cloud_reader
 cloud_reader_OBJECTS = \
@@ -92,8 +92,8 @@ cloud_reader_EXTERNAL_OBJECTS =
 
 cloud_reader: CMakeFiles/cloud_reader.dir/src/cloud_reader.cpp.o
 cloud_reader: CMakeFiles/cloud_reader.dir/build.make
+cloud_reader: /opt/ros/humble/lib/libpcl_ros_tf.a
 cloud_reader: /opt/ros/humble/lib/libmessage_filters.so
-cloud_reader: /opt/ros/humble/lib/librclcpp.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
 cloud_reader: /opt/ros/humble/lib/librmw.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
@@ -119,62 +119,24 @@ cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_py.so
 cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_c.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 cloud_reader: /opt/ros/humble/lib/librclcpp.so
-cloud_reader: /opt/ros/humble/lib/liblibstatistics_collector.so
-cloud_reader: /opt/ros/humble/lib/librcl.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
-cloud_reader: /opt/ros/humble/lib/librcl_yaml_param_parser.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
-cloud_reader: /opt/ros/humble/lib/libtracetools.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
-cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
-cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
-cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
-cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
-cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
-cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
-cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
-cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
 cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
-cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
-cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
-cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
-cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
-cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
-cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
-cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libpcl_apps.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libpcl_outofcore.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libpcl_people.so
@@ -183,40 +145,182 @@ cloud_reader: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libOpenNI2.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libflann_cpp.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+cloud_reader: /usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2
+cloud_reader: /usr/lib/x86_64-linux-gnu/liborocos-kdl.so
+cloud_reader: /opt/ros/humble/lib/libstatic_transform_broadcaster_node.so
+cloud_reader: /opt/ros/humble/lib/libtf2_ros.so
+cloud_reader: /opt/ros/humble/lib/libtf2.so
+cloud_reader: /opt/ros/humble/lib/libmessage_filters.so
+cloud_reader: /opt/ros/humble/lib/librclcpp_action.so
+cloud_reader: /opt/ros/humble/lib/librclcpp.so
+cloud_reader: /opt/ros/humble/lib/liblibstatistics_collector.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/librcl_action.so
+cloud_reader: /opt/ros/humble/lib/librcl.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/librcl_yaml_param_parser.so
+cloud_reader: /opt/ros/humble/lib/libtracetools.so
 cloud_reader: /opt/ros/humble/lib/librmw_implementation.so
 cloud_reader: /opt/ros/humble/lib/libament_index_cpp.so
 cloud_reader: /opt/ros/humble/lib/librcl_logging_spdlog.so
 cloud_reader: /opt/ros/humble/lib/librcl_logging_interface.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_typesupport_c.so
-cloud_reader: /opt/ros/humble/lib/librcl_interfaces__rosidl_generator_c.so
-cloud_reader: /opt/ros/humble/lib/libyaml.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
-cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
-cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_c.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_fastrtps_cpp.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
 cloud_reader: /opt/ros/humble/lib/libfastcdr.so.1.0.24
 cloud_reader: /opt/ros/humble/lib/librmw.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_introspection_cpp.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_cpp.so
 cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_cpp.so
 cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_cpp.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
-cloud_reader: /usr/lib/x86_64-linux-gnu/libpython3.10.so
-cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_c.so
-cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_typesupport_c.so
 cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
-cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
 cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libtf2_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_typesupport_c.so
 cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libaction_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_typesupport_c.so
 cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_c.so
 cloud_reader: /opt/ros/humble/lib/librcpputils.so
-cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
-cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libunique_identifier_msgs__rosidl_generator_c.so
 cloud_reader: /opt/ros/humble/lib/librosidl_runtime_c.so
 cloud_reader: /opt/ros/humble/lib/librcutils.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libbuiltin_interfaces__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/librosgraph_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/librcl_yaml_param_parser.so
+cloud_reader: /opt/ros/humble/lib/libyaml.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstatistics_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libtracetools.so
+cloud_reader: /opt/ros/humble/lib/libmessage_filters.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libgeometry_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/librmw.so
+cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/librcutils.so
+cloud_reader: /opt/ros/humble/lib/librcpputils.so
+cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/librosidl_runtime_c.so
+cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/librosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libpcl_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/librclcpp.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libsensor_msgs__rosidl_generator_py.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_c.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_c.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_fastrtps_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_c.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_c.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_introspection_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_typesupport_cpp.so
+cloud_reader: /opt/ros/humble/lib/libstd_msgs__rosidl_generator_py.so
+cloud_reader: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+cloud_reader: /usr/lib/x86_64-linux-gnu/libpcl_common.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libpcl_surface.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libpcl_keypoints.so
 cloud_reader: /usr/lib/x86_64-linux-gnu/libpcl_tracking.so
@@ -290,7 +394,6 @@ cloud_reader: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so.1.74.0
 cloud_reader: /usr/lib/x86_64-linux-gnu/libboost_date_time.so.1.74.0
 cloud_reader: /usr/lib/x86_64-linux-gnu/libboost_iostreams.so.1.74.0
 cloud_reader: /usr/lib/x86_64-linux-gnu/libboost_serialization.so.1.74.0
-cloud_reader: /usr/lib/x86_64-linux-gnu/libqhull_r.so.8.0.2
 cloud_reader: CMakeFiles/cloud_reader.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/t-lemmel/Aquabot_Tom/build/aquabot_common/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable cloud_reader"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/cloud_reader.dir/link.txt --verbose=$(VERBOSE)
@@ -304,6 +407,6 @@ CMakeFiles/cloud_reader.dir/clean:
 .PHONY : CMakeFiles/cloud_reader.dir/clean
 
 CMakeFiles/cloud_reader.dir/depend:
-	cd /home/t-lemmel/Aquabot_Tom/build/aquabot_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-lemmel/Aquabot_Tom/src/aquabot_common /home/t-lemmel/Aquabot_Tom/src/aquabot_common /home/t-lemmel/Aquabot_Tom/build/aquabot_common /home/t-lemmel/Aquabot_Tom/build/aquabot_common /home/t-lemmel/Aquabot_Tom/build/aquabot_common/CMakeFiles/cloud_reader.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/t-lemmel/Aquabot_Tom/build/aquabot_common && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/aquabot_common /home/t-lemmel/Aquabot_Tom/build/aquabot_common /home/t-lemmel/Aquabot_Tom/build/aquabot_common /home/t-lemmel/Aquabot_Tom/build/aquabot_common/CMakeFiles/cloud_reader.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/cloud_reader.dir/depend
 

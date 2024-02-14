@@ -1,0 +1,1 @@
+/home/t-lemmel/Aquabot_Tom/build/astar_path_planner/ament_cmake_environment_hooks/local_setup.zsh

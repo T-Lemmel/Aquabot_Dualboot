@@ -1,0 +1,694 @@
+[1.714s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install', '--continue-on-error', '--packages-select', 'mapping']
+[1.714s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=True, executor='parallel', parallel_workers=8, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['mapping'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7f3768cb2860>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7f3768cb3a30>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7f3768cb3a30>>)
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[1.792s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[1.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[1.793s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[1.793s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/t-lemmel/Aquabot_Tom'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[1.793s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[1.794s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[1.812s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[1.813s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['ignore', 'ignore_ament_install']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'ignore'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'ignore_ament_install'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['colcon_pkg']
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'colcon_pkg'
+[1.814s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['colcon_meta']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'colcon_meta'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['ros']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'ros'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['cmake', 'python']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'cmake'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'python'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extensions ['python_setup_py']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools) by extension 'python_setup_py'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['ignore', 'ignore_ament_install']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'ignore'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'ignore_ament_install'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['colcon_pkg']
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'colcon_pkg'
+[1.815s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['colcon_meta']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'colcon_meta'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['ros']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'ros'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['cmake', 'python']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'cmake'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'python'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extensions ['python_setup_py']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(ros_management_tools/qtcreator) by extension 'python_setup_py'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[1.816s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extensions ['ignore', 'ignore_ament_install']
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'ignore'
+[1.817s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'ignore_ament_install'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extensions ['colcon_pkg']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'colcon_pkg'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extensions ['colcon_meta']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'colcon_meta'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extensions ['ros']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'ros'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extensions ['cmake', 'python']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'cmake'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'python'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extensions ['python_setup_py']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant) by extension 'python_setup_py'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extensions ['ignore', 'ignore_ament_install']
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'ignore'
+[1.818s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'ignore_ament_install'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extensions ['colcon_pkg']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'colcon_pkg'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extensions ['colcon_meta']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'colcon_meta'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extensions ['ros']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'ros'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extensions ['cmake', 'python']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'cmake'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'python'
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extensions ['python_setup_py']
+[1.819s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf) by extension 'python_setup_py'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extensions ['ignore', 'ignore_ament_install']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extension 'ignore'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extension 'ignore_ament_install'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extensions ['colcon_pkg']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extension 'colcon_pkg'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extensions ['colcon_meta']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extension 'colcon_meta'
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extensions ['ros']
+[1.820s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/Hippobot_ekf/move_ekf) by extension 'ros'
+[1.825s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Infant/Hippobot_ekf/move_ekf' with type 'ros.ament_cmake' and name 'move_ekf'
+[1.825s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extensions ['ignore', 'ignore_ament_install']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extension 'ignore'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extension 'ignore_ament_install'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extensions ['colcon_pkg']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extension 'colcon_pkg'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extensions ['colcon_meta']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extension 'colcon_meta'
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extensions ['ros']
+[1.826s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/aquabot_common) by extension 'ros'
+[1.827s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Infant/aquabot_common' with type 'ros.ament_cmake' and name 'aquabot_common'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extensions ['ignore', 'ignore_ament_install']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extension 'ignore'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extension 'ignore_ament_install'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extensions ['colcon_pkg']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extension 'colcon_pkg'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extensions ['colcon_meta']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extension 'colcon_meta'
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extensions ['ros']
+[1.828s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/package_thruster_activation) by extension 'ros'
+[1.829s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Infant/package_thruster_activation' with type 'ros.ament_cmake' and name 'package_thruster_activation'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extensions ['ignore', 'ignore_ament_install']
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extension 'ignore'
+[1.829s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extension 'ignore_ament_install'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extensions ['colcon_pkg']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extension 'colcon_pkg'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extensions ['colcon_meta']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extension 'colcon_meta'
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extensions ['ros']
+[1.830s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Infant/test_float) by extension 'ros'
+[1.831s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Infant/test_float' with type 'ros.ament_cmake' and name 'test_float'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extensions ['ignore', 'ignore_ament_install']
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'ignore'
+[1.831s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'ignore_ament_install'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extensions ['colcon_pkg']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'colcon_pkg'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extensions ['colcon_meta']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'colcon_meta'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extensions ['ros']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'ros'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extensions ['cmake', 'python']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'cmake'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'python'
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extensions ['python_setup_py']
+[1.832s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors) by extension 'python_setup_py'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extensions ['ignore', 'ignore_ament_install']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extension 'ignore'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extension 'ignore_ament_install'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extensions ['colcon_pkg']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extension 'colcon_pkg'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extensions ['colcon_meta']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extension 'colcon_meta'
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extensions ['ros']
+[1.833s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/aquabot_ekf) by extension 'ros'
+[1.835s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Survivors/aquabot_ekf' with type 'ros.ament_cmake' and name 'aquabot_ekf'
+[1.835s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extensions ['ignore', 'ignore_ament_install']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'ignore'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'ignore_ament_install'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extensions ['colcon_pkg']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'colcon_pkg'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extensions ['colcon_meta']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'colcon_meta'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extensions ['ros']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'ros'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extensions ['cmake', 'python']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'cmake'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'python'
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extensions ['python_setup_py']
+[1.836s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build) by extension 'python_setup_py'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extensions ['ignore', 'ignore_ament_install']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'ignore'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'ignore_ament_install'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extensions ['colcon_pkg']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'colcon_pkg'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extensions ['colcon_meta']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'colcon_meta'
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extensions ['ros']
+[1.837s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'ros'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extensions ['cmake', 'python']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'cmake'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'python'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extensions ['python_setup_py']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles) by extension 'python_setup_py'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extensions ['ignore', 'ignore_ament_install']
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'ignore'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'ignore_ament_install'
+[1.838s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extensions ['colcon_pkg']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'colcon_pkg'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extensions ['colcon_meta']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'colcon_meta'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extensions ['ros']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'ros'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extensions ['cmake', 'python']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'cmake'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'python'
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extensions ['python_setup_py']
+[1.839s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1) by extension 'python_setup_py'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ignore', 'ignore_ament_install']
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ignore_ament_install'
+[1.840s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_pkg']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_pkg'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['colcon_meta']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'colcon_meta'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['ros']
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'ros'
+[1.841s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['cmake', 'python']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'cmake'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extensions ['python_setup_py']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC) by extension 'python_setup_py'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ignore', 'ignore_ament_install']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ignore_ament_install'
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_pkg']
+[1.842s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_pkg'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['colcon_meta']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'colcon_meta'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['ros']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'ros'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['cmake', 'python']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'cmake'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extensions ['python_setup_py']
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdC/tmp) by extension 'python_setup_py'
+[1.843s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ignore', 'ignore_ament_install']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ignore_ament_install'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_pkg']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_pkg'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['colcon_meta']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'colcon_meta'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['ros']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'ros'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['cmake', 'python']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'cmake'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python'
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extensions ['python_setup_py']
+[1.844s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX) by extension 'python_setup_py'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ignore', 'ignore_ament_install']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ignore_ament_install'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_pkg']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_pkg'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['colcon_meta']
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'colcon_meta'
+[1.845s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['ros']
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'ros'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['cmake', 'python']
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'cmake'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extensions ['python_setup_py']
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/3.22.1/CompilerIdCXX/tmp) by extension 'python_setup_py'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extensions ['ignore', 'ignore_ament_install']
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'ignore'
+[1.846s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'ignore_ament_install'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extensions ['colcon_pkg']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'colcon_pkg'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extensions ['colcon_meta']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'colcon_meta'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extensions ['ros']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'ros'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extensions ['cmake', 'python']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'cmake'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'python'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extensions ['python_setup_py']
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/CMakeTmp) by extension 'python_setup_py'
+[1.847s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extensions ['ignore', 'ignore_ament_install']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'ignore'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'ignore_ament_install'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extensions ['colcon_pkg']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'colcon_pkg'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extensions ['colcon_meta']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'colcon_meta'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extensions ['ros']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'ros'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extensions ['cmake', 'python']
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'cmake'
+[1.848s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'python'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extensions ['python_setup_py']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/aquabot_ekf_uninstall.dir) by extension 'python_setup_py'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extensions ['ignore', 'ignore_ament_install']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'ignore'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'ignore_ament_install'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extensions ['colcon_pkg']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'colcon_pkg'
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extensions ['colcon_meta']
+[1.849s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'colcon_meta'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extensions ['ros']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'ros'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extensions ['cmake', 'python']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'cmake'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'python'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extensions ['python_setup_py']
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir) by extension 'python_setup_py'
+[1.850s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extensions ['ignore', 'ignore_ament_install']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'ignore'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'ignore_ament_install'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extensions ['colcon_pkg']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'colcon_pkg'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extensions ['colcon_meta']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'colcon_meta'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extensions ['ros']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'ros'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extensions ['cmake', 'python']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'cmake'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'python'
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extensions ['python_setup_py']
+[1.851s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/gps2pose.dir/src) by extension 'python_setup_py'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extensions ['ignore', 'ignore_ament_install']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'ignore'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'ignore_ament_install'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extensions ['colcon_pkg']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'colcon_pkg'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extensions ['colcon_meta']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'colcon_meta'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extensions ['ros']
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'ros'
+[1.852s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extensions ['cmake', 'python']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'cmake'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'python'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extensions ['python_setup_py']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/CMakeFiles/uninstall.dir) by extension 'python_setup_py'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extensions ['ignore', 'ignore_ament_install']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'ignore'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'ignore_ament_install'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extensions ['colcon_pkg']
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'colcon_pkg'
+[1.853s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extensions ['colcon_meta']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'colcon_meta'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extensions ['ros']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'ros'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extensions ['cmake', 'python']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'cmake'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'python'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extensions ['python_setup_py']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing) by extension 'python_setup_py'
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extensions ['ignore', 'ignore_ament_install']
+[1.854s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'ignore'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'ignore_ament_install'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extensions ['colcon_pkg']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'colcon_pkg'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extensions ['colcon_meta']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'colcon_meta'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extensions ['ros']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'ros'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extensions ['cmake', 'python']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'cmake'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'python'
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extensions ['python_setup_py']
+[1.855s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/20240214-1411) by extension 'python_setup_py'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extensions ['ignore', 'ignore_ament_install']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'ignore'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'ignore_ament_install'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extensions ['colcon_pkg']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'colcon_pkg'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extensions ['colcon_meta']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'colcon_meta'
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extensions ['ros']
+[1.856s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'ros'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extensions ['cmake', 'python']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'cmake'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'python'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extensions ['python_setup_py']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/Testing/Temporary) by extension 'python_setup_py'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extensions ['ignore', 'ignore_ament_install']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'ignore'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'ignore_ament_install'
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extensions ['colcon_pkg']
+[1.857s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'colcon_pkg'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extensions ['colcon_meta']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'colcon_meta'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extensions ['ros']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'ros'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extensions ['cmake', 'python']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'cmake'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'python'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extensions ['python_setup_py']
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core) by extension 'python_setup_py'
+[1.858s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extensions ['ignore', 'ignore_ament_install']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'ignore'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'ignore_ament_install'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extensions ['colcon_pkg']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'colcon_pkg'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extensions ['colcon_meta']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'colcon_meta'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extensions ['ros']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'ros'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extensions ['cmake', 'python']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'cmake'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'python'
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extensions ['python_setup_py']
+[1.859s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_core/stamps) by extension 'python_setup_py'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extensions ['ignore', 'ignore_ament_install']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'ignore'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'ignore_ament_install'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extensions ['colcon_pkg']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'colcon_pkg'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extensions ['colcon_meta']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'colcon_meta'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extensions ['ros']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'ros'
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extensions ['cmake', 'python']
+[1.860s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'cmake'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'python'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extensions ['python_setup_py']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_environment_hooks) by extension 'python_setup_py'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'ignore'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'ignore_ament_install'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extensions ['colcon_pkg']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'colcon_pkg'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extensions ['colcon_meta']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'colcon_meta'
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extensions ['ros']
+[1.861s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'ros'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extensions ['cmake', 'python']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'cmake'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'python'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extensions ['python_setup_py']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_dependencies) by extension 'python_setup_py'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extensions ['ignore', 'ignore_ament_install']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'ignore'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'ignore_ament_install'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extensions ['colcon_pkg']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'colcon_pkg'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extensions ['colcon_meta']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'colcon_meta'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extensions ['ros']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'ros'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extensions ['cmake', 'python']
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'cmake'
+[1.862s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'python'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extensions ['python_setup_py']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_export_include_directories) by extension 'python_setup_py'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extensions ['ignore', 'ignore_ament_install']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'ignore'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'ignore_ament_install'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extensions ['colcon_pkg']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'colcon_pkg'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extensions ['colcon_meta']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'colcon_meta'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extensions ['ros']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'ros'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extensions ['cmake', 'python']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'cmake'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'python'
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extensions ['python_setup_py']
+[1.863s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index) by extension 'python_setup_py'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extensions ['ignore', 'ignore_ament_install']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'ignore'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'ignore_ament_install'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extensions ['colcon_pkg']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'colcon_pkg'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extensions ['colcon_meta']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'colcon_meta'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extensions ['ros']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'ros'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extensions ['cmake', 'python']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'cmake'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'python'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extensions ['python_setup_py']
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share) by extension 'python_setup_py'
+[1.864s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extensions ['ignore', 'ignore_ament_install']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'ignore'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'ignore_ament_install'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extensions ['colcon_pkg']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'colcon_pkg'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extensions ['colcon_meta']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'colcon_meta'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extensions ['ros']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'ros'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extensions ['cmake', 'python']
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'cmake'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'python'
+[1.865s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extensions ['python_setup_py']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index) by extension 'python_setup_py'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['ignore', 'ignore_ament_install']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ignore'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ignore_ament_install'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['colcon_pkg']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'colcon_pkg'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['colcon_meta']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'colcon_meta'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['ros']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'ros'
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['cmake', 'python']
+[1.866s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'cmake'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'python'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extensions ['python_setup_py']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index) by extension 'python_setup_py'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['ignore', 'ignore_ament_install']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ignore_ament_install'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_pkg']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_pkg'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['colcon_meta']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'colcon_meta'
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['ros']
+[1.867s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'ros'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['cmake', 'python']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'cmake'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'python'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extensions ['python_setup_py']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies) by extension 'python_setup_py'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['ignore', 'ignore_ament_install']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ignore'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ignore_ament_install'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['colcon_pkg']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'colcon_pkg'
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['colcon_meta']
+[1.868s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'colcon_meta'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['ros']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'ros'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['cmake', 'python']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'cmake'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'python'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extensions ['python_setup_py']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/packages) by extension 'python_setup_py'
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['ignore', 'ignore_ament_install']
+[1.869s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ignore_ament_install'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_pkg']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_pkg'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['colcon_meta']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'colcon_meta'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['ros']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'ros'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['cmake', 'python']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'cmake'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'python'
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extensions ['python_setup_py']
+[1.870s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_index/share/ament_index/resource_index/parent_prefix_path) by extension 'python_setup_py'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extensions ['ignore', 'ignore_ament_install']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'ignore'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'ignore_ament_install'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extensions ['colcon_pkg']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'colcon_pkg'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extensions ['colcon_meta']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'colcon_meta'
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extensions ['ros']
+[1.871s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'ros'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extensions ['cmake', 'python']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'cmake'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'python'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extensions ['python_setup_py']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_package_templates) by extension 'python_setup_py'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extensions ['ignore', 'ignore_ament_install']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'ignore'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'ignore_ament_install'
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extensions ['colcon_pkg']
+[1.872s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'colcon_pkg'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extensions ['colcon_meta']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'colcon_meta'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extensions ['ros']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'ros'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extensions ['cmake', 'python']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'cmake'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'python'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extensions ['python_setup_py']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/build/ament_cmake_uninstall_target) by extension 'python_setup_py'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extensions ['ignore', 'ignore_ament_install']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extension 'ignore'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extension 'ignore_ament_install'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extensions ['colcon_pkg']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extension 'colcon_pkg'
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extensions ['colcon_meta']
+[1.873s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extension 'colcon_meta'
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extensions ['ros']
+[1.874s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/mapping) by extension 'ros'
+[1.875s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Survivors/mapping' with type 'ros.ament_cmake' and name 'mapping'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extension 'ignore'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extension 'ignore_ament_install'
+[1.875s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extensions ['colcon_pkg']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extension 'colcon_pkg'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extensions ['colcon_meta']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extension 'colcon_meta'
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extensions ['ros']
+[1.876s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/my_robot_interfaces) by extension 'ros'
+[1.877s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Survivors/my_robot_interfaces' with type 'ros.ament_cmake' and name 'my_robot_interfaces'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extensions ['ignore', 'ignore_ament_install']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extension 'ignore'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extension 'ignore_ament_install'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extensions ['colcon_pkg']
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extension 'colcon_pkg'
+[1.877s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extensions ['colcon_meta']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extension 'colcon_meta'
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extensions ['ros']
+[1.878s] Level 1:colcon.colcon_core.package_identification:_identify(src/Hippobot_Survivors/trajectory) by extension 'ros'
+[1.878s] DEBUG:colcon.colcon_core.package_identification:Package 'src/Hippobot_Survivors/trajectory' with type 'ros.ament_cmake' and name 'astar_path_planner'
+[1.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[1.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[1.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[1.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[1.878s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[1.979s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aquabot_common' in 'src/Hippobot_Infant/aquabot_common'
+[1.979s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'aquabot_ekf' in 'src/Hippobot_Survivors/aquabot_ekf'
+[1.979s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'astar_path_planner' in 'src/Hippobot_Survivors/trajectory'
+[1.979s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'move_ekf' in 'src/Hippobot_Infant/Hippobot_ekf/move_ekf'
+[1.979s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'my_robot_interfaces' in 'src/Hippobot_Survivors/my_robot_interfaces'
+[1.979s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'package_thruster_activation' in 'src/Hippobot_Infant/package_thruster_activation'
+[1.979s] INFO:colcon.colcon_core.package_selection:Skipping not selected package 'test_float' in 'src/Hippobot_Infant/test_float'
+[2.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[2.026s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[2.076s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 8 installed packages in /home/t-lemmel/vrx_ws/install
+[2.102s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 236 installed packages in /opt/ros/humble
+[2.103s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_args' from command line to 'None'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target' from command line to 'None'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.229s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_cache' from command line to 'False'
+[2.230s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_clean_first' from command line to 'False'
+[2.230s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'cmake_force_configure' from command line to 'False'
+[2.230s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'ament_cmake_args' from command line to 'None'
+[2.230s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_cmake_args' from command line to 'None'
+[2.230s] Level 5:colcon.colcon_core.verb:set package 'mapping' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.230s] DEBUG:colcon.colcon_core.verb:Building package 'mapping' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/t-lemmel/Aquabot_Tom/build/mapping', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/t-lemmel/Aquabot_Tom/install/mapping', 'merge_install': False, 'path': '/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping', 'symlink_install': True, 'test_result_base': None}
+[2.252s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.279s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.279s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping' with build type 'ament_cmake'
+[2.280s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping'
+[2.307s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.307s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.307s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[2.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/mapping': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/mapping:/home/t-lemmel/Aquabot_Tom/install/move_ekf:/home/t-lemmel/Aquabot_Tom/install/astar_path_planner:/home/t-lemmel/Aquabot_Tom/install/aquabot_ekf:/home/t-lemmel/Aquabot_Tom/install/aquabot_common:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/mapping -- -j8 -l8
+[27.695s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/mapping' returned '0': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/mapping:/home/t-lemmel/Aquabot_Tom/install/move_ekf:/home/t-lemmel/Aquabot_Tom/install/astar_path_planner:/home/t-lemmel/Aquabot_Tom/install/aquabot_ekf:/home/t-lemmel/Aquabot_Tom/install/aquabot_common:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/mapping -- -j8 -l8
+[27.750s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/t-lemmel/Aquabot_Tom/build/mapping': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/mapping:/home/t-lemmel/Aquabot_Tom/install/move_ekf:/home/t-lemmel/Aquabot_Tom/install/astar_path_planner:/home/t-lemmel/Aquabot_Tom/install/aquabot_ekf:/home/t-lemmel/Aquabot_Tom/install/aquabot_common:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/mapping
+[27.778s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[27.779s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/t-lemmel/Aquabot_Tom/build/mapping' returned '0': AMENT_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces:/home/t-lemmel/Integ/install/integ_my_robot_interfaces:/home/t-lemmel/Integ/install/integ_description:/home/t-lemmel/Aquabot_Tom/install/test_float:/home/t-lemmel/Aquabot_Tom/install/package_thruster_activation:/home/t-lemmel/Aquabot_Tom/install/mapping:/home/t-lemmel/Aquabot_Tom/install/move_ekf:/home/t-lemmel/Aquabot_Tom/install/astar_path_planner:/home/t-lemmel/Aquabot_Tom/install/aquabot_ekf:/home/t-lemmel/Aquabot_Tom/install/aquabot_common:/home/t-lemmel/vrx_ws/install:/opt/ros/humble LD_LIBRARY_PATH=/home/t-lemmel/Aquabot_Tom/install/my_robot_interfaces/lib:/home/t-lemmel/Integ/install/integ_my_robot_interfaces/lib:/home/t-lemmel/vrx_ws/install/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib:/opt/ros/noetic/lib PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/mapping
+[27.803s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping' for CMake module files
+[27.803s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping' for CMake config files
+[27.804s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[27.828s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[27.830s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[27.830s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[27.832s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/lib'
+[27.832s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/bin'
+[27.832s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/lib/pkgconfig/mapping.pc'
+[27.833s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/lib/python3.10/site-packages'
+[27.833s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/bin'
+[27.856s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.ps1'
+[27.858s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.dsv'
+[27.859s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.sh'
+[27.860s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.bash'
+[27.862s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.zsh'
+[27.863s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/mapping/share/colcon-core/packages/mapping)
+[27.924s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(mapping)
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping' for CMake module files
+[27.944s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping' for CMake config files
+[27.945s] Level 1:colcon.colcon_core.shell:create_environment_hook('mapping', 'cmake_prefix_path')
+[27.968s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/hook/cmake_prefix_path.ps1'
+[27.968s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/hook/cmake_prefix_path.dsv'
+[27.969s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/hook/cmake_prefix_path.sh'
+[27.970s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/lib'
+[27.970s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/bin'
+[27.970s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/lib/pkgconfig/mapping.pc'
+[27.970s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/lib/python3.10/site-packages'
+[27.970s] Level 1:colcon.colcon_core.environment:checking '/home/t-lemmel/Aquabot_Tom/install/mapping/bin'
+[27.992s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.ps1'
+[27.993s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.dsv'
+[27.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.sh'
+[27.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.bash'
+[27.994s] INFO:colcon.colcon_core.shell:Creating package script '/home/t-lemmel/Aquabot_Tom/install/mapping/share/mapping/package.zsh'
+[27.995s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/t-lemmel/Aquabot_Tom/install/mapping/share/colcon-core/packages/mapping)
+[27.995s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[27.996s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[27.996s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[27.996s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[28.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[28.026s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[28.026s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[28.040s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[28.064s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.ps1'
+[28.066s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/t-lemmel/Aquabot_Tom/install/_local_setup_util_ps1.py'
+[28.067s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.ps1'
+[28.088s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.sh'
+[28.088s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/t-lemmel/Aquabot_Tom/install/_local_setup_util_sh.py'
+[28.089s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.sh'
+[28.110s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.bash'
+[28.111s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.bash'
+[28.133s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/t-lemmel/Aquabot_Tom/install/local_setup.zsh'
+[28.134s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/t-lemmel/Aquabot_Tom/install/setup.zsh'

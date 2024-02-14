@@ -1,0 +1,84 @@
+[0.144s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/test_float
+[4.127s] -- The C compiler identification is GNU 11.4.0
+[4.127s] -- The CXX compiler identification is GNU 11.4.0
+[4.128s] -- Detecting C compiler ABI info
+[4.128s] -- Detecting C compiler ABI info - done
+[4.128s] -- Check for working C compiler: /usr/bin/cc - skipped
+[4.128s] -- Detecting C compile features
+[4.128s] -- Detecting C compile features - done
+[4.128s] -- Detecting CXX compiler ABI info
+[4.129s] -- Detecting CXX compiler ABI info - done
+[4.129s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[4.129s] -- Detecting CXX compile features
+[4.129s] -- Detecting CXX compile features - done
+[4.129s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.129s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[4.130s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[4.130s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[4.130s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[4.130s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[4.130s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[4.130s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.130s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.131s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[4.131s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[4.131s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[4.131s] -- Found FastRTPS: /opt/ros/humble/include  
+[4.131s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[4.131s] -- Looking for pthread.h
+[4.132s] -- Looking for pthread.h - found
+[4.132s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[4.132s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[4.132s] -- Found Threads: TRUE  
+[4.132s] -- Found ros_gz_interfaces: 0.244.11 (/opt/ros/humble/share/ros_gz_interfaces/cmake)
+[4.593s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.398s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[5.398s] -- Configured cppcheck include dirs: 
+[5.399s] -- Configured cppcheck exclude dirs and/or files: 
+[5.402s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.409s] -- Added test 'lint_cmake' to check CMake code style
+[5.414s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.445s] -- Added test 'uncrustify' to check C / C++ code style
+[5.445s] -- Configured uncrustify additional arguments: 
+[5.449s] -- Added test 'xmllint' to check XML markup files
+[5.454s] -- Configuring done
+[5.564s] -- Generating done
+[5.577s] -- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/test_float
+[5.669s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/test_float' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake /home/t-lemmel/Aquabot_Tom/src/Hippobot_Infant/test_float -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/t-lemmel/Aquabot_Tom/install/test_float
+[5.670s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/test_float -- -j8 -l8
+[8.332s] [ 12%] [32mBuilding CXX object CMakeFiles/talkerfloat.dir/src/publisher_float.cpp.o[0m
+[8.332s] [ 25%] [32mBuilding CXX object CMakeFiles/listenerfloat.dir/src/subscriber_float.cpp.o[0m
+[8.333s] [ 37%] [32mBuilding CXX object CMakeFiles/state_publisher.dir/src/state_publisher.cpp.o[0m
+[8.335s] [ 50%] [32mBuilding CXX object CMakeFiles/isolating_bearing.dir/src/isolating_bearing.cpp.o[0m
+[21.479s] [ 62%] [32m[1mLinking CXX executable state_publisher[0m
+[21.828s] [ 75%] [32m[1mLinking CXX executable talkerfloat[0m
+[22.400s] [ 75%] Built target talkerfloat
+[22.408s] [ 75%] Built target state_publisher
+[30.495s] [ 87%] [32m[1mLinking CXX executable listenerfloat[0m
+[31.083s] [100%] [32m[1mLinking CXX executable isolating_bearing[0m
+[31.556s] [100%] Built target listenerfloat
+[32.145s] [100%] Built target isolating_bearing
+[32.165s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/test_float' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/test_float -- -j8 -l8
+[32.255s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/test_float': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/test_float
+[32.274s] -- Install configuration: ""
+[32.275s] -- Execute custom install script
+[32.276s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/isolating_bearing
+[32.299s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/state_publisher
+[32.316s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/talkerfloat
+[32.337s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/lib/test_float/listenerfloat
+[32.356s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/package_run_dependencies/test_float
+[32.376s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/parent_prefix_path/test_float
+[32.391s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.sh
+[32.412s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/ament_prefix_path.dsv
+[32.431s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.sh
+[32.449s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/environment/path.dsv
+[32.464s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.bash
+[32.480s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.sh
+[32.498s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.zsh
+[32.514s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/local_setup.dsv
+[32.545s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.dsv
+[32.567s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/ament_index/resource_index/packages/test_float
+[32.594s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig.cmake
+[32.615s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/cmake/test_floatConfig-version.cmake
+[32.633s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/test_float/share/test_float/package.xml
+[32.661s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/test_float' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/test_float

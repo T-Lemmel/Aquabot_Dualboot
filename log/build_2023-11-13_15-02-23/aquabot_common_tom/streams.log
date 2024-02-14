@@ -1,5 +1,0 @@
-[1.004s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom -- -j8 -l8
-[1.079s] [0mCMake Error: The source directory "/home/t-lemmel/Aquabot_Tom/src/aquabot_common_tom" does not exist.
-[1.079s] Specify --help for usage, or press the help button on the CMake GUI.[0m
-[1.084s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
-[1.092s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/aquabot_common_tom -- -j8 -l8

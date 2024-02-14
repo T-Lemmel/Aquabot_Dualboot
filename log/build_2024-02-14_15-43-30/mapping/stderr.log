@@ -1,0 +1,7 @@
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:[m[K In member function ‘[01m[Kvoid PointCloudProcessor::calculateCentroidsAndPublish(const std::vector<std::shared_ptr<pcl::PointCloud<pcl::PointXYZ> > >&)[m[K’:
+[01m[K/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/mapping/src/DetectAndPublishCentroids.cpp:111:44:[m[K [01;31m[Kerror: [m[Krequest for member ‘[01m[Ktype[m[K’ in ‘[01m[Kyaw[m[K’, which is of non-class type ‘[01m[Kdouble[m[K’
+  111 |             std::cout << "yaw type" << yaw.[01;31m[Ktype[m[K() << std::endl;
+      |                                            [01;31m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/DetectAndPublishCentroids.dir/build.make:76: CMakeFiles/DetectAndPublishCentroids.dir/src/DetectAndPublishCentroids.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/DetectAndPublishCentroids.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,57 @@
+[0.304s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move_ekf -- -j8 -l8
+[0.621s] [  0%] Built target ament_cmake_python_symlink_move_ekf
+[0.630s] [ 50%] Built target waypoint_publisher
+[0.638s] [100%] Built target stamp_wamv
+[1.051s] running egg_info
+[1.052s] writing move_ekf.egg-info/PKG-INFO
+[1.053s] writing dependency_links to move_ekf.egg-info/dependency_links.txt
+[1.054s] writing top-level names to move_ekf.egg-info/top_level.txt
+[1.056s] reading manifest file 'move_ekf.egg-info/SOURCES.txt'
+[1.058s] writing manifest file 'move_ekf.egg-info/SOURCES.txt'
+[1.095s] [100%] Built target ament_cmake_python_build_move_ekf_egg
+[1.206s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --build /home/t-lemmel/Aquabot_Tom/build/move_ekf -- -j8 -l8
+[1.438s] Invoking command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/move_ekf
+[1.517s] -- Install configuration: ""
+[1.517s] -- Execute custom install script
+[1.517s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/stamp_wamv
+[1.517s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/waypoint_publisher
+[1.517s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.sh
+[1.517s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.dsv
+[1.517s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/PKG-INFO
+[1.518s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/SOURCES.txt
+[1.518s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/dependency_links.txt
+[1.518s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/top_level.txt
+[1.519s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf/__init__.py
+[1.519s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/place_frame.py
+[1.519s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/tracker.py
+[1.520s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/CHANGELOG.rst
+[1.520s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/LICENSE
+[1.520s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/MANIFEST.in
+[1.520s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__init__.py
+[1.520s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/__init__.cpython-310.pyc
+[1.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/_version.cpython-310.pyc
+[1.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/conversion.cpython-310.pyc
+[1.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/error.cpython-310.pyc
+[1.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/_version.py
+[1.521s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/conversion.py
+[1.522s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/error.py
+[1.522s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/config.rviz
+[1.522s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/launch.py
+[1.523s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/params/ekf.yaml
+[1.523s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/package_run_dependencies/move_ekf
+[1.523s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/parent_prefix_path/move_ekf
+[1.523s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.sh
+[1.524s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.dsv
+[1.524s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.sh
+[1.524s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.dsv
+[1.524s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.bash
+[1.525s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.sh
+[1.525s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.zsh
+[1.525s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.dsv
+[1.525s] -- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.dsv
+[1.537s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/packages/move_ekf
+[1.538s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig.cmake
+[1.538s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig-version.cmake
+[1.539s] -- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.xml
+[1.586s] Listing '/home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf'...
+[1.595s] Invoked command in '/home/t-lemmel/Aquabot_Tom/build/move_ekf' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble PS1_ori=\[\e]0;\u@\h: \w\a\]${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ /usr/bin/cmake --install /home/t-lemmel/Aquabot_Tom/build/move_ekf

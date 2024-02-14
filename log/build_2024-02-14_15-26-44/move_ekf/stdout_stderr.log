@@ -1,0 +1,55 @@
+[35m[1mConsolidate compiler generated dependencies of target stamp_wamv[0m
+[35m[1mConsolidate compiler generated dependencies of target waypoint_publisher[0m
+[ 50%] Built target stamp_wamv
+[100%] Built target waypoint_publisher
+[100%] Built target ament_cmake_python_symlink_move_ekf
+running egg_info
+writing move_ekf.egg-info/PKG-INFO
+writing dependency_links to move_ekf.egg-info/dependency_links.txt
+writing top-level names to move_ekf.egg-info/top_level.txt
+reading manifest file 'move_ekf.egg-info/SOURCES.txt'
+writing manifest file 'move_ekf.egg-info/SOURCES.txt'
+[100%] Built target ament_cmake_python_build_move_ekf_egg
+-- Install configuration: ""
+-- Execute custom install script
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/stamp_wamv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/waypoint_publisher
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/PKG-INFO
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/top_level.txt
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf/__init__.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/place_frame.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/tracker.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/CHANGELOG.rst
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/LICENSE
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/MANIFEST.in
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__init__.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/__init__.cpython-310.pyc
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/_version.cpython-310.pyc
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/conversion.cpython-310.pyc
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/error.cpython-310.pyc
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/_version.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/conversion.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/error.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/config.rviz
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/launch.py
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/params/ekf.yaml
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/package_run_dependencies/move_ekf
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/parent_prefix_path/move_ekf
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.bash
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.sh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.zsh
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.dsv
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/packages/move_ekf
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig.cmake
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig-version.cmake
+-- Up-to-date symlink: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.xml
+Listing '/home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf'...

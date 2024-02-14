@@ -1,7 +1,0 @@
-[31mCMake Error at CMakeLists.txt:9 (ament_auto_find_build_dependencies):
-  Unknown CMake command "ament_auto_find_build_dependencies".
-
-[0m
--- Configuring incomplete, errors occurred!
-See also "/home/t-lemmel/Aquabot_Tom/build/aquabot_common/CMakeFiles/CMakeOutput.log".
-gmake: *** [Makefile:267: cmake_check_build_system] Error 1

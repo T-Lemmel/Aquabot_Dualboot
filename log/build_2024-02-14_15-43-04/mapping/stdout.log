@@ -1,0 +1,3 @@
+[35m[1mConsolidate compiler generated dependencies of target DetectAndPublishCentroids[0m
+[ 50%] Built target FillMap
+[ 75%] [32mBuilding CXX object CMakeFiles/DetectAndPublishCentroids.dir/src/DetectAndPublishCentroids.cpp.o[0m

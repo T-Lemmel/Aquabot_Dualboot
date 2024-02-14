@@ -1,0 +1,79 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-2157ed07660d3a87c6c2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "aquabot_ekf",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "aquabot_ekf_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-aquabot_ekf_uninstall-Debug-f62f3cbbd90d53caf69c.json",
+					"name" : "aquabot_ekf_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "gps2pose::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-gps2pose-Debug-cd564b2a7cbfa2c99fce.json",
+					"name" : "gps2pose",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-7b6102a39fcbbe319cfc.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/build",
+		"source" : "/home/t-lemmel/Aquabot_Tom/src/Hippobot_Survivors/aquabot_ekf"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

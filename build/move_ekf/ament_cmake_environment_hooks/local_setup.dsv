@@ -1,0 +1,3 @@
+source;share/move_ekf/environment/ament_prefix_path.sh
+source;share/move_ekf/environment/path.sh
+source;share/move_ekf/environment/pythonpath.sh

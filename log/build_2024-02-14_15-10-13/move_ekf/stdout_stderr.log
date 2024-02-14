@@ -1,0 +1,93 @@
+-- The C compiler identification is GNU 11.4.0
+-- The CXX compiler identification is GNU 11.4.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake_auto: 1.3.6 (/opt/ros/humble/share/ament_cmake_auto/cmake)
+-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+-- Found GeographicLib: /usr/lib/x86_64-linux-gnu  
+-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+-- Found FastRTPS: /opt/ros/humble/include  
+-- Using RMW implementation 'rmw_fastrtps_cpp' as default
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/t-lemmel/Aquabot_Tom/build/move_ekf
+[ 25%] [32mBuilding CXX object CMakeFiles/stamp_wamv.dir/src/stamp_wamv.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/waypoint_publisher.dir/src/waypoint_publisher.cpp.o[0m
+[ 50%] Built target ament_cmake_python_symlink_move_ekf
+running egg_info
+creating move_ekf.egg-info
+writing move_ekf.egg-info/PKG-INFO
+writing dependency_links to move_ekf.egg-info/dependency_links.txt
+writing top-level names to move_ekf.egg-info/top_level.txt
+writing manifest file 'move_ekf.egg-info/SOURCES.txt'
+reading manifest file 'move_ekf.egg-info/SOURCES.txt'
+writing manifest file 'move_ekf.egg-info/SOURCES.txt'
+[ 50%] Built target ament_cmake_python_build_move_ekf_egg
+[ 75%] [32m[1mLinking CXX executable waypoint_publisher[0m
+[ 75%] Built target waypoint_publisher
+[100%] [32m[1mLinking CXX executable stamp_wamv[0m
+[100%] Built target stamp_wamv
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/stamp_wamv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/waypoint_publisher
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.sh
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/pythonpath.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/PKG-INFO
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/SOURCES.txt
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/dependency_links.txt
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf-1.0.0-py3.10.egg-info/top_level.txt
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf/__init__.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/place_frame.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/tracker.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/CHANGELOG.rst
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/LICENSE
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/MANIFEST.in
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__init__.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/__init__.cpython-310.pyc
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/_version.cpython-310.pyc
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/conversion.cpython-310.pyc
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/__pycache__/error.cpython-310.pyc
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/_version.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/conversion.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/lib/move_ekf/utm/error.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/config.rviz
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/launch/launch.py
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/params/ekf.yaml
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/package_run_dependencies/move_ekf
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/parent_prefix_path/move_ekf
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.sh
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/ament_prefix_path.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.sh
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/environment/path.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.bash
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.sh
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.zsh
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/local_setup.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.dsv
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/ament_index/resource_index/packages/move_ekf
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig.cmake
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/cmake/move_ekfConfig-version.cmake
+-- Symlinking: /home/t-lemmel/Aquabot_Tom/install/move_ekf/share/move_ekf/package.xml
+Listing '/home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf'...
+Compiling '/home/t-lemmel/Aquabot_Tom/install/move_ekf/local/lib/python3.10/dist-packages/move_ekf/__init__.py'...
